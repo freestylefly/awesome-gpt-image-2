@@ -545,7 +545,7 @@ Wu Zetian taking a selfie, registering and posting on Weibo.
 
 <a name="case-186"></a>
 
-### 例 186：品牌视觉识别图
+### 例 186：奇幻RPG百件像素风道具图鉴
 
 ![奇幻RPG百件像素风道具图鉴](../data/images/case186.jpg)
 
