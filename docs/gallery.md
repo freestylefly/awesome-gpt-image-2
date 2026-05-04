@@ -58,10 +58,10 @@
 - 图表与信息可视化：55
 - 海报与排版：71
 - 商品与电商：24
-- 品牌与标志：19
+- 品牌与标志：18
 - 建筑与空间：25
 - 摄影与写实：34
-- 插画与艺术：25
+- 插画与艺术：26
 - 人物与角色：14
 - 场景与叙事：7
 - 历史与古风题材：9
@@ -116,9 +116,8 @@
 
 <a name="cat-brand"></a>
 
-### 🏷️ 品牌与标志 · 19 cases
+### 🏷️ 品牌与标志 · 18 cases
 
-- [例 186：品牌视觉识别图](./gallery-part-2.md#case-186)
 - [例 310：零食品牌技术分解图](./gallery-part-2.md#case-310)
 - [例 344：NOIR 街头服饰 Campaign](./gallery-part-2.md#case-344)
 - [例 354：Logo 与品牌身份系统提示词合集](./gallery-part-2.md#case-354)
@@ -149,10 +148,11 @@
 
 <a name="cat-illustration"></a>
 
-### 🎨 插画与艺术 · 25 cases
+### 🎨 插画与艺术 · 26 cases
 
 - [例 6：插画艺术创作图](./gallery-part-1.md#case-6)
 - [例 172：赛博科幻桃太郎主视觉图](./gallery-part-2.md#case-172)
+- [例 186：奇幻RPG百件像素风道具图鉴](./gallery-part-2.md#case-186)
 - [例 195：超写实与水墨的梦幻融合](./gallery-part-2.md#case-195)
 - [例 223：春日禅意水墨群山海报](./gallery-part-2.md#case-223)
 - [例 346：立体刺绣小鸟花枝](./gallery-part-2.md#case-346)
