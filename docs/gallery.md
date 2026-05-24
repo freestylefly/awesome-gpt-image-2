@@ -1,10 +1,10 @@
 ## 🖼️ 魔法画廊总览
 
-完整画廊已按 GitHub 渲染体积拆成两册，避免页面被截断；当前总案例数为 462。
+完整画廊已按 GitHub 渲染体积拆成两册，避免页面被截断；当前总案例数为 465。
 
 - [返回 README 首页](../README.md)
 - [Part 1：例 1-165](./gallery-part-1.md)
-- [Part 2：例 166-462](./gallery-part-2.md)
+- [Part 2：例 166-465](./gallery-part-2.md)
 - [工业级提示词模板与防坑指南](./templates.md)
 - [声明、Star 趋势图与公众号](./disclaimer.md)
 
@@ -130,21 +130,24 @@
 - [例 460：棋盘低角度奢华男装 Campaign](./gallery-part-2.md#case-460)
 - [例 461：家庭旅行纸雕拼贴](./gallery-part-2.md#case-461)
 - [例 462：复古日系迷你橡皮商品包装](./gallery-part-2.md#case-462)
+- [例 463：黑色吊带袜单款图鉴展示](./gallery-part-2.md#case-463)
+- [例 464：高雄水彩拼贴旅行海报](./gallery-part-2.md#case-464)
+- [例 465：逆光美背女性情绪写真](./gallery-part-2.md#case-465)
 
 ## 分册说明
 
 - `gallery-part-1.md`：例 1-165，覆盖信息图、界面、海报、摄影、插画等基础主流类型。
-- `gallery-part-2.md`：例 166-462，包含更多品牌、卡牌、直播截图、国风、商业视觉、作者新增实测与社区案例。
+- `gallery-part-2.md`：例 166-465，包含更多品牌、卡牌、直播截图、国风、商业视觉、作者新增实测与社区案例。
 
 ## 分类概览
 
 - UI与界面：73
-- 图表与信息可视化：49
-- 海报与排版：72
+- 图表与信息可视化：50
+- 海报与排版：73
 - 商品与电商：35
 - 品牌与标志：23
 - 建筑与空间：11
-- 摄影与写实：57
+- 摄影与写实：58
 - 插画与艺术：47
 - 人物与角色：21
 - 场景与叙事：17
@@ -226,7 +229,7 @@
 
 <a name="cat-infographic"></a>
 
-### 📊 图表与信息可视化 · 49 cases
+### 📊 图表与信息可视化 · 50 cases
 
 - [例 8：科普百科图](./gallery-part-1.md#case-8)
 - [例 14：信息图可视化设计](./gallery-part-1.md#case-14)
@@ -277,10 +280,11 @@
 - [例 447：现代地铁工程信息图](./gallery-part-2.md#case-447)
 - [例 456：历史事件 2x2 可视化地图](./gallery-part-2.md#case-456)
 - [例 457：运动轨迹舞者光绘海报](./gallery-part-2.md#case-457)
+- [例 463：黑色吊带袜单款图鉴展示](./gallery-part-2.md#case-463)
 
 <a name="cat-poster"></a>
 
-### 📰 海报与排版 · 72 cases
+### 📰 海报与排版 · 73 cases
 
 - [例 3：足球主题电影海报](./gallery-part-1.md#case-3)
 - [例 5：主题海报版式设计](./gallery-part-1.md#case-5)
@@ -353,6 +357,7 @@
 - [例 431：城市文字旅行海报](./gallery-part-2.md#case-431)
 - [例 432：大堡礁复古旅行海报](./gallery-part-2.md#case-432)
 - [例 460：棋盘低角度奢华男装 Campaign](./gallery-part-2.md#case-460)
+- [例 464：高雄水彩拼贴旅行海报](./gallery-part-2.md#case-464)
 
 <a name="cat-product"></a>
 
@@ -437,7 +442,7 @@
 
 <a name="cat-photo"></a>
 
-### 📷 摄影与写实 · 57 cases
+### 📷 摄影与写实 · 58 cases
 
 - [例 24：漫画分镜叙事设计](./gallery-part-1.md#case-24)
 - [例 26：建筑空间场景图](./gallery-part-1.md#case-26)
@@ -496,6 +501,7 @@
 - [例 436：数码相机屏幕怀旧人像](./gallery-part-2.md#case-436)
 - [例 450：烛光侧室写实摄影](./gallery-part-2.md#case-450)
 - [例 451：韩国海滩日落时尚人像](./gallery-part-2.md#case-451)
+- [例 465：逆光美背女性情绪写真](./gallery-part-2.md#case-465)
 
 <a name="cat-illustration"></a>
 
