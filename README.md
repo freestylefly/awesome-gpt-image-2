@@ -27,10 +27,6 @@ Use the live site at [gpt-image2.canghe.ai](https://gpt-image2.canghe.ai/) to br
   </a>
 </p>
 
-## 💖 GitHub Sponsors
-
-If this project saves you time, you can support ongoing case collection, website maintenance, industrial template distillation, and Agent Skill updates through [GitHub Sponsors](https://github.com/sponsors/freestylefly).
-
 ## WeChat Official Account
 
 Search **苍何** on WeChat or scan the QR card below. To join the GPT-Image2 community group, follow the account and reply with **gpt-image-2交流群**.
@@ -38,6 +34,16 @@ Search **苍何** on WeChat or scan the QR card below. To join the GPT-Image2 co
 <p align="center">
   <img src="data/images/wechat-community.jpg" alt="Canghe WeChat community QR card" width="760">
 </p>
+
+## ❤️ Sponsors
+
+> [Want to appear here?](https://github.com/sponsors/freestylefly) Support the project through GitHub Sponsors, or follow the WeChat official account above and send your product name plus a short sponsorship note.
+
+| Sponsor | Description |
+| ------- | ----------- |
+| <a href="https://pptoken.cc/"><img src="data/images/sponsors/pptoken.png" alt="PPToken" width="240"></a> | Project sponsor. PPToken provides API relay and key distribution for ChatGPT, Claude, Gemini, and other mainstream AI models, with low-latency access, high availability, pay-as-you-go billing, and flexible subscription plans. |
+| <a href="https://ciyuan.today/"><img src="data/images/sponsors/ciyuan-api.jpg" alt="Ciyuan API" width="240"></a> | Project sponsor. Ciyuan API is an AI aggregation platform for stable, low-latency large-model API services, and supports this project in making GPT Image 2 exploration more practical for developers. |
+| <a href="https://github.com/sponsors/freestylefly"><img src="https://img.shields.io/badge/GitHub%20Sponsors-freestylefly-ff69b4?style=for-the-badge" alt="GitHub Sponsors" width="240"></a> | Community sponsor channel. GitHub Sponsors helps fund ongoing case collection, website maintenance, industrial template distillation, and Agent Skill updates. |
 
 <a name="section-vision"></a>
 

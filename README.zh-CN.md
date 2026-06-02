@@ -27,10 +27,6 @@
   </a>
 </p>
 
-## 💖 GitHub Sponsors
-
-如果这个项目帮你节省了整理案例和提示词模板的时间，欢迎通过 [GitHub Sponsors](https://github.com/sponsors/freestylefly) 支持持续采集案例、维护网站、整理工业级模板与 Agent Skill。
-
 ## 公众号与交流群
 
 微信搜 **苍何** 或扫描下方二维码关注苍何公众号。加入 GPT-Image2 交流群，请关注后回复：**gpt-image-2交流群**。
@@ -38,6 +34,16 @@
 <p align="center">
   <img src="data/images/wechat-community.jpg" alt="苍何微信交流群二维码" width="760">
 </p>
+
+## ❤️ 赞助方
+
+> [想出现在这里？](https://github.com/sponsors/freestylefly) 可以通过 GitHub Sponsors 支持项目，也可以关注上方公众号并发送产品名与简短赞助说明。
+
+| 赞助方 | 说明 |
+| ------ | ---- |
+| <a href="https://pptoken.cc/"><img src="data/images/sponsors/pptoken.png" alt="PPToken" width="240"></a> | 项目赞助方。PPToken 提供 ChatGPT、Claude、Gemini 等主流 AI 模型的 API 中转和 Key 分发能力，支持低延迟、高可用、按量付费和灵活订阅。 |
+| <a href="https://ciyuan.today/"><img src="data/images/sponsors/ciyuan-api.jpg" alt="词元 API" width="240"></a> | 项目赞助方。词元 API 是一个面向开发者的 AI 聚合平台，提供稳定、低延迟的大模型 API 服务，也支持本项目持续探索 GPT Image 2 的实用工作流。 |
+| <a href="https://github.com/sponsors/freestylefly"><img src="https://img.shields.io/badge/GitHub%20Sponsors-freestylefly-ff69b4?style=for-the-badge" alt="GitHub Sponsors" width="240"></a> | 社区赞助入口。GitHub Sponsors 将用于持续采集案例、维护网站、整理工业级模板与 Agent Skill。 |
 
 <a name="section-vision"></a>
 
