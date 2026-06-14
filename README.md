@@ -1,3 +1,5 @@
+[![Listed on TakoAPI](https://img.shields.io/badge/Listed%20on-TakoAPI-7c3aed)](https://takoapi.com/agents/freestylefly-awesome-gpt-image-2)
+
 <p align="center"><img src="./data/images/banner.svg" alt="GPT-Image2 Prompt System" width="800" /></p>
 
 <h3 align="center">Prompt as Code | GPT-Image2 Industrial Prompt Engine & Template Library, 400+ Reverse-Engineered Cases, 20+ Industrial Templates</h3>
