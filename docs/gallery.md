@@ -1,10 +1,10 @@
 ## 🖼️ 魔法画廊总览
 
-完整画廊已按 GitHub 渲染体积拆成两册，避免页面被截断；当前总案例数为 514。
+完整画廊已按 GitHub 渲染体积拆成两册，避免页面被截断；当前总案例数为 520。
 
 - [返回 README 首页](../README.md)
 - [Part 1：例 1-165](./gallery-part-1.md)
-- [Part 2：例 166-514](./gallery-part-2.md)
+- [Part 2：例 166-520](./gallery-part-2.md)
 - [工业级提示词模板与防坑指南](./templates.md)
 - [声明、Star 趋势图与公众号](./disclaimer.md)
 
@@ -174,22 +174,28 @@
 - [例 512：Brutalist Freestyle 角色设定表](./gallery-part-2.md#case-512)
 - [例 513：单色点缀旅行手账插画](./gallery-part-2.md#case-513)
 - [例 514：硬边现代艺术人像](./gallery-part-2.md#case-514)
+- [例 515：Guadalajara 复古电影旅行海报](./gallery-part-2.md#case-515)
+- [例 516：工业橡胶管品牌造型渲染](./gallery-part-2.md#case-516)
+- [例 517：杯内鱼眼夏日冰饮广告](./gallery-part-2.md#case-517)
+- [例 518：花田风动夏日人像](./gallery-part-2.md#case-518)
+- [例 519：薄荷玫瑰香水电商图](./gallery-part-2.md#case-519)
+- [例 520：月面宇航员 T 恤图形](./gallery-part-2.md#case-520)
 
 ## 分册说明
 
 - `gallery-part-1.md`：例 1-165，覆盖信息图、界面、海报、摄影、插画等基础主流类型。
-- `gallery-part-2.md`：例 166-514，包含更多品牌、卡牌、直播截图、国风、商业视觉、作者新增实测与社区案例。
+- `gallery-part-2.md`：例 166-520，包含更多品牌、卡牌、直播截图、国风、商业视觉、作者新增实测与社区案例。
 
 ## 分类概览
 
 - UI与界面：73
 - 图表与信息可视化：52
-- 海报与排版：81
-- 商品与电商：38
-- 品牌与标志：26
+- 海报与排版：82
+- 商品与电商：40
+- 品牌与标志：27
 - 建筑与空间：12
-- 摄影与写实：74
-- 插画与艺术：55
+- 摄影与写实：75
+- 插画与艺术：56
 - 人物与角色：26
 - 场景与叙事：20
 - 历史与古风题材：16
@@ -327,7 +333,7 @@
 
 <a name="cat-poster"></a>
 
-### 📰 海报与排版 · 81 cases
+### 📰 海报与排版 · 82 cases
 
 - [例 3：足球主题电影海报](./gallery-part-1.md#case-3)
 - [例 5：主题海报版式设计](./gallery-part-1.md#case-5)
@@ -411,10 +417,11 @@
 - [例 503：霓虹设计师 3D 海报](./gallery-part-2.md#case-503)
 - [例 506：可爱发卡图文人像海报](./gallery-part-2.md#case-506)
 - [例 511：城市名地标排版旅行海报](./gallery-part-2.md#case-511)
+- [例 515：Guadalajara 复古电影旅行海报](./gallery-part-2.md#case-515)
 
 <a name="cat-product"></a>
 
-### 🛍️ 商品与电商 · 38 cases
+### 🛍️ 商品与电商 · 40 cases
 
 - [例 17：界面交互设计图](./gallery-part-1.md#case-17)
 - [例 33：电商商品展示设计](./gallery-part-1.md#case-33)
@@ -454,10 +461,12 @@
 
 - [例 475：企鹅造型包装结构板](./gallery-part-2.md#case-475)
 - [例 485：时尚目录电商拼贴](./gallery-part-2.md#case-485)
+- [例 517：杯内鱼眼夏日冰饮广告](./gallery-part-2.md#case-517)
+- [例 519：薄荷玫瑰香水电商图](./gallery-part-2.md#case-519)
 
 <a name="cat-brand"></a>
 
-### 🏷️ 品牌与标志 · 26 cases
+### 🏷️ 品牌与标志 · 27 cases
 
 - [例 130：界面交互设计图](./gallery-part-1.md#case-130)
 - [例 132：界面交互设计图](./gallery-part-1.md#case-132)
@@ -485,6 +494,7 @@
 - [例 478：夹层式品牌编辑海报](./gallery-part-2.md#case-478)
 - [例 496：水雕品牌 Logo 六宫格](./gallery-part-2.md#case-496)
 - [例 510：Bichon Shop 拟物 App 图标](./gallery-part-2.md#case-510)
+- [例 516：工业橡胶管品牌造型渲染](./gallery-part-2.md#case-516)
 
 <a name="cat-architecture"></a>
 
@@ -504,7 +514,7 @@
 
 <a name="cat-photo"></a>
 
-### 📷 摄影与写实 · 74 cases
+### 📷 摄影与写实 · 75 cases
 
 - [例 24：漫画分镜叙事设计](./gallery-part-1.md#case-24)
 - [例 26：建筑空间场景图](./gallery-part-1.md#case-26)
@@ -582,10 +592,11 @@
 - [例 505：夜间手机光沙发肖像](./gallery-part-2.md#case-505)
 - [例 508：木漏日庭院俯拍猫咪人像](./gallery-part-2.md#case-508)
 - [例 509：涂鸦拉衣奔跑棚拍](./gallery-part-2.md#case-509)
+- [例 518：花田风动夏日人像](./gallery-part-2.md#case-518)
 
 <a name="cat-illustration"></a>
 
-### 🎨 插画与艺术 · 55 cases
+### 🎨 插画与艺术 · 56 cases
 
 - [例 6：插画艺术创作图](./gallery-part-1.md#case-6)
 - [例 22：插画艺术风格创作](./gallery-part-1.md#case-22)
@@ -644,6 +655,7 @@
 - [例 504：粗糙涂鸦人像改图](./gallery-part-2.md#case-504)
 - [例 513：单色点缀旅行手账插画](./gallery-part-2.md#case-513)
 - [例 514：硬边现代艺术人像](./gallery-part-2.md#case-514)
+- [例 520：月面宇航员 T 恤图形](./gallery-part-2.md#case-520)
 
 <a name="cat-character"></a>
 
