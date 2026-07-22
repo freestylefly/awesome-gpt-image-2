@@ -10,6 +10,10 @@ export function isAlipayTradeNotFound(result) {
   return code === 'ACQ.TRADE_NOT_EXIST' || code.includes('TRADE_NOT_EXIST');
 }
 
+export function shouldQueryCommunityOrderAtAlipay(status) {
+  return status === 'PENDING' || status === 'PAID';
+}
+
 export async function queryCommunityOrderAtAlipay(client, sdk, order) {
   const result = await sdk.exec('alipay.trade.query', {
     bizContent: { out_trade_no: order.id }

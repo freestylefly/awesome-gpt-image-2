@@ -18,6 +18,10 @@ import {
   validateCommunityQrUpload,
   validateSameOrigin
 } from './community.js';
+import {
+  queryCommunityOrderAtAlipay,
+  shouldQueryCommunityOrderAtAlipay
+} from './community-alipay.js';
 
 const migrationPath = fileURLToPath(new URL(
   '../../supabase/migrations/20260722090000_paid_community.sql',
@@ -145,6 +149,42 @@ test('payment kill switch defaults closed and changes only on explicit true', ()
   assert.equal(isCommunityPaymentEnabled({}), false);
   assert.equal(isCommunityPaymentEnabled({ COMMUNITY_PAYMENT_ENABLED: 'false' }), false);
   assert.equal(isCommunityPaymentEnabled({ COMMUNITY_PAYMENT_ENABLED: 'true' }), true);
+});
+
+test('active reconciliation queries Alipay for both pending and already-paid orders', async () => {
+  assert.equal(shouldQueryCommunityOrderAtAlipay('PENDING'), true);
+  assert.equal(shouldQueryCommunityOrderAtAlipay('PAID'), true);
+  for (const status of ['CLOSED', 'REFUNDED', 'REVOKED']) {
+    assert.equal(shouldQueryCommunityOrderAtAlipay(status), false);
+  }
+
+  const calls = [];
+  const sdk = {
+    async exec(method, payload, options) {
+      calls.push({ method, payload, options });
+      return {
+        code: '10000',
+        out_trade_no: order.id,
+        trade_no: 'trade-query-1',
+        trade_status: 'TRADE_SUCCESS',
+        total_amount: '9.90',
+        currency: 'CNY'
+      };
+    }
+  };
+  const client = {
+    async rpc(name, payload) {
+      calls.push({ name, payload });
+      return { data: [{ current_status: 'PAID', transitioned: false }], error: null };
+    }
+  };
+
+  const result = await queryCommunityOrderAtAlipay(client, sdk, { ...order, status: 'PAID' });
+  assert.equal(result.state, 'PAID');
+  assert.equal(calls[0].method, 'alipay.trade.query');
+  assert.equal(calls[0].payload.bizContent.out_trade_no, order.id);
+  assert.equal(calls[0].options.validateSign, true);
+  assert.equal(calls[1].name, 'mark_community_order_paid');
 });
 
 test('community actions use bounded per-user rate limits', () => {

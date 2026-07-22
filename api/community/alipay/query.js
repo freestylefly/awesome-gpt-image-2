@@ -1,5 +1,8 @@
 import { getAlipayClient, isAlipayConfigured } from '../../_lib/alipay.js';
-import { queryCommunityOrderAtAlipay } from '../../_lib/community-alipay.js';
+import {
+  queryCommunityOrderAtAlipay,
+  shouldQueryCommunityOrderAtAlipay
+} from '../../_lib/community-alipay.js';
 import {
   applyCommunityRateLimit,
   communityRequestRateKey,
@@ -44,10 +47,10 @@ export default async function handler(req, res) {
       .maybeSingle();
     if (error) throw error;
     if (!order) return res.status(404).json({ ok: false, error: 'COMMUNITY_ORDER_NOT_FOUND' });
-    if (order.status !== 'PENDING') {
+    if (!shouldQueryCommunityOrderAtAlipay(order.status)) {
       return res.status(200).json({
         ok: true,
-        paid: order.status === 'PAID',
+        paid: false,
         order: serializeCommunityOrder(order)
       });
     }
@@ -57,6 +60,9 @@ export default async function handler(req, res) {
 
     const { sdk } = getAlipayClient();
     const reconciliation = await queryCommunityOrderAtAlipay(auth.client, sdk, order);
+    if (order.status === 'PAID' && reconciliation.state !== 'PAID') {
+      throw new Error('ALIPAY_COMMUNITY_PAID_ORDER_NOT_PAID');
+    }
     const { data: refreshed, error: refreshError } = await auth.client
       .from('community_orders')
       .select('*')
@@ -67,8 +73,9 @@ export default async function handler(req, res) {
 
     return res.status(200).json({
       ok: true,
-      paid: reconciliation.state === 'PAID',
-      pending: ['PENDING', 'NOT_FOUND'].includes(reconciliation.state),
+      paid: refreshed.status === 'PAID',
+      pending: refreshed.status === 'PENDING'
+        && ['PENDING', 'NOT_FOUND'].includes(reconciliation.state),
       order: serializeCommunityOrder(refreshed)
     });
   } catch (error) {
