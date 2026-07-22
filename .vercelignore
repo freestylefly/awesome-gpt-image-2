@@ -1,0 +1,4 @@
+.claude/
+.alipay-sandbox.json
+.env*.local
+.vercel/
