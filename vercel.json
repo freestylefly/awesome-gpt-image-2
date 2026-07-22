@@ -6,19 +6,19 @@
   "rewrites": [
     {
       "source": "/community",
-      "destination": "/index.html"
+      "destination": "/"
     },
     {
       "source": "/community/",
-      "destination": "/index.html"
+      "destination": "/"
     },
     {
       "source": "/community/result",
-      "destination": "/index.html"
+      "destination": "/"
     },
     {
       "source": "/community/result/",
-      "destination": "/index.html"
+      "destination": "/"
     }
   ]
 }
