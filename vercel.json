@@ -2,5 +2,23 @@
   "framework": "vite",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/community",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/community/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/community/result",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/community/result/",
+      "destination": "/index.html"
+    }
+  ]
 }

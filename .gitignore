@@ -6,3 +6,4 @@ dist/
 .env*.local
 npm-debug.log*
 .vercel
+/.alipay-sandbox.json

@@ -83,6 +83,7 @@ export function formatPlan(row) {
 }
 
 export function formatPack(row) {
+  const alipayAmountCents = Number(row.alipay_amount_cents || 0);
   return {
     id: row.id,
     type: 'credit_pack',
@@ -98,6 +99,9 @@ export function formatPack(row) {
     amountCents: Number(row.amount_cents || 0),
     currency: normalizeCurrency(row.currency),
     priceLabel: moneyLabel(row.amount_cents, row.currency),
+    alipayAmountCents,
+    alipayPriceLabel: alipayAmountCents > 0 ? moneyLabel(alipayAmountCents, 'cny') : '',
+    alipayAvailable: alipayAmountCents > 0,
     active: Boolean(row.active)
   };
 }
@@ -185,7 +189,13 @@ export function checkoutLineItem(product) {
   };
 }
 
-export async function createPaymentOrder(client, { userId, product, customerId }) {
+export async function createPaymentOrder(client, {
+  userId,
+  product,
+  customerId = null,
+  paymentProvider = 'stripe',
+  metadata = {}
+}) {
   const credits = product.type === 'membership' ? product.monthlyCredits : product.credits;
   const { data, error } = await client
     .from('payment_orders')
@@ -194,10 +204,15 @@ export async function createPaymentOrder(client, { userId, product, customerId }
       product_type: product.type,
       product_id: product.id,
       status: 'created',
+      payment_provider: paymentProvider,
       stripe_customer_id: customerId,
       amount_cents: product.amountCents,
       currency: product.currency,
-      credits
+      credits,
+      metadata: {
+        ...metadata,
+        paymentProvider
+      }
     })
     .select('*')
     .single();
@@ -215,6 +230,7 @@ export async function markOrderCheckoutCreated(client, orderId, session) {
       stripe_customer_id: typeof session.customer === 'string' ? session.customer : null,
       stripe_subscription_id: typeof session.subscription === 'string' ? session.subscription : null,
       metadata: {
+        paymentProvider: 'stripe',
         checkoutUrl: session.url || ''
       }
     })

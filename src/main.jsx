@@ -34,7 +34,7 @@ import {
 } from 'lucide-react';
 import './styles.css';
 import { isSupabaseConfigured, supabase } from './supabaseClient';
-import wechatCommunityImage from './assets/wechat-community.jpg';
+import { CommunityAdminSection, CommunityPage } from './community';
 import skillExampleImage from '../agents/skills/gpt-image-2-style-library/assets/city-life-system-map.png';
 
 const fallbackRepoUrl = 'https://github.com/freestylefly/awesome-gpt-image-2';
@@ -130,6 +130,10 @@ const copy = {
     checkoutFailed: 'Checkout failed. Please try again later.',
     billingSuccess: 'Payment is processing. Credits will appear after Stripe confirms it.',
     billingCancelled: 'Checkout cancelled. You can choose another pack anytime.',
+    alipayReturnPending: 'Returned from Alipay. Confirming the order with Alipay now…',
+    alipayPaymentSuccess: 'Alipay payment confirmed. Your credits are available.',
+    alipayPaymentPending: 'The Alipay result is not confirmed yet. Do not pay again; refresh this return page to query the same order.',
+    alipayQueryFailed: 'The Alipay result could not be confirmed. Do not pay again; refresh this return page or contact support.',
     authRequired: 'Sign in to generate a test image.',
     signIn: 'Sign in',
     signInTitle: 'Sign in to generate test images',
@@ -182,8 +186,11 @@ const copy = {
     noTransactions: 'No credit history yet.',
     loadBilling: 'Loading billing...',
     openBilling: 'Open membership center',
-    paymentReady: 'Secure checkout via Stripe.',
-    billingNotReady: 'Stripe checkout is not configured yet.',
+    paymentReady: 'Secure checkout via Stripe or Alipay.',
+    billingNotReady: 'No payment provider is configured yet.',
+    payWithStripe: 'Stripe',
+    payWithAlipay: 'Alipay',
+    alipayPriceMissing: 'Alipay price pending',
     adminAdjust: 'Adjust credits',
     creditAmount: 'Amount',
     reason: 'Reason',
@@ -343,6 +350,10 @@ const copy = {
     checkoutFailed: '创建支付失败，请稍后再试。',
     billingSuccess: '支付正在处理中，Stripe 确认后积分会自动到账。',
     billingCancelled: '已取消支付，你可以随时换一个积分包或会员方案。',
+    alipayReturnPending: '已从支付宝返回，正在通过服务端查询订单结果…',
+    alipayPaymentSuccess: '支付宝付款已确认，积分已经到账。',
+    alipayPaymentPending: '支付宝结果暂未确认，请勿重复付款；刷新当前回跳页会继续查询同一订单。',
+    alipayQueryFailed: '暂时无法确认支付宝结果，请勿重复付款；请刷新当前回跳页或联系支持。',
     authRequired: '登录后即可生成测试图。',
     signIn: '登录',
     signInTitle: '登录后生成测试图',
@@ -395,8 +406,11 @@ const copy = {
     noTransactions: '暂无积分流水。',
     loadBilling: '正在加载会员与积分...',
     openBilling: '打开会员中心',
-    paymentReady: '使用 Stripe 安全支付。',
-    billingNotReady: 'Stripe 支付还没有完成配置。',
+    paymentReady: '支持 Stripe 或支付宝安全支付。',
+    billingNotReady: '支付通道还没有完成配置。',
+    payWithStripe: 'Stripe 支付',
+    payWithAlipay: '支付宝',
+    alipayPriceMissing: '待配置人民币价格',
     adminAdjust: '调整积分',
     creditAmount: '数量',
     reason: '原因',
@@ -802,10 +816,54 @@ function generationErrorMessage(error, language) {
   if (error === 'FORBIDDEN') return t.adminOnly;
   if (error === 'UPSTREAM_BUSY') return t.generationBusy;
   if (error === 'SERVER_NOT_CONFIGURED') return t.serverUnavailable;
-  if (error === 'BILLING_NOT_CONFIGURED') return t.checkoutUnavailable;
-  if (error === 'CHECKOUT_FAILED' || error === 'BILLING_PORTAL_FAILED') return t.checkoutFailed;
+  if (
+    error === 'BILLING_NOT_CONFIGURED'
+    || error === 'ALIPAY_NOT_CONFIGURED'
+    || error === 'ALIPAY_PRICE_NOT_CONFIGURED'
+  ) return t.checkoutUnavailable;
+  if (
+    error === 'CHECKOUT_FAILED'
+    || error === 'BILLING_PORTAL_FAILED'
+    || error === 'ALIPAY_CHECKOUT_FAILED'
+  ) return t.checkoutFailed;
+  if (
+    error === 'ALIPAY_QUERY_FAILED'
+    || error === 'ALIPAY_PAYMENT_RESULT_MISMATCH'
+  ) return t.alipayQueryFailed;
   if (error === 'INVALID_PROMPT') return t.promptRequired;
   return t.generationFailed;
+}
+
+function submitAlipayPaymentForm(paymentHtml) {
+  const documentNode = new DOMParser().parseFromString(paymentHtml, 'text/html');
+  const sourceForm = documentNode.querySelector('form');
+  if (!sourceForm) throw new Error('ALIPAY_CHECKOUT_FAILED');
+
+  const action = new URL(sourceForm.getAttribute('action') || '');
+  const allowedHosts = new Set([
+    'openapi.alipay.com',
+    'openapi-sandbox.dl.alipaydev.com'
+  ]);
+  if (action.protocol !== 'https:' || !allowedHosts.has(action.hostname)) {
+    throw new Error('ALIPAY_CHECKOUT_FAILED');
+  }
+
+  const form = document.createElement('form');
+  form.method = 'POST';
+  form.action = action.toString();
+  form.acceptCharset = 'utf-8';
+  form.style.display = 'none';
+
+  sourceForm.querySelectorAll('input[name]').forEach((sourceInput) => {
+    const input = document.createElement('input');
+    input.type = 'hidden';
+    input.name = sourceInput.getAttribute('name');
+    input.value = sourceInput.getAttribute('value') || '';
+    form.appendChild(input);
+  });
+
+  document.body.appendChild(form);
+  form.submit();
 }
 
 function getAuthHeaders(session) {
@@ -1107,31 +1165,11 @@ function WeChatIcon({ size = 17 }) {
 
 function CommunityNavItem({ language }) {
   const t = copy[language];
-  const [open, setOpen] = useState(false);
   return (
-    <span
-      className={cx('communityNavItem', open && 'open')}
-      onMouseEnter={() => setOpen(true)}
-      onMouseLeave={() => setOpen(false)}
-      onFocus={() => setOpen(true)}
-      onBlur={(event) => {
-        if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false);
-      }}
-    >
-      <button
-        type="button"
-        aria-haspopup="dialog"
-        aria-expanded={open}
-        aria-label={t.navCommunity}
-        onClick={() => setOpen((current) => !current)}
-      >
-        <WeChatIcon />
-        {t.navCommunity}
-      </button>
-      <span className="communityPopover" role="dialog" aria-label={t.navCommunity}>
-        <img src={wechatCommunityImage} alt={t.communityQrAlt} loading="lazy" />
-      </span>
-    </span>
+    <a className="communityNavLink" href="/community" aria-label={t.navCommunity}>
+      <WeChatIcon />
+      {t.navCommunity}
+    </a>
   );
 }
 
@@ -1980,6 +2018,8 @@ function AdminPanel({ open, language, session, casesById, onClose, onOpenCase })
           </div>
         </div>
 
+        <CommunityAdminSection language={language} session={session} />
+
         {metrics ? (
           <div className="adminDashboard">
             <section className="adminBlock">
@@ -2201,6 +2241,7 @@ function BillingPanel({
   const [packs, setPacks] = useState([]);
   const [transactions, setTransactions] = useState([]);
   const [checkoutAvailable, setCheckoutAvailable] = useState(false);
+  const [checkoutProviders, setCheckoutProviders] = useState({ stripe: false, alipay: false });
   const [status, setStatus] = useState('idle');
   const [message, setMessage] = useState('');
   const [busyProduct, setBusyProduct] = useState('');
@@ -2226,6 +2267,10 @@ function BillingPanel({
       setPlans(plansPayload.plans || []);
       setPacks(plansPayload.packs || []);
       setCheckoutAvailable(Boolean(plansPayload.checkoutAvailable));
+      setCheckoutProviders({
+        stripe: Boolean(plansPayload.checkoutProviders?.stripe),
+        alipay: Boolean(plansPayload.checkoutProviders?.alipay)
+      });
       if (plansPayload.user) onProfileChange(plansPayload.user);
 
       if (historyResponse) {
@@ -2248,21 +2293,27 @@ function BillingPanel({
     if (open) loadBilling();
   }, [open, session?.access_token]);
 
-  async function handleCheckout(product) {
+  useEffect(() => {
+    if (open && notice) setMessage(notice);
+  }, [notice, open]);
+
+  async function handleCheckout(product, provider = 'stripe') {
     if (!session?.access_token) {
       onAuthRequired();
       return;
     }
-    if (!checkoutAvailable) {
+    if (!checkoutProviders[provider] || (provider === 'alipay' && !product.alipayAvailable)) {
       setMessage(t.checkoutUnavailable);
       return;
     }
 
-    setBusyProduct(`${product.type}:${product.id}`);
+    setBusyProduct(`${provider}:${product.type}:${product.id}`);
     setMessage('');
 
     try {
-      const response = await fetch('/api/billing/checkout', {
+      const response = await fetch(
+        provider === 'alipay' ? '/api/billing/alipay/checkout' : '/api/billing/checkout',
+        {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -2272,13 +2323,21 @@ function BillingPanel({
           productType: product.type,
           productId: product.id
         })
-      });
+        }
+      );
       const payload = await response.json().catch(() => ({}));
-      if (!response.ok || !payload.ok || !payload.url) {
+      if (!response.ok || !payload.ok) {
         throw new Error(payload.error || 'CHECKOUT_FAILED');
       }
       if (payload.user) onProfileChange(payload.user);
-      window.location.href = payload.url;
+
+      if (provider === 'alipay') {
+        if (!payload.paymentHtml) throw new Error('ALIPAY_CHECKOUT_FAILED');
+        submitAlipayPaymentForm(payload.paymentHtml);
+      } else {
+        if (!payload.url) throw new Error('CHECKOUT_FAILED');
+        window.location.href = payload.url;
+      }
     } catch (error) {
       setBusyProduct('');
       setMessage(generationErrorMessage(error.message, language));
@@ -2384,14 +2443,18 @@ function BillingPanel({
             <div className="billingCards">
               {plans.map((plan) => {
                 const isCurrent = activePlanId === plan.id;
-                const busy = busyProduct === `${plan.type}:${plan.id}`;
+                const busy = busyProduct === `stripe:${plan.type}:${plan.id}`;
                 return (
                   <article className={cx('billingCard', isCurrent && 'current')} key={plan.id}>
                     <span>{productText(plan.name, language)}</span>
                     <strong>{plan.priceLabel}<small>/{plan.interval}</small></strong>
                     <p>{productText(plan.description, language)}</p>
                     <div className="billingCredits">{t.monthlyCredits(plan.monthlyCredits)}</div>
-                    <button type="button" disabled={busy || isCurrent} onClick={() => handleCheckout(plan)}>
+                    <button
+                      type="button"
+                      disabled={busy || isCurrent || !checkoutProviders.stripe}
+                      onClick={() => handleCheckout(plan, 'stripe')}
+                    >
                       {busy ? <LoaderCircle className="spinIcon" size={16} /> : <Crown size={16} />}
                       {isCurrent ? t.currentPlan : t.subscribe}
                     </button>
@@ -2414,17 +2477,36 @@ function BillingPanel({
             </h3>
             <div className="billingCards">
               {packs.map((pack) => {
-                const busy = busyProduct === `${pack.type}:${pack.id}`;
+                const stripeBusy = busyProduct === `stripe:${pack.type}:${pack.id}`;
+                const alipayBusy = busyProduct === `alipay:${pack.type}:${pack.id}`;
+                const busy = stripeBusy || alipayBusy;
                 return (
                   <article className="billingCard" key={pack.id}>
                     <span>{productText(pack.name, language)}</span>
                     <strong>{pack.priceLabel}</strong>
                     <p>{productText(pack.description, language)}</p>
                     <div className="billingCredits">{t.packCredits(pack.credits)}</div>
-                    <button type="button" disabled={busy} onClick={() => handleCheckout(pack)}>
-                      {busy ? <LoaderCircle className="spinIcon" size={16} /> : <Coins size={16} />}
-                      {t.buyCredits}
-                    </button>
+                    <div className="billingPaymentActions">
+                      <button
+                        type="button"
+                        disabled={busy || !checkoutProviders.stripe}
+                        onClick={() => handleCheckout(pack, 'stripe')}
+                      >
+                        {stripeBusy ? <LoaderCircle className="spinIcon" size={16} /> : <CreditCard size={16} />}
+                        {t.payWithStripe}
+                      </button>
+                      <button
+                        className="alipayButton"
+                        type="button"
+                        disabled={busy || !checkoutProviders.alipay || !pack.alipayAvailable}
+                        onClick={() => handleCheckout(pack, 'alipay')}
+                      >
+                        {alipayBusy ? <LoaderCircle className="spinIcon" size={16} /> : <Coins size={16} />}
+                        {pack.alipayAvailable
+                          ? `${t.payWithAlipay} · ${pack.alipayPriceLabel}`
+                          : t.alipayPriceMissing}
+                      </button>
+                    </div>
                   </article>
                 );
               })}
@@ -3007,6 +3089,7 @@ function App() {
   const [scene, setScene] = useState('All');
   const [preview, setPreview] = useState(null);
   const [session, setSession] = useState(null);
+  const [authReady, setAuthReady] = useState(!isSupabaseConfigured || !supabase);
   const [profile, setProfile] = useState(null);
   const [favoriteRows, setFavoriteRows] = useState([]);
   const [favoriteBusyId, setFavoriteBusyId] = useState(null);
@@ -3018,6 +3101,8 @@ function App() {
   const [adminOpen, setAdminOpen] = useState(false);
   const [billingOpen, setBillingOpen] = useState(false);
   const [billingNotice, setBillingNotice] = useState('');
+  const [billingReturnOrderId, setBillingReturnOrderId] = useState('');
+  const alipayReturnHandledRef = useRef('');
   const { copiedId, copyPrompt, copyText } = useCopy();
   const repoUrl = siteData?.repository || fallbackRepoUrl;
   const t = copy[language];
@@ -3062,12 +3147,20 @@ function App() {
     if (!isSupabaseConfigured || !supabase) return undefined;
 
     let active = true;
-    supabase.auth.getSession().then(({ data }) => {
-      if (active) setSession(data.session || null);
-    });
+    supabase.auth.getSession()
+      .then(({ data }) => {
+        if (active) setSession(data.session || null);
+      })
+      .catch(() => {
+        if (active) setSession(null);
+      })
+      .finally(() => {
+        if (active) setAuthReady(true);
+      });
 
     const { data } = supabase.auth.onAuthStateChange((_event, nextSession) => {
       setSession(nextSession || null);
+      setAuthReady(true);
     });
 
     return () => {
@@ -3166,6 +3259,18 @@ function App() {
     const params = new URLSearchParams(window.location.search);
     const billing = params.get('billing');
     if (!billing) return;
+    if (billing === 'alipay_return') {
+      const orderId = params.get('order_id') || '';
+      setBillingReturnOrderId(orderId);
+      setBillingNotice(t.alipayReturnPending);
+      setBillingOpen(true);
+
+      const cleanParams = new URLSearchParams({ billing: 'alipay_return' });
+      if (orderId) cleanParams.set('order_id', orderId);
+      const nextUrl = `${window.location.pathname}?${cleanParams.toString()}${window.location.hash}`;
+      window.history.replaceState({}, '', nextUrl);
+      return;
+    }
     if (billing === 'success') setBillingNotice(t.billingSuccess);
     if (billing === 'cancelled') setBillingNotice(t.billingCancelled);
     setBillingOpen(true);
@@ -3174,7 +3279,35 @@ function App() {
     const nextSearch = params.toString();
     const nextUrl = `${window.location.pathname}${nextSearch ? `?${nextSearch}` : ''}${window.location.hash}`;
     window.history.replaceState({}, '', nextUrl);
-  }, [t.billingCancelled, t.billingSuccess]);
+  }, [t.alipayReturnPending, t.billingCancelled, t.billingSuccess]);
+
+  useEffect(() => {
+    if (!billingReturnOrderId || !session?.access_token) return undefined;
+    const handledKey = `${billingReturnOrderId}:${session.user?.id || ''}`;
+    if (alipayReturnHandledRef.current === handledKey) return undefined;
+    alipayReturnHandledRef.current = handledKey;
+
+    let cancelled = false;
+    fetch(`/api/billing/alipay/query?orderId=${encodeURIComponent(billingReturnOrderId)}`, {
+      headers: getAuthHeaders(session)
+    })
+      .then(async (response) => {
+        const payload = await response.json().catch(() => ({}));
+        if (!response.ok || !payload.ok) {
+          throw new Error(payload.error || 'ALIPAY_QUERY_FAILED');
+        }
+        if (cancelled) return;
+        if (payload.user) setProfile(payload.user);
+        setBillingNotice(payload.paid ? t.alipayPaymentSuccess : t.alipayPaymentPending);
+      })
+      .catch((error) => {
+        if (!cancelled) setBillingNotice(generationErrorMessage(error.message, language));
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [billingReturnOrderId, language, session?.access_token, session?.user?.id, t.alipayPaymentPending, t.alipayPaymentSuccess]);
 
   const latestCases = useMemo(() => {
     if (!siteData) return [];
@@ -3331,6 +3464,43 @@ function App() {
   function handleCloseAccount() {
     setAccountOpen(false);
     setAccountInitialSection('overview');
+  }
+
+  const normalizedPath = window.location.pathname.replace(/\/+$/, '') || '/';
+  const isCommunityRoute = normalizedPath === '/community' || normalizedPath === '/community/result';
+
+  if (isCommunityRoute) {
+    return (
+      <main>
+        <CommunityPage
+          language={language}
+          setLanguage={setLanguage}
+          authReady={authReady}
+          session={session}
+          profile={profile}
+          onSignIn={openAuth}
+          onSignOut={handleSignOut}
+          onOpenAdmin={() => setAdminOpen(true)}
+        />
+        <AuthModal
+          open={authOpen}
+          language={language}
+          initialErrorCode={authErrorCode}
+          onClose={() => {
+            setAuthOpen(false);
+            setAuthErrorCode('');
+          }}
+        />
+        <AdminPanel
+          open={adminOpen}
+          language={language}
+          session={session}
+          casesById={casesById}
+          onClose={() => setAdminOpen(false)}
+          onOpenCase={handleOpenCaseFromAdmin}
+        />
+      </main>
+    );
   }
 
   if (!siteData || !styleLibrary) {

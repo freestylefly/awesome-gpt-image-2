@@ -27,17 +27,13 @@ Use the live site at [gpt-image2.canghe.ai](https://gpt-image2.canghe.ai/) to br
   </a>
 </p>
 
-## WeChat Official Account
+## Paid Community
 
-Search **苍何** on WeChat or scan the QR card below. To join the GPT-Image2 community group, follow the account and reply with **gpt-image-2交流群**.
-
-<p align="center">
-  <img src="data/images/wechat-community.jpg" alt="Canghe WeChat community QR card" width="760">
-</p>
+The GPT-Image2 discussion group is now a paid community. Sign in on the [community page](https://gpt-image2.canghe.ai/community), make a one-time **¥9.90** Alipay payment, and the protected group QR will appear only after the server confirms payment. For refunds or manual support, search **苍何** on WeChat.
 
 ## ❤️ Sponsors
 
-> [Want to appear here?](data/images/sponsors/wechat-personal.jpg) Support the project through GitHub Sponsors, or follow the WeChat official account above and send your product name plus a short sponsorship note.
+> [Want to appear here?](data/images/sponsors/wechat-personal.jpg) Support the project through GitHub Sponsors, or search 苍何 on WeChat and send your product name plus a short sponsorship note.
 
 | Sponsor | Description |
 | ------- | ----------- |
@@ -330,6 +326,8 @@ Setup checklist:
 
 - Apply [`supabase/migrations/202605090001_user_credits.sql`](supabase/migrations/202605090001_user_credits.sql) to the Supabase project.
 - Apply [`supabase/migrations/20260509090000_membership_billing.sql`](supabase/migrations/20260509090000_membership_billing.sql) to add membership plans, credit packs, Stripe order records, and credit adjustment RPCs.
+- Apply [`supabase/migrations/20260721090000_alipay_webpay.sql`](supabase/migrations/20260721090000_alipay_webpay.sql) before enabling Alipay website payments, then configure each credit pack's reviewed CNY price. See [Alipay website payment setup](docs/alipay-web-payment.md).
+- Apply [`supabase/migrations/20260722090000_paid_community.sql`](supabase/migrations/20260722090000_paid_community.sql) before enabling the paid community. Keep `COMMUNITY_PAYMENT_ENABLED=false` until the protected QR, Alipay onboarding, and production payment/refund checks are complete. See the [paid community runbook](docs/paid-community.md).
 - Apply [`supabase/migrations/20260512090000_google_account_center.sql`](supabase/migrations/20260512090000_google_account_center.sql) to add account usage summaries and forced credit charging for super admins.
 - Apply [`supabase/migrations/20260512143000_pricing_admin_metrics.sql`](supabase/migrations/20260512143000_pricing_admin_metrics.sql) to update the `$5 / 300 credits` catalog and add admin dashboard metrics.
 - Apply [`supabase/migrations/20260515090000_case_favorites.sql`](supabase/migrations/20260515090000_case_favorites.sql) to add per-user case favorites.

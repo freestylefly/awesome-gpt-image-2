@@ -27,17 +27,13 @@
   </a>
 </p>
 
-## 公众号与交流群
+## 付费交流群
 
-微信搜 **苍何** 或扫描下方二维码关注苍何公众号。加入 GPT-Image2 交流群，请关注后回复：**gpt-image-2交流群**。
-
-<p align="center">
-  <img src="data/images/wechat-community.jpg" alt="苍何微信交流群二维码" width="760">
-</p>
+GPT-Image2 交流群现已改为付费加入。请登录[付费群页面](https://gpt-image2.canghe.ai/community)，通过支付宝一次性支付 **¥9.90**；只有服务端确认付款后，当前账号才能查看受保护的群二维码。退款或人工支持请在微信搜索 **苍何**。
 
 ## ❤️ 赞助方
 
-> [想出现在这里？](data/images/sponsors/wechat-personal.jpg) 可以通过 GitHub Sponsors 支持项目，也可以关注上方公众号并发送产品名与简短赞助说明。
+> [想出现在这里？](data/images/sponsors/wechat-personal.jpg) 可以通过 GitHub Sponsors 支持项目，也可以在微信搜索苍何并发送产品名与简短赞助说明。
 
 | 赞助方 | 说明 |
 | ------ | ---- |
@@ -328,6 +324,8 @@ GOOGLE_ANALYTICS_REFRESH_TOKEN=
 
 - 将 [`supabase/migrations/202605090001_user_credits.sql`](supabase/migrations/202605090001_user_credits.sql) 应用到 Supabase 项目。
 - 将 [`supabase/migrations/20260509090000_membership_billing.sql`](supabase/migrations/20260509090000_membership_billing.sql) 应用到 Supabase 项目，添加会员套餐、积分包、Stripe 订单记录和积分调整 RPC。
+- 启用支付宝网站支付前，应用 [`supabase/migrations/20260721090000_alipay_webpay.sql`](supabase/migrations/20260721090000_alipay_webpay.sql)，并为需要销售的积分包配置经业务确认的人民币价格。详见[支付宝网站支付接入说明](docs/alipay-web-payment.md)。
+- 启用付费交流群前，应用 [`supabase/migrations/20260722090000_paid_community.sql`](supabase/migrations/20260722090000_paid_community.sql)。在新群码、支付宝签约和生产付款退款验收完成前，保持 `COMMUNITY_PAYMENT_ENABLED=false`。详见[付费交流群上线手册](docs/paid-community.md)。
 - 将 [`supabase/migrations/20260512090000_google_account_center.sql`](supabase/migrations/20260512090000_google_account_center.sql) 应用到 Supabase 项目，添加账户用量统计和超级管理员强制扣积分逻辑。
 - 将 [`supabase/migrations/20260512143000_pricing_admin_metrics.sql`](supabase/migrations/20260512143000_pricing_admin_metrics.sql) 应用到 Supabase 项目，更新 `$5 / 300 credits` 价格体系，并添加管理员数据看板指标。
 - 将 [`supabase/migrations/20260515090000_case_favorites.sql`](supabase/migrations/20260515090000_case_favorites.sql) 应用到 Supabase 项目，添加用户案例收藏表。

@@ -2833,6 +2833,17 @@ button {
   color: #ffffff;
 }
 
+.billingPaymentActions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.billingCard .alipayButton {
+  background: linear-gradient(135deg, rgba(22, 119, 255, 0.34), rgba(62, 171, 255, 0.2));
+  border-color: rgba(62, 171, 255, 0.48);
+}
+
 .billingCard button:disabled,
 .portalButton:disabled,
 .accountForm button:disabled,

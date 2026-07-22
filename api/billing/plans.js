@@ -1,5 +1,6 @@
 import { getAuthContext, getProfileById, isSupabaseServerConfigured } from '../_lib/supabase.js';
 import { getBillingCatalog, isStripeConfigured } from '../_lib/billing.js';
+import { isAlipayConfigured } from '../_lib/alipay.js';
 
 function json(res, status, payload) {
   res.status(status).json(payload);
@@ -23,9 +24,16 @@ export default async function handler(req, res) {
   try {
     const catalog = await getBillingCatalog(auth.client);
     const user = auth.user ? await getProfileById(auth.user.id) : null;
+    const alipayCheckoutAvailable = isAlipayConfigured()
+      && catalog.packs.some((pack) => pack.alipayAvailable);
+    const checkoutProviders = {
+      stripe: isStripeConfigured(),
+      alipay: alipayCheckoutAvailable
+    };
     return json(res, 200, {
       ok: true,
-      checkoutAvailable: isStripeConfigured(),
+      checkoutAvailable: checkoutProviders.stripe || checkoutProviders.alipay,
+      checkoutProviders,
       ...catalog,
       user
     });

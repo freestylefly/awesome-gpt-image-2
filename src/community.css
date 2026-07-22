@@ -1,0 +1,461 @@
+.communityPage {
+  min-height: 100vh;
+  color: #f6f7fb;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(77, 224, 255, 0.16), transparent 34rem),
+    radial-gradient(circle at 90% 24%, rgba(202, 255, 102, 0.12), transparent 30rem),
+    #080a0d;
+}
+
+.communityTopbar {
+  position: sticky;
+  z-index: 20;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  min-height: 68px;
+  padding: 0 5vw;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(8, 10, 13, 0.82);
+  backdrop-filter: blur(20px);
+}
+
+.communityBrand,
+.communityTopbar nav,
+.communityTopbar nav a,
+.communityTopbar nav button {
+  display: flex;
+  align-items: center;
+}
+
+.communityBrand {
+  gap: 10px;
+  color: #fff;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.communityTopbar nav {
+  gap: 10px;
+}
+
+.communityTopbar nav a,
+.communityTopbar nav button {
+  gap: 7px;
+  min-height: 38px;
+  padding: 0 13px;
+  color: #d8dce4;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.communityLanguage {
+  display: flex;
+  padding: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+}
+
+.communityTopbar nav .communityLanguage button {
+  min-height: 30px;
+  padding: 0 9px;
+  border: 0;
+  background: transparent;
+}
+
+.communityTopbar nav .communityLanguage button.active {
+  color: #0a0d10;
+  background: #caff66;
+}
+
+.communityMain {
+  width: min(1180px, 90vw);
+  margin: 0 auto;
+  padding: 80px 0 64px;
+}
+
+.communityHero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 48px;
+  padding-bottom: 52px;
+}
+
+.communityEyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 18px;
+  color: #caff66;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.communityHero h1 {
+  max-width: 820px;
+  margin: 0;
+  font-size: clamp(40px, 6.5vw, 78px);
+  line-height: 0.98;
+  letter-spacing: -0.055em;
+}
+
+.communityHero p {
+  max-width: 720px;
+  margin: 24px 0 0;
+  color: #aab1bd;
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+.communityPrice {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: start;
+  min-width: 180px;
+  padding: 26px;
+  color: #080a0d;
+  border-radius: 28px;
+  background: #caff66;
+  box-shadow: 0 24px 80px rgba(143, 255, 91, 0.18);
+}
+
+.communityPrice span {
+  padding-top: 9px;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.communityPrice strong {
+  font-size: 56px;
+  line-height: 1;
+  letter-spacing: -0.06em;
+}
+
+.communityPrice em {
+  grid-column: 1 / -1;
+  margin-top: 8px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 800;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.communityContentGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(300px, 0.72fr);
+  gap: 22px;
+  align-items: start;
+}
+
+.communityPrimary,
+.communitySidebar {
+  display: grid;
+  gap: 18px;
+}
+
+.communityStateCard,
+.communitySidebar section,
+.communitySupport {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(20, 23, 28, 0.78);
+  box-shadow: 0 18px 70px rgba(0, 0, 0, 0.22);
+}
+
+.communityStateCard {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 18px;
+  min-height: 250px;
+  padding: 34px;
+  border-radius: 30px;
+}
+
+.communityStateCard.success { border-color: rgba(202, 255, 102, 0.45); }
+.communityStateCard.pending { border-color: rgba(77, 224, 255, 0.4); }
+.communityStateCard.paused,
+.communityStateCard.muted { border-color: rgba(255, 203, 102, 0.28); }
+.communityStateCard.error { border-color: rgba(255, 112, 112, 0.45); }
+
+.communityStateIcon {
+  display: grid;
+  width: 52px;
+  height: 52px;
+  place-items: center;
+  color: #0a0d10;
+  border-radius: 17px;
+  background: #caff66;
+}
+
+.communityStateCard h2,
+.communitySidebar h2,
+.communitySupport h2 {
+  margin: 0;
+  color: #fff;
+}
+
+.communityStateCard h2 { font-size: clamp(25px, 3vw, 38px); }
+
+.communityStateCard p {
+  max-width: 660px;
+  margin: 14px 0 0;
+  color: #b4bbc6;
+  font-size: 16px;
+  line-height: 1.72;
+}
+
+.communityStateActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.communityStateActions button,
+.communityPayButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 46px;
+  padding: 0 18px;
+  color: #080a0d;
+  border: 0;
+  border-radius: 13px;
+  background: #caff66;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.communityStateActions button.secondary {
+  color: #e8ebf1;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.communityTerms {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  margin: 24px 0 16px;
+  padding: 16px;
+  color: #c5cad3;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.03);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.communityTerms input {
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+  accent-color: #caff66;
+}
+
+.communityPayButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.38;
+}
+
+.communityProtectedQr {
+  display: block;
+  width: min(360px, 100%);
+  margin-top: 24px;
+  padding: 12px;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.communityOrderBadge {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
+  padding: 12px 16px;
+  color: #9da5b0;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.03);
+  font-size: 12px;
+}
+
+.communityOrderBadge code {
+  overflow: hidden;
+  margin-left: auto;
+  color: #737c89;
+  text-overflow: ellipsis;
+}
+
+.communityInlineNotice {
+  margin: 0;
+  color: #ffcb66;
+}
+
+.communitySidebar section {
+  padding: 25px;
+  border-radius: 22px;
+}
+
+.communitySidebar section.boundary {
+  background: rgba(255, 203, 102, 0.06);
+}
+
+.communitySidebar h2 { font-size: 18px; }
+
+.communitySidebar ul {
+  display: grid;
+  gap: 14px;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.communitySidebar li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  color: #b7bec9;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.communitySidebar li svg { margin-top: 3px; color: #caff66; }
+
+.communitySupport {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px;
+  margin-top: 22px;
+  padding: 26px;
+  border-radius: 22px;
+}
+
+.communitySupport > svg { color: #4de0ff; }
+.communitySupport h2 { font-size: 18px; }
+.communitySupport p,
+.communitySupport small { display: block; margin: 8px 0 0; color: #aeb5c0; line-height: 1.6; }
+.communitySupport small { color: #727c89; }
+
+.communityPaymentHandoff {
+  position: fixed;
+  z-index: 99999;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: #fff;
+}
+
+.communityAdminBlock {
+  margin: 28px 0;
+  padding: 24px;
+  border: 1px solid rgba(202, 255, 102, 0.22);
+  border-radius: 22px;
+  background: rgba(202, 255, 102, 0.035);
+}
+
+.communityAdminHeader,
+.communityAdminHeader > div > span,
+.communityAdminHeader button,
+.communityAdminQr,
+.communityAdminQr label,
+.communityAdminActions {
+  display: flex;
+  align-items: center;
+}
+
+.communityAdminHeader {
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.communityAdminHeader > div > span { gap: 7px; color: #caff66; font-size: 12px; font-weight: 800; text-transform: uppercase; }
+.communityAdminHeader h3 { margin: 6px 0 0; font-size: 22px; }
+.communityAdminHeader button,
+.communityAdminActions button {
+  gap: 7px;
+  min-height: 36px;
+  padding: 0 12px;
+  color: #e9edf4;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.06);
+  font: inherit;
+  cursor: pointer;
+}
+
+.communityAdminQr {
+  gap: 18px;
+  margin-top: 20px;
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+}
+
+.communityAdminQr img,
+.communityAdminQr > div {
+  width: 96px;
+  height: 96px;
+  border-radius: 12px;
+  object-fit: contain;
+  background: #fff;
+}
+
+.communityAdminQr > div { display: grid; place-items: center; color: #59616d; font-size: 10px; text-align: center; }
+.communityAdminQr label { gap: 8px; padding: 10px 13px; color: #0a0d10; border-radius: 10px; background: #caff66; font-weight: 800; cursor: pointer; }
+.communityAdminQr input { display: none; }
+.communityAdminQr small { color: #8e97a4; }
+.communityAdminMessage { color: #ffcb66; }
+
+.communityAdminTableWrap { overflow-x: auto; margin-top: 18px; }
+.communityAdminTableWrap table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.communityAdminTableWrap th,
+.communityAdminTableWrap td { padding: 12px 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.08); text-align: left; vertical-align: top; }
+.communityAdminTableWrap td strong,
+.communityAdminTableWrap td small { display: block; }
+.communityAdminTableWrap td small { max-width: 220px; overflow: hidden; margin-top: 5px; color: #737d8a; text-overflow: ellipsis; }
+.communityAdminActions { gap: 7px; }
+.communityAdminActions button.danger { color: #ff9d9d; }
+
+.communityOrderStatus { display: inline-flex; padding: 4px 8px; border-radius: 999px; background: rgba(255, 255, 255, 0.08); font-size: 11px; font-weight: 800; }
+.communityOrderStatus.paid { color: #caff66; }
+.communityOrderStatus.pending { color: #4de0ff; }
+.communityOrderStatus.refunded,
+.communityOrderStatus.revoked { color: #ffcb66; }
+
+@media (max-width: 900px) {
+  .communityTopbar { position: static; align-items: flex-start; padding-top: 16px; padding-bottom: 16px; }
+  .communityTopbar nav { flex-wrap: wrap; justify-content: flex-end; }
+  .communityTopbar nav > a:first-child { display: none; }
+  .communityMain { padding-top: 48px; }
+  .communityHero,
+  .communityContentGrid { grid-template-columns: 1fr; }
+  .communityHero { align-items: start; }
+  .communityPrice { justify-self: start; }
+}
+
+@media (max-width: 620px) {
+  .communityTopbar { gap: 12px; padding-inline: 18px; }
+  .communityBrand { max-width: 140px; font-size: 14px; }
+  .communityTopbar nav { gap: 6px; }
+  .communityTopbar nav > button { padding-inline: 10px; }
+  .communityTopbar nav > button svg { display: none; }
+  .communityMain { width: min(92vw, 1180px); }
+  .communityHero { gap: 28px; padding-bottom: 36px; }
+  .communityHero h1 { font-size: 42px; }
+  .communityHero p { font-size: 16px; }
+  .communityStateCard { grid-template-columns: 1fr; padding: 24px; border-radius: 22px; }
+  .communityStateActions { flex-direction: column; align-items: stretch; }
+  .communityAdminQr { align-items: flex-start; flex-direction: column; }
+}

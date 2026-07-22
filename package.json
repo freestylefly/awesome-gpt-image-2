@@ -12,14 +12,17 @@
     "publish:skill:npm": "npm publish ./agents/skills/gpt-image-2-style-library --access public",
     "predev": "npm run generate:site-data && npm run generate:style-skill",
     "dev": "vite",
+    "dev:alipay-sandbox": "node scripts/alipay-webpay-sandbox-server.mjs",
     "prebuild": "npm run generate:site-data && npm run generate:style-skill",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "node --test api/_lib/*.test.js"
   },
   "dependencies": {
     "@google-analytics/data": "^5.2.2",
     "@supabase/supabase-js": "^2.105.4",
     "@vitejs/plugin-react": "^5.1.1",
+    "alipay-sdk": "^4.14.0",
     "google-auth-library": "^10.6.2",
     "lucide-react": "^0.561.0",
     "react": "^19.2.1",
