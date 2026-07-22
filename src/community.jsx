@@ -19,6 +19,7 @@ import {
   Users,
   Wrench
 } from 'lucide-react';
+import officialAccountQr from './assets/canghe-official-account.png';
 import './community.css';
 
 const TERMS_VERSION = '2026-07-22';
@@ -64,8 +65,9 @@ const communityCopy = {
     revokedText: '如有疑问，请通过页面底部的人工支持渠道联系管理员。',
     failedTitle: '暂时无法完成操作',
     retry: '重试',
-    support: '退款与人工支持',
-    supportText: '微信搜索苍何。退款经人工审核后原路退回；退款处理中仍保留资格，平台确认成功后才撤销。',
+    support: '公众号与人工支持',
+    supportText: '关注公众号「苍何」，或在微信搜索「苍何」。支付、入群、退款或使用问题都可以通过公众号留言联系；退款经人工审核后原路退回。',
+    supportQrAlt: '苍何微信公众号二维码与微信搜索提示',
     resultEyebrow: '支付宝支付结果',
     resultTitle: '正在由服务器确认这笔订单。',
     resultText: '本页不会信任网址参数判定付款成功，只展示服务端查单或验签通知确认后的状态。',
@@ -115,8 +117,9 @@ const communityCopy = {
     revokedText: 'Contact the administrator through the support channel below if you need help.',
     failedTitle: 'The operation could not be completed',
     retry: 'Retry',
-    support: 'Refunds and support',
-    supportText: 'Search 苍何 on WeChat. Approved refunds return through Alipay; access remains active until Alipay confirms success.',
+    support: 'Official account and support',
+    supportText: 'Follow the WeChat official account 苍何, or search 苍何 in WeChat. Message the account for payment, access, refund, or product questions.',
+    supportQrAlt: 'QR code and WeChat search card for the 苍何 official account',
     resultEyebrow: 'Alipay result',
     resultTitle: 'The server is confirming this order.',
     resultText: 'URL parameters are never treated as proof of payment. This page only shows server-verified status.',
@@ -525,6 +528,7 @@ export function CommunityPage({
         <section className="communitySupport">
           <MessageCircle size={21} />
           <div><h2>{t.support}</h2><p>{config?.support || t.supportText}</p><small>{t.supportText}</small></div>
+          <img className="communitySupportQr" src={officialAccountQr} alt={t.supportQrAlt} />
         </section>
       </main>
     </div>

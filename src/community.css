@@ -335,7 +335,8 @@
 
 .communitySupport {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto minmax(0, 1fr) minmax(280px, 520px);
+  align-items: center;
   gap: 16px;
   margin-top: 22px;
   padding: 26px;
@@ -347,6 +348,13 @@
 .communitySupport p,
 .communitySupport small { display: block; margin: 8px 0 0; color: #aeb5c0; line-height: 1.6; }
 .communitySupport small { color: #727c89; }
+.communitySupportQr {
+  display: block;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  background: #06c766;
+}
 
 .communityPaymentHandoff {
   position: fixed;
@@ -441,6 +449,8 @@
   .communityMain { padding-top: 48px; }
   .communityHero,
   .communityContentGrid { grid-template-columns: 1fr; }
+  .communitySupport { grid-template-columns: auto minmax(0, 1fr); }
+  .communitySupportQr { grid-column: 2; width: min(100%, 520px); }
   .communityHero { align-items: start; }
   .communityPrice { justify-self: start; }
 }
@@ -457,5 +467,7 @@
   .communityHero p { font-size: 16px; }
   .communityStateCard { grid-template-columns: 1fr; padding: 24px; border-radius: 22px; }
   .communityStateActions { flex-direction: column; align-items: stretch; }
+  .communitySupport { grid-template-columns: 1fr; padding: 22px; }
+  .communitySupportQr { grid-column: 1; }
   .communityAdminQr { align-items: flex-start; flex-direction: column; }
 }

@@ -29,7 +29,13 @@ Use the live site at [gpt-image2.canghe.ai](https://gpt-image2.canghe.ai/) to br
 
 ## Paid Community
 
-The GPT-Image2 discussion group is now a paid community. Sign in on the [community page](https://gpt-image2.canghe.ai/community), make a one-time **¥9.90** Alipay payment, and the protected group QR will appear only after the server confirms payment. For refunds or manual support, search **苍何** on WeChat.
+The GPT-Image2 discussion group is now a paid community. Sign in on the [community page](https://gpt-image2.canghe.ai/community), make a one-time **¥9.90** Alipay payment, and the protected group QR will appear only after the server confirms payment.
+
+For payment, access, refund, or product questions, follow the WeChat official account **苍何** or scan the card below and send a message.
+
+<p align="center">
+  <img src="src/assets/canghe-official-account.png" alt="苍何 WeChat official account QR code and search card" width="760">
+</p>
 
 ## ❤️ Sponsors
 
