@@ -64,7 +64,7 @@ The core goal is simple: compress prose-style prompts into structured protocols.
 
 ## 📖 Quick Links
 
-- [Emu](https://image.tinchak0207.xyz) — Online GPT Image 2 & Nano Banana Pro generator, no relay station setup or API key required, sign in and download.
+- [Eimu](https://eimu.art) — Online GPT Image 2 & Nano Banana Pro generator, no relay station setup or API key required, sign in and download.
 - [Full case gallery](docs/gallery.md)
 - [Gallery Part 1: cases 1-165](docs/gallery-part-1.md)
 - [Gallery Part 2: cases 166-520](docs/gallery-part-2.md)
