@@ -536,7 +536,7 @@ GOOGLE_ANALYTICS_REFRESH_TOKEN=
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=freestylefly/awesome-gpt-image-2&type=Date)](https://star-history.com/#freestylefly/awesome-gpt-image-2&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=freestylefly/awesome-gpt-image-2&type=Date)](https://star-history.dera.page/#freestylefly/awesome-gpt-image-2&Date)
 
 ## 📜 ライセンス
 
