@@ -70,6 +70,7 @@ The core goal is simple: compress prose-style prompts into structured protocols.
 - [Gallery Part 2: cases 166-532](docs/gallery-part-2.md)
 - [Industrial prompt templates and pitfalls guide](docs/templates.md)
 - [Agent skill: GPT-Image2 Style Library](agents/skills/gpt-image-2-style-library/SKILL.md)
+- [Chinese GPT Image 2 + Nano Banana Pro prompts](https://github.com/tinchak0207/awesome-gpt-image-2-nano-banana-pro-zh-prompts) - 32 task-focused, source-attributed templates for Chinese creators, with an [online playground](https://image.tinchak0207.xyz) that needs no personal API key configuration.
 - [MIT License](LICENSE)
 - [Full disclaimer](docs/disclaimer.md#section-disclaimer)
 
