@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/stars/freestylefly/awesome-gpt-image-2?style=flat-square&color=rgb(25%2C%20121%2C%20255)" alt="Stars"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/forks/freestylefly/awesome-gpt-image-2?style=flat-square&color=green" alt="Forks"></a>
-  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-538-blueviolet?style=flat-square" alt="Cases"></a>
+  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-544-blueviolet?style=flat-square" alt="Cases"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/100%25-Original_AI_Rewritten-green?style=flat-square" alt="Original"></a>
 </p>
 
@@ -66,7 +66,7 @@ GPT-Image2 が広く利用できるようになったことで、AI 画像生成
 
 - [ケースギャラリー全体](docs/gallery.md)
 - [Gallery Part 1：ケース 1-165](docs/gallery-part-1.md)
-- [Gallery Part 2：ケース 166-538](docs/gallery-part-2.md)
+- [Gallery Part 2：ケース 166-544](docs/gallery-part-2.md)
 - [産業向けプロンプトテンプレートと落とし穴ガイド](docs/templates.md#section-templates)
 - [Agent Skill：GPT-Image2 Style Library](agents/skills/gpt-image-2-style-library/SKILL.md)
 - [MIT License](LICENSE)
@@ -169,14 +169,14 @@ GPT-Image2 が広く利用できるようになったことで、AI 画像生成
     <td width="33%" valign="top" align="center">
       <h4>🖼️ フルギャラリー</h4>
       <a href="docs/gallery.md"><img src="data/images/category-covers/gallery.jpg" alt="フルギャラリー" width="220"></a><br>
-      <sub>全 538 件のケースをパートとカテゴリ別に閲覧できます。</sub><br>
+      <sub>全 544 件のケースをパートとカテゴリ別に閲覧できます。</sub><br>
       <a href="docs/gallery.md"><strong>ギャラリーを開く</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
       <h4>⭐ 最新の事例</h4>
-      <a href="docs/gallery-part-2.md#case-538"><img src="data/images/case538.jpg" alt="最新の事例" width="220"></a><br>
+      <a href="docs/gallery-part-2.md#case-544"><img src="data/images/case544.png" alt="最新の事例" width="220"></a><br>
       <sub>リポジトリに新しく収録されたコミュニティ事例とワークフロー。</sub><br>
-      <a href="docs/gallery-part-2.md#case-538"><strong>最新を見る</strong></a>
+      <a href="docs/gallery-part-2.md#case-544"><strong>最新を見る</strong></a>
     </td>
   </tr>
 </table>
@@ -474,10 +474,10 @@ GOOGLE_ANALYTICS_REFRESH_TOKEN=
       <a href="docs/gallery-part-2.md#case-537"><strong>ケースを見る</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>Case 538：ラバースタンプ旅のフィールドノートポスター</strong></p>
-      <a href="docs/gallery-part-2.md#case-538"><img src="data/images/case538.jpg" alt="Rubber Stamp Travel Field Notes Poster" width="150"></a><br>
-      <sub>旅行写真を自然な写実とラバースタンプ風フィールドノートで構成する横長ポスター。</sub><br>
-      <a href="docs/gallery-part-2.md#case-538"><strong>ケースを見る</strong></a>
+      <p><strong>Case 544：ピクセル作物の成長素材</strong></p>
+      <a href="docs/gallery-part-2.md#case-544"><img src="data/images/case544.png" alt="ピクセル作物の成長素材" width="150"></a><br>
+      <sub>キャベツ、にんじん、かぼちゃなどの作物を種→苗→成長→収穫まで連続的に並べたピクセルアート素材集。</sub><br>
+      <a href="docs/gallery-part-2.md#case-544"><strong>ケースを見る</strong></a>
     </td>
   </tr>
 </table>

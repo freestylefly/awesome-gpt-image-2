@@ -208,6 +208,52 @@ Vertical 9:16 isometric cutaway infographic "城市生命系统图谱 / Urban Me
 
 ***
 
+<a name="case-12"></a>
+
+### 例 12：FluxPic 品牌与产品视觉样板
+
+![FluxPic 品牌与产品视觉样板](../data/images/case12.jpg)
+
+**来源：** 未提供
+
+**提示词：**
+
+```text
+[中文]
+设计一套极简黑白高级 AI 图像生成平台品牌视觉样板，品牌名为 “FluxPic”。整体基调偏极简、科技感、未来感，适合展示在品牌官网或产品介绍页。
+
+画面可分为四个区域：
+1. 左上大面积黑底主视觉：品牌 logo 采用极简几何字形，白色字母与圆环构成强视觉识别，搭配柔和虚影与圆形排布。
+2. 中间偏左区域：展示品牌核心定位与 slogan：AI 生图，无限想象，字体清晰，布局留白充足。
+3. 右侧区域：展示品牌色板、功能图标与组件规范，例如品牌主色、辅助色、图标、卡片、状态栏、按钮等，风格统一、模块化清晰。
+4. 下方区域：展示产品应用场景，如 app 预览、文档编辑、生成结果、图标列表和功能卡片，整体像一份品牌规范与 UI 样板图。
+
+视觉要求：
+- 极简黑白+冷灰色系为主，搭配高级偏中性色板
+- 采用现代 SaaS 品牌设计语言，留白充足，层级清晰
+- 字体粗重、功能图标简洁，构成企业级品牌展示页
+- 整体像一张完整的品牌规范稿、产品功能说明图和界面演示图
+- 画面精致、干净、现代、具备故事感和产品感
+
+[English]
+Design a premium minimalist brand and product visual system for an AI image generation platform called “FluxPic.” Use a sleek black-and-white aesthetic with subtle futuristic technology cues and a clean, premium SaaS-style branding presentation.
+
+The composition is structured into several blocks:
+1. Large dark black hero panel on the left with a geometric minimalist brand logo in white and circular icon system.
+2. A clear brand statement section with the slogan “AI image generation, unlimited imagination.”
+3. A right-side specification board showing the brand palette, icon set, UI components, interface cards, and product modules.
+4. Lower section showing product mockups and feature scenarios like app interface previews, generation outputs, and functional card layouts.
+
+Visual requirements:
+- Minimalist black, white, and cool gray palette
+- Modern SaaS presentation with strong whitespace and clean hierarchy
+- Bold brand typography and simple product icon language
+- Feels like a polished brand guideline board and feature showcase
+- Elegant, premium, high-end, and product-focused
+```
+
+***
+
 <a name="case-13"></a>
 
 ### 例 13：信息图可视化设计

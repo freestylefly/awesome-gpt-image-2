@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/stars/freestylefly/awesome-gpt-image-2?style=flat-square&color=rgb(25%2C%20121%2C%20255)" alt="Stars"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/forks/freestylefly/awesome-gpt-image-2?style=flat-square&color=green" alt="Forks"></a>
-  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-538-blueviolet?style=flat-square" alt="Cases"></a>
+  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-544-blueviolet?style=flat-square" alt="Cases"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/100%25-Original_AI_Rewritten-green?style=flat-square" alt="Original"></a>
   <a href="https://github.com/sponsors/freestylefly"><img src="https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ff69b4?style=flat-square" alt="Sponsor"></a>
 </p>
@@ -67,7 +67,7 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
 
 - [完整案例总览](docs/gallery.md)
 - [案例画廊 Part 1：例 1-165](docs/gallery-part-1.md)
-- [案例画廊 Part 2：例 166-538](docs/gallery-part-2.md)
+- [案例画廊 Part 2：例 166-544](docs/gallery-part-2.md)
 - [工业级提示词模板与防坑指南](docs/templates.md#section-templates)
 - [Agent Skill：GPT-Image2 风格库](agents/skills/gpt-image-2-style-library/SKILL.md)
 - [MIT License](LICENSE)
@@ -170,14 +170,14 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
     <td width="33%" valign="top" align="center">
       <h4>🖼️ 完整画廊</h4>
       <a href="docs/gallery.md"><img src="data/images/category-covers/gallery.jpg" alt="完整画廊" width="220"></a><br>
-      <sub>按分册浏览全部 538 个案例和代表案例入口。</sub><br>
+      <sub>按分册浏览全部 544 个案例和代表案例入口。</sub><br>
       <a href="docs/gallery.md"><strong>进入画廊</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
       <h4>⭐ 最新新增</h4>
-      <a href="docs/gallery-part-2.md#case-538"><img src="data/images/case538.jpg" alt="最新新增" width="220"></a><br>
+      <a href="docs/gallery-part-2.md#case-544"><img src="data/images/case544.png" alt="最新新增" width="220"></a><br>
       <sub>最近收录的 X 社区案例和新玩法。</sub><br>
-      <a href="docs/gallery-part-2.md#case-538"><strong>查看最新</strong></a>
+      <a href="docs/gallery-part-2.md#case-544"><strong>查看最新</strong></a>
     </td>
   </tr>
 </table>
@@ -475,10 +475,10 @@ GOOGLE_ANALYTICS_REFRESH_TOKEN=
       <a href="docs/gallery-part-2.md#case-537"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>例 538：橡皮章旅行田野笔记海报</strong></p>
-      <a href="docs/gallery-part-2.md#case-538"><img src="data/images/case538.jpg" alt="橡皮章旅行田野笔记海报" width="180"></a><br>
+      <p><strong>例 544：像素作物成长素材</strong></p>
+      <a href="docs/gallery-part-2.md#case-544"><img src="data/images/case544.png" alt="像素作物成长素材" width="180"></a><br>
       <sub>把旅行照片转成自然写实与橡皮章田野笔记结合的横版海报。</sub><br>
-      <a href="docs/gallery-part-2.md#case-538"><strong>查看案例</strong></a>
+      <a href="docs/gallery-part-2.md#case-544"><strong>查看案例</strong></a>
     </td>
   </tr>
 </table>

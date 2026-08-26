@@ -1,10 +1,10 @@
 ## 🖼️ 魔法画廊总览
 
-完整画廊已按 GitHub 渲染体积拆成两册，避免页面被截断；当前总案例数为 538。
+完整画廊已按 GitHub 渲染体积拆成两册，避免页面被截断；当前总案例数为 544。
 
 - [返回 README 首页](../README.md)
 - [Part 1：例 1-165](./gallery-part-1.md)
-- [Part 2：例 166-538](./gallery-part-2.md)
+- [Part 2：例 166-544](./gallery-part-2.md)
 - [工业级提示词模板与防坑指南](./templates.md)
 - [声明、Star 趋势图与公众号](./disclaimer.md)
 
@@ -193,11 +193,17 @@
 - [例 536：春日樱花回眸电影人像](./gallery-part-2.md#case-536)
 - [例 537：地下档案馆暗黑概念海报](./gallery-part-2.md#case-537)
 - [例 538：橡皮章旅行田野笔记海报](./gallery-part-2.md#case-538)
+- [例 539：像素游戏人物](./gallery-part-2.md#case-539)
+- [例 540：像素瓦片素材](./gallery-part-2.md#case-540)
+- [例 541：像素苏州园林素材](./gallery-part-2.md#case-541)
+- [例 542：像素风 UI 套件](./gallery-part-2.md#case-542)
+- [例 543：像素换装游戏素材](./gallery-part-2.md#case-543)
+- [例 544：像素作物成长素材](./gallery-part-2.md#case-544)
 
 ## 分册说明
 
 - `gallery-part-1.md`：例 1-165，覆盖信息图、界面、海报、摄影、插画等基础主流类型。
-- `gallery-part-2.md`：例 166-538，包含更多品牌、卡牌、直播截图、国风、商业视觉、作者新增实测与社区案例。
+- `gallery-part-2.md`：例 166-544，包含更多品牌、卡牌、直播截图、国风、商业视觉、作者新增实测与社区案例。
 
 ## 分类概览
 
@@ -436,7 +442,12 @@
 - [例 527：Rio 旅行票据纸雕立体海报](./gallery-part-2.md#case-527)
 - [例 531：水晶框国家旅行广告海报](./gallery-part-2.md#case-531)
 - [例 534：红光干扰实验编辑人像海报](./gallery-part-2.md#case-534)
-- [例 538：橡皮章旅行田野笔记海报](./gallery-part-2.md#case-538)
+- [例 539：像素游戏人物](./gallery-part-2.md#case-539)
+- [例 540：像素瓦片素材](./gallery-part-2.md#case-540)
+- [例 541：像素苏州园林素材](./gallery-part-2.md#case-541)
+- [例 542：像素风 UI 套件](./gallery-part-2.md#case-542)
+- [例 543：像素换装游戏素材](./gallery-part-2.md#case-543)
+- [例 544：像素作物成长素材](./gallery-part-2.md#case-544)
 
 <a name="cat-product"></a>
 

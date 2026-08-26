@@ -128,6 +128,80 @@ Composition and lens: Uses 85mm golden portrait lens effect, f/1.8 large apertur
 
 ***
 
+<a name="case-169"></a>
+
+### 例 169：游戏 UI KIT
+
+![游戏 UI KIT](../data/images/case169.jpg)
+
+**来源：** 未提供
+
+**提示词：**
+
+```text
+[中文]
+设计一套高质感游戏风 UI 套件，整体风格为深蓝色科技感二次元界面，配色以深海蓝、冰蓝、金色和白色为主，界面具有强烈的游戏感和高级感。
+
+内容包含：
+- 主按钮、次按钮、导航入口、状态栏、经验条、血条、装备栏和技能面板
+- 顶部导航模块、面板说明区、资源显示区、图标工具区和数值展示区
+- 各类图标要求清晰、统一、极简并带有蓝色发光效果
+- 面板边框采用高级金属感与冰晶质感，适合 RPG / ARPG / 游戏菜单场景
+- 整张图需要体现游戏 UI 设计规范，结构清晰，布局完整，视觉层级明确
+- 页面为整套 UI 设计图，适合直接用于游戏原型或界面参考
+
+[English]
+Design a premium game UI kit in a dark blue fantasy sci-fi style. Use deep navy, ice blue, gold, and white as the main palette. The interface should feel advanced, polished, and highly functional for a game menu or RPG HUD.
+
+Include:
+- primary buttons, secondary actions, navigation tabs, status panels, experience bars, health bars, equipment slots, and skill panels
+- a top navigation area, main stats panel, resource display board, icon toolbar, and value cards
+- crisp, uniform icons with subtle glow and clean game UI logic
+- metallic and crystalline frame details with premium fantasy aesthetic
+- strong hierarchy and modular layout suitable for a game interface design sheet
+- overall design should feel like a complete UI system sheet for game prototyping or product design reference
+```
+
+***
+
+<a name="case-170"></a>
+
+### 例 170：凡人修仙传人物关系图
+
+![凡人修仙传人物关系图](../data/images/case170.jpg)
+
+**来源：** 未提供
+
+**提示词：**
+
+```text
+[中文]
+创作一张竖向人物关系图信息图，主题为《凡人修仙传》，整体风格偏古风仙侠、清雅复古，纸张古朴、淡黄色底，带有传统手绘国风视觉感。
+
+画面构成：
+- 标题位于顶部，采用中国古风书法风字体，突出“凡人修仙传”主题
+- 中心人物是主角韩立，位于核心位置，人物边框采用圆形或椭圆的浮雕框，突出人物中心
+- 周围按照人物阵营与关系网络分组布局：师门与同门、修炼与人际关系、敌对与冲突、重要同伴与师门关系等
+- 每个人物卡片为圆形头像或半身肖像，搭配标准人物说明：名字、身份、关系定位、称号或能力描述
+- 关系线使用多种箭头和连接方式，形成清晰的因果与人物关联图
+- 底部与右侧加入修炼线路、门派世界观、修仙晋升路径等辅助信息图模块
+- 整体画风偏中国古风、文档型洁净布局、适合概念图和角色关系说明图
+
+[English]
+Create a vertical character relationship infographic inspired by the fantasy world of “A Mortal’s Journey to Immortality.” Use a refined Chinese xianxia style with warm paper tones, elegant classical composition, and clean infographic layout.
+
+The design should include:
+- a Chinese-style title at the top for the theme
+- a central focus on the main character, Han Li, in a prominent core card
+- surrounding character groups organized by mentor relationship, allies, enemies, key companions, and cultivation paths
+- circular portrait cards with names, roles, and short descriptions
+- flow lines and arrows connecting characters to show relationships and influence
+- supporting world-building sections such as cultivation roads, sect information, and major story blocks
+- a warm, archival, handcrafted aesthetic with premium editorial clarity
+```
+
+***
+
 <a name="case-174"></a>
 
 ### 例 174：唐朝贵妇遛粉色马甲异形工笔画
@@ -12404,6 +12478,224 @@ The final result should feel quiet, tactile, documentary, collectible, and genui
 Avoid
 
 Obvious dividing lines, circular seals, postage-stamp borders, perforations, wax seals, sticker layouts, souvenir-card designs, generic travel templates, smooth vector logos, polished digital illustrations, cartoon styling, 3D rendering, plastic textures, glossy gradients, excessive saturation, HDR effects, excessive text, decorative clutter, overly clean geometry, perfectly aligned ink layers, dense miniature architecture, or any alteration/redrawing of the original photograph.
+```
+
+***
+
+<a name="case-539"></a>
+
+### 例 539：像素游戏人物
+
+![像素游戏人物](../data/images/case539.png)
+
+**来源：** zhang-jian.com
+
+**提示词：**
+
+```text
+像素风格游戏人物 sprite sheet，单个角色，四方向行走动画。
+
+画面排版：
+- 一张图分成 4 行，每行 4 帧
+- 第 1 行：正面行走序列
+- 第 2 行：背面行走序列
+- 第 3 行：向右行走序列
+- 第 4 行：向左行走序列
+
+每行帧顺序：
+1. 站立
+2. 左脚迈出
+3. 回到中间
+4. 右脚迈出
+
+要求：
+- 每一帧都是同一个角色
+- 服装、发型、身高、比例保持一致
+- 每个角色占用相同大小的格子
+- 白色或透明背景
+- 像素点阵清晰
+- 不要文字，不要阴影背景，不要复杂场景
+```
+
+***
+
+<a name="case-540"></a>
+
+### 例 540：像素瓦片素材
+
+![像素瓦片素材](../data/images/case540.png)
+
+**来源：** zhang-jian.com
+
+**提示词：**
+
+```text
+2.5D 等距视角，像素风格，中式古风室内 tilemap 瓦片素材合集。
+
+内容包括：
+- 墙体：中式围墙、青砖墙壁、木格隔墙、院墙围栏
+- 地面：实木地板、青砖地砖、木质地板、石砖地面、榻榻米地面
+- 家具：木桌、木椅、长凳、罗汉床、古风木床、书柜、博古架、衣柜、梳妆台、八仙桌、茶几、屏风、木门、木窗
+- 装饰：陶罐、瓷瓶、字画卷轴、烛台、油灯、中式摆件、盆栽、木箱、水缸、布帘、帷幔
+
+风格要求：
+- 国风低饱和配色
+- 复古像素游戏质感
+- 等距透视标准
+- 每个元素彼此分离
+- 白底干净背景
+- 不要文字，不要角色，不要整张大场景
+```
+
+***
+
+<a name="case-541"></a>
+
+### 例 541：像素苏州园林素材
+
+![像素苏州园林素材](../data/images/case541.png)
+
+**来源：** zhang-jian.com
+
+**提示词：**
+
+```text
+2.5D 等距视角，像素风格，中国元素，苏州园林 tilemap 瓦片素材合集。
+
+包含独立组件：
+- 白墙灰瓦
+- 月洞门
+- 花窗墙面
+- 小桥
+- 池塘水面瓦片
+- 假山石
+- 亭子
+- 回廊
+- 石板路
+- 竹子、松树、盆景
+
+要求：
+- 每个组件独立摆放
+- 适合游戏地图编辑器拼接
+- 等距透视一致
+- 低饱和国风配色
+- 白底
+- 不要生成完整大场景
+- 不要文字
+```
+
+***
+
+<a name="case-542"></a>
+
+### 例 542：像素风 UI 套件
+
+![像素风 UI 套件](../data/images/case542.png)
+
+**来源：** zhang-jian.com
+
+**提示词：**
+
+```text
+游戏像素风 UI 素材套件，全套 UI，只包含 UI 元素，不要填充文字，不要任何可读或不可读文字。
+
+内容包括：
+- 主菜单面板
+- 弹窗面板
+- 普通按钮
+- 高亮按钮
+- 禁用按钮
+- 输入框
+- 血条、蓝条、经验条
+- 物品栏格子
+- 背包边框
+- 小图标边框
+- 关闭按钮
+- 箭头按钮
+- 标签页
+
+要求：
+- 统一像素风格
+- 同一套配色
+- 元素分离排列
+- 白色或透明背景
+- 每个 UI 元素之间留出间距
+- 不要文字，不要数字，不要 logo，不要角色
+```
+
+***
+
+<a name="case-543"></a>
+
+### 例 543：像素换装游戏素材
+
+![像素换装游戏素材](../data/images/case543.png)
+
+**来源：** zhang-jian.com
+
+**提示词：**
+
+```text
+像素风格换装游戏素材，女性角色，服饰与饰品素材合集。
+
+内容包括：
+- 基础女性角色身体模板
+- 发型
+- 发饰
+- 耳环
+- 项链
+- 上衣
+- 裙子
+- 外套
+- 鞋子
+- 手持装饰
+
+要求：
+- 所有衣服和饰品都围绕同一个角色模板设计
+- 正面站立姿势
+- 每个素材独立摆放
+- 对齐同一身体比例
+- 像素风格统一
+- 白底或透明背景
+- 不要文字，不要复杂背景
+```
+
+***
+
+<a name="case-544"></a>
+
+### 例 544：像素作物成长素材
+
+![像素作物成长素材](../data/images/case544.png)
+
+**来源：** zhang-jian.com
+
+**提示词：**
+
+```text
+像素风格 tilemap 素材，各种蔬菜成长过程。
+
+内容包括：
+- 白菜成长过程
+- 萝卜成长过程
+- 南瓜成长过程
+- 茄子成长过程
+- 辣椒成长过程
+
+每种蔬菜 5 个阶段：
+1. 种子
+2. 幼苗
+3. 小植株
+4. 成熟植株
+5. 可收获状态
+
+要求：
+- 每种蔬菜从左到右排列
+- 同一种蔬菜的 5 个阶段保持连续变化
+- 每个阶段独立成格
+- 适合农场游戏 tilemap
+- 白底
+- 不要文字，不要人物，不要复杂背景
 ```
 
 ***

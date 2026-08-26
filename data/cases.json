@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/freestylefly/awesome-gpt-image-2",
-  "totalCases": 535,
+  "totalCases": 544,
   "categories": [
     "Architecture & Spaces",
     "Brand & Logos",
@@ -51,6 +51,126 @@
   ],
   "cases": [
     {
+      "id": 544,
+      "title": "像素作物成长素材",
+      "image": "/images/case544.png",
+      "imageAlt": "像素作物成长素材",
+      "sourceLabel": "zhang-jian.com",
+      "sourceUrl": "",
+      "prompt": "像素风格 tilemap 素材，各种蔬菜成长过程。\n\n内容包括：\n- 白菜成长过程\n- 萝卜成长过程\n- 南瓜成长过程\n- 茄子成长过程\n- 辣椒成长过程\n\n每种蔬菜 5 个阶段：\n1. 种子\n2. 幼苗\n3. 小植株\n4. 成熟植株\n5. 可收获状态\n\n要求：\n- 每种蔬菜从左到右排列\n- 同一种蔬菜的 5 个阶段保持连续变化\n- 每个阶段独立成格\n- 适合农场游戏 tilemap\n- 白底\n- 不要文字，不要人物，不要复杂背景",
+      "promptPreview": "像素风格 tilemap 素材，各种蔬菜成长过程。 内容包括： - 白菜成长过程 - 萝卜成长过程 - 南瓜成长过程 - 茄子成长过程 - 辣椒成长过程 每种蔬菜 5 个阶段： 1. 种子 2. 幼苗 3. 小植株 4. 成熟植株 5. 可收获状态 要求： - 每种蔬菜从左到右排列 - 同一种蔬菜的 5 个阶段保持连续变化 - 每个阶段独立成格 - 适合农场游戏 tilemap - 白底 - 不要文字，不要人物，不要复杂背景",
+      "category": "Posters & Typography",
+      "styles": [
+        "Character"
+      ],
+      "scenes": [
+        "Travel"
+      ],
+      "featured": false,
+      "githubUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-544"
+    },
+    {
+      "id": 543,
+      "title": "像素换装游戏素材",
+      "image": "/images/case543.png",
+      "imageAlt": "像素换装游戏素材",
+      "sourceLabel": "zhang-jian.com",
+      "sourceUrl": "",
+      "prompt": "像素风格换装游戏素材，女性角色，服饰与饰品素材合集。\n\n内容包括：\n- 基础女性角色身体模板\n- 发型\n- 发饰\n- 耳环\n- 项链\n- 上衣\n- 裙子\n- 外套\n- 鞋子\n- 手持装饰\n\n要求：\n- 所有衣服和饰品都围绕同一个角色模板设计\n- 正面站立姿势\n- 每个素材独立摆放\n- 对齐同一身体比例\n- 像素风格统一\n- 白底或透明背景\n- 不要文字，不要复杂背景",
+      "promptPreview": "像素风格换装游戏素材，女性角色，服饰与饰品素材合集。 内容包括： - 基础女性角色身体模板 - 发型 - 发饰 - 耳环 - 项链 - 上衣 - 裙子 - 外套 - 鞋子 - 手持装饰 要求： - 所有衣服和饰品都围绕同一个角色模板设计 - 正面站立姿势 - 每个素材独立摆放 - 对齐同一身体比例 - 像素风格统一 - 白底或透明背景 - 不要文字，不要复杂背景",
+      "category": "Posters & Typography",
+      "styles": [
+        "Character"
+      ],
+      "scenes": [
+        "Fashion"
+      ],
+      "featured": false,
+      "githubUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-543"
+    },
+    {
+      "id": 542,
+      "title": "像素风 UI 套件",
+      "image": "/images/case542.png",
+      "imageAlt": "像素风 UI 套件",
+      "sourceLabel": "zhang-jian.com",
+      "sourceUrl": "",
+      "prompt": "游戏像素风 UI 素材套件，全套 UI，只包含 UI 元素，不要填充文字，不要任何可读或不可读文字。\n\n内容包括：\n- 主菜单面板\n- 弹窗面板\n- 普通按钮\n- 高亮按钮\n- 禁用按钮\n- 输入框\n- 血条、蓝条、经验条\n- 物品栏格子\n- 背包边框\n- 小图标边框\n- 关闭按钮\n- 箭头按钮\n- 标签页\n\n要求：\n- 统一像素风格\n- 同一套配色\n- 元素分离排列\n- 白色或透明背景\n- 每个 UI 元素之间留出间距\n- 不要文字，不要数字，不要 logo，不要角色",
+      "promptPreview": "游戏像素风 UI 素材套件，全套 UI，只包含 UI 元素，不要填充文字，不要任何可读或不可读文字。 内容包括： - 主菜单面板 - 弹窗面板 - 普通按钮 - 高亮按钮 - 禁用按钮 - 输入框 - 血条、蓝条、经验条 - 物品栏格子 - 背包边框 - 小图标边框 - 关闭按钮 - 箭头按钮 - 标签页 要求： - 统一像素风格 - 同一套配色 - 元素分离排列 - 白色或透明背景 - 每个 UI 元素之间留出间距 - 不要文字，不要",
+      "category": "Posters & Typography",
+      "styles": [
+        "UI",
+        "Brand",
+        "Character"
+      ],
+      "scenes": [
+        "Creative"
+      ],
+      "featured": false,
+      "githubUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-542"
+    },
+    {
+      "id": 541,
+      "title": "像素苏州园林素材",
+      "image": "/images/case541.png",
+      "imageAlt": "像素苏州园林素材",
+      "sourceLabel": "zhang-jian.com",
+      "sourceUrl": "",
+      "prompt": "2.5D 等距视角，像素风格，中国元素，苏州园林 tilemap 瓦片素材合集。\n\n包含独立组件：\n- 白墙灰瓦\n- 月洞门\n- 花窗墙面\n- 小桥\n- 池塘水面瓦片\n- 假山石\n- 亭子\n- 回廊\n- 石板路\n- 竹子、松树、盆景\n\n要求：\n- 每个组件独立摆放\n- 适合游戏地图编辑器拼接\n- 等距透视一致\n- 低饱和国风配色\n- 白底\n- 不要生成完整大场景\n- 不要文字",
+      "promptPreview": "2.5D 等距视角，像素风格，中国元素，苏州园林 tilemap 瓦片素材合集。 包含独立组件： - 白墙灰瓦 - 月洞门 - 花窗墙面 - 小桥 - 池塘水面瓦片 - 假山石 - 亭子 - 回廊 - 石板路 - 竹子、松树、盆景 要求： - 每个组件独立摆放 - 适合游戏地图编辑器拼接 - 等距透视一致 - 低饱和国风配色 - 白底 - 不要生成完整大场景 - 不要文字",
+      "category": "Posters & Typography",
+      "styles": [
+        "Poster"
+      ],
+      "scenes": [
+        "Travel",
+        "Story"
+      ],
+      "featured": false,
+      "githubUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-541"
+    },
+    {
+      "id": 540,
+      "title": "像素瓦片素材",
+      "image": "/images/case540.png",
+      "imageAlt": "像素瓦片素材",
+      "sourceLabel": "zhang-jian.com",
+      "sourceUrl": "",
+      "prompt": "2.5D 等距视角，像素风格，中式古风室内 tilemap 瓦片素材合集。\n\n内容包括：\n- 墙体：中式围墙、青砖墙壁、木格隔墙、院墙围栏\n- 地面：实木地板、青砖地砖、木质地板、石砖地面、榻榻米地面\n- 家具：木桌、木椅、长凳、罗汉床、古风木床、书柜、博古架、衣柜、梳妆台、八仙桌、茶几、屏风、木门、木窗\n- 装饰：陶罐、瓷瓶、字画卷轴、烛台、油灯、中式摆件、盆栽、木箱、水缸、布帘、帷幔\n\n风格要求：\n- 国风低饱和配色\n- 复古像素游戏质感\n- 等距透视标准\n- 每个元素彼此分离\n- 白底干净背景\n- 不要文字，不要角色，不要整张大场景",
+      "promptPreview": "2.5D 等距视角，像素风格，中式古风室内 tilemap 瓦片素材合集。 内容包括： - 墙体：中式围墙、青砖墙壁、木格隔墙、院墙围栏 - 地面：实木地板、青砖地砖、木质地板、石砖地面、榻榻米地面 - 家具：木桌、木椅、长凳、罗汉床、古风木床、书柜、博古架、衣柜、梳妆台、八仙桌、茶几、屏风、木门、木窗 - 装饰：陶罐、瓷瓶、字画卷轴、烛台、油灯、中式摆件、盆栽、木箱、水缸、布帘、帷幔 风格要求： - 国风低饱和配色 - 复古像素游戏质",
+      "category": "Posters & Typography",
+      "styles": [
+        "Character",
+        "Classical"
+      ],
+      "scenes": [
+        "Food",
+        "Travel",
+        "Story"
+      ],
+      "featured": false,
+      "githubUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-540"
+    },
+    {
+      "id": 539,
+      "title": "像素游戏人物",
+      "image": "/images/case539.png",
+      "imageAlt": "像素游戏人物",
+      "sourceLabel": "zhang-jian.com",
+      "sourceUrl": "",
+      "prompt": "像素风格游戏人物 sprite sheet，单个角色，四方向行走动画。\n\n画面排版：\n- 一张图分成 4 行，每行 4 帧\n- 第 1 行：正面行走序列\n- 第 2 行：背面行走序列\n- 第 3 行：向右行走序列\n- 第 4 行：向左行走序列\n\n每行帧顺序：\n1. 站立\n2. 左脚迈出\n3. 回到中间\n4. 右脚迈出\n\n要求：\n- 每一帧都是同一个角色\n- 服装、发型、身高、比例保持一致\n- 每个角色占用相同大小的格子\n- 白色或透明背景\n- 像素点阵清晰\n- 不要文字，不要阴影背景，不要复杂场景",
+      "promptPreview": "像素风格游戏人物 sprite sheet，单个角色，四方向行走动画。 画面排版： - 一张图分成 4 行，每行 4 帧 - 第 1 行：正面行走序列 - 第 2 行：背面行走序列 - 第 3 行：向右行走序列 - 第 4 行：向左行走序列 每行帧顺序： 1. 站立 2. 左脚迈出 3. 回到中间 4. 右脚迈出 要求： - 每一帧都是同一个角色 - 服装、发型、身高、比例保持一致 - 每个角色占用相同大小的格子 - 白色或透明背景 -",
+      "category": "Posters & Typography",
+      "styles": [
+        "Character"
+      ],
+      "scenes": [
+        "Story"
+      ],
+      "featured": false,
+      "githubUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-539"
+    },
+    {
       "id": 538,
       "title": "橡皮章旅行田野笔记海报",
       "image": "/images/case538.jpg",
@@ -59,7 +179,7 @@
       "sourceUrl": "https://x.com/MahnoorAi12/status/2092221482139349307",
       "prompt": "Rubber Stamp Travel Field Notes Poster — Natural Realism Version\n\nCreate a separate “Rubber Stamp Travel Field Notes Poster” for each photo I upload. Output each photo individually. Never create a collage or combine multiple photos.\n\nUse a 4:3 landscape composition with a natural visual transition between the original photograph on the left and the aged-paper field-note area on the right. Do not add an obvious dividing line.\n\nLEFT — ORIGINAL PHOTOGRAPH\n\nThe left side should occupy roughly 58% of the frame.\n\nKeep the uploaded photograph visually authentic and recognizable. Preserve the original subject, perspective, terrain, architecture, plants, people, spatial relationships, natural light, shadows, textures, and overall atmosphere.\n\nDo not redesign or reinterpret the photograph.\n\nOnly apply a very subtle editorial photo treatment: gentle tonal balancing, restrained color grading, slightly softened highlights, and extremely fine natural film grain. It should still look like a real photograph taken on location rather than an AI-generated image.\n\nNatural cropping is allowed if needed to fit the 4:3 layout, but do not stretch, distort, move, replace, or redraw the main subject.\n\nAvoid excessive sharpness, HDR effects, artificial clarity, cinematic color grading, or overly perfect details.\n\nRIGHT — AGED PAPER FIELD NOTES\n\nThe right side should occupy roughly 42% of the frame.\n\nUse warm off-white, slightly aged paper with a believable physical texture. Include very subtle paper fibers, fine grain, faint handling marks, and a matte surface.\n\nKeep large areas completely unprinted.\n\nThe paper should feel like a real sheet from an architect's travel notebook or field journal, not a designed poster background.\n\nAvoid overly strong stains, decorative textures, vintage filters, or artificial grunge.\n\nSMALL RUBBER STAMP\n\nStudy the uploaded photograph and identify only the few visual features that make the location immediately recognizable.\n\nReduce them into a compact, imperfect multi-color rubber stamp impression.\n\nDo not reproduce the photograph element by element.\n\nSimplify aggressively and retain only the most meaningful visual relationships:\n\n- distinctive architecture and silhouette\n- important roof, tower, dome, arch, or structural shape\n- mountain or terrain contours\n- shoreline or road direction\n- a few recognizable trees or vegetation forms\n- simplified settlement layers\n- one or two important foreground shapes when visually relevant\n\nRemove crowds, cars, dense windows, repetitive buildings, tiny vegetation, decorative objects, and insignificant background details.\n\nThe result should look like something a traveler could have actually carved into a small rubber stamp, not a miniature illustration of the entire photograph.\n\nPlace the stamp in the lower-middle portion of the right paper area, occupying approximately 30–38% of the right section's height.\n\nKeep generous blank paper around it.\n\nDo not enlarge it into a large illustration.\n\nSTAMP COLOR & PRINT CHARACTER\n\nExtract approximately 2–4 muted spot colors naturally from the original photograph.\n\nPossible colors include:\n\n- carbon black\n- deep green\n- brick or muted red\n- ochre\n- slate blue\n- taupe or earthy brown\n\nDo not force these colors if the photograph suggests a different restrained palette.\n\nEach color should appear as a separate physical ink layer.\n\nMake the print feel genuinely handmade:\n\n- slightly uneven pressure\n- tiny gaps in the ink\n- dry areas\n- paper showing through\n- rough carved edges\n- irregular line thickness\n- small contour breaks\n- granular ink texture\n- faint ghosting\n- slight natural color-layer misregistration\n- subtle edge variation\n\nThe imperfections should be small and believable, as if the stamp was pressed onto paper by hand.\n\nAvoid perfectly aligned digital layers, smooth vector edges, clean gradients, or artificially exaggerated distress.\n\nThe stamp should look physically printed, not digitally illustrated.\n\nFIELD-NOTE TYPOGRAPHY\n\nGenerate a small amount of text based only on the actual location and imagery in the photograph:\n\nLocation — English name\nNo. — Number\nThree short English keywords\nGregorian calendar year\n\nPlace the text below or beside the stamp within the available whitespace.\n\nUse a small, understated typewriter or archival field-note style.\n\nThe typography should have very slight mechanical irregularity, as though typed or printed on an old field notebook.\n\nKeep it quiet and secondary to the photograph.\n\nSpell the location and all words correctly.\n\nDo not add slogans, brands, tourist phrases, decorative quotes, or unnecessary text.\n\nOVERALL REALISM\n\nThe finished image should feel like a real travel photograph mounted beside a small handmade field stamp on an architect's personal notebook page.\n\nPrioritize subtle physical realism over visual perfection.\n\nThe photograph should remain the strongest visual element.\n\nThe stamp should feel like a small fragment of memory extracted from the photograph rather than a second illustration.\n\nUse restrained contrast, natural imperfections, believable paper texture, and slightly imperfect printing.\n\nThe final result should feel quiet, tactile, documentary, collectible, and genuinely handmade.\n\nAvoid\n\nObvious dividing lines, circular seals, postage-stamp borders, perforations, wax seals, sticker layouts, souvenir-card designs, generic travel templates, smooth vector logos, polished digital illustrations, cartoon styling, 3D rendering, plastic textures, glossy gradients, excessive saturation, HDR effects, excessive text, decorative clutter, overly clean geometry, perfectly aligned ink layers, dense miniature architecture, or any alteration/redrawing of the original photograph.",
       "promptPreview": "Rubber Stamp Travel Field Notes Poster — Natural Realism Version Create a separate “Rubber Stamp Travel Field Notes Poster” for each photo I upload. Output each photo individually. Never create a collage or combine multi",
-      "category": "Posters & Typography",
+      "category": "UI & Interfaces",
       "styles": [
         "UI",
         "Poster",
@@ -7935,6 +8055,51 @@
       "githubUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-171"
     },
     {
+      "id": 170,
+      "title": "凡人修仙传人物关系图",
+      "image": "/images/case170.jpg",
+      "imageAlt": "凡人修仙传人物关系图",
+      "sourceLabel": "未提供",
+      "sourceUrl": "",
+      "prompt": "[中文]\n创作一张竖向人物关系图信息图，主题为《凡人修仙传》，整体风格偏古风仙侠、清雅复古，纸张古朴、淡黄色底，带有传统手绘国风视觉感。\n\n画面构成：\n- 标题位于顶部，采用中国古风书法风字体，突出“凡人修仙传”主题\n- 中心人物是主角韩立，位于核心位置，人物边框采用圆形或椭圆的浮雕框，突出人物中心\n- 周围按照人物阵营与关系网络分组布局：师门与同门、修炼与人际关系、敌对与冲突、重要同伴与师门关系等\n- 每个人物卡片为圆形头像或半身肖像，搭配标准人物说明：名字、身份、关系定位、称号或能力描述\n- 关系线使用多种箭头和连接方式，形成清晰的因果与人物关联图\n- 底部与右侧加入修炼线路、门派世界观、修仙晋升路径等辅助信息图模块\n- 整体画风偏中国古风、文档型洁净布局、适合概念图和角色关系说明图\n\n[English]\nCreate a vertical character relationship infographic inspired by the fantasy world of “A Mortal’s Journey to Immortality.” Use a refined Chinese xianxia style with warm paper tones, elegant classical composition, and clean infographic layout.\n\nThe design should include:\n- a Chinese-style title at the top for the theme\n- a central focus on the main character, Han Li, in a prominent core card\n- surrounding character groups organized by mentor relationship, allies, enemies, key companions, and cultivation paths\n- circular portrait cards with names, roles, and short descriptions\n- flow lines and arrows connecting characters to show relationships and influence\n- supporting world-building sections such as cultivation roads, sect information, and major story blocks\n- a warm, archival, handcrafted aesthetic with premium editorial clarity",
+      "promptPreview": "[中文] 创作一张竖向人物关系图信息图，主题为《凡人修仙传》，整体风格偏古风仙侠、清雅复古，纸张古朴、淡黄色底，带有传统手绘国风视觉感。 画面构成： - 标题位于顶部，采用中国古风书法风字体，突出“凡人修仙传”主题 - 中心人物是主角韩立，位于核心位置，人物边框采用圆形或椭圆的浮雕框，突出人物中心 - 周围按照人物阵营与关系网络分组布局：师门与同门、修炼与人际关系、敌对与冲突、重要同伴与师门关系等 - 每个人物卡片为圆形头像或半身肖像，",
+      "category": "UI & Interfaces",
+      "styles": [
+        "UI",
+        "Infographic",
+        "Character"
+      ],
+      "scenes": [
+        "Tech",
+        "Commerce",
+        "Fashion"
+      ],
+      "featured": false,
+      "githubUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-170"
+    },
+    {
+      "id": 169,
+      "title": "游戏 UI KIT",
+      "image": "/images/case169.jpg",
+      "imageAlt": "游戏 UI KIT",
+      "sourceLabel": "未提供",
+      "sourceUrl": "",
+      "prompt": "[中文]\n设计一套高质感游戏风 UI 套件，整体风格为深蓝色科技感二次元界面，配色以深海蓝、冰蓝、金色和白色为主，界面具有强烈的游戏感和高级感。\n\n内容包含：\n- 主按钮、次按钮、导航入口、状态栏、经验条、血条、装备栏和技能面板\n- 顶部导航模块、面板说明区、资源显示区、图标工具区和数值展示区\n- 各类图标要求清晰、统一、极简并带有蓝色发光效果\n- 面板边框采用高级金属感与冰晶质感，适合 RPG / ARPG / 游戏菜单场景\n- 整张图需要体现游戏 UI 设计规范，结构清晰，布局完整，视觉层级明确\n- 页面为整套 UI 设计图，适合直接用于游戏原型或界面参考\n\n[English]\nDesign a premium game UI kit in a dark blue fantasy sci-fi style. Use deep navy, ice blue, gold, and white as the main palette. The interface should feel advanced, polished, and highly functional for a game menu or RPG HUD.\n\nInclude:\n- primary buttons, secondary actions, navigation tabs, status panels, experience bars, health bars, equipment slots, and skill panels\n- a top navigation area, main stats panel, resource display board, icon toolbar, and value cards\n- crisp, uniform icons with subtle glow and clean game UI logic\n- metallic and crystalline frame details with premium fantasy aesthetic\n- strong hierarchy and modular layout suitable for a game interface design sheet\n- overall design should feel like a complete UI system sheet for game prototyping or product design reference",
+      "promptPreview": "[中文] 设计一套高质感游戏风 UI 套件，整体风格为深蓝色科技感二次元界面，配色以深海蓝、冰蓝、金色和白色为主，界面具有强烈的游戏感和高级感。 内容包含： - 主按钮、次按钮、导航入口、状态栏、经验条、血条、装备栏和技能面板 - 顶部导航模块、面板说明区、资源显示区、图标工具区和数值展示区 - 各类图标要求清晰、统一、极简并带有蓝色发光效果 - 面板边框采用高级金属感与冰晶质感，适合 RPG / ARPG / 游戏菜单场景 - 整张图",
+      "category": "UI & Interfaces",
+      "styles": [
+        "UI",
+        "Product"
+      ],
+      "scenes": [
+        "Tech",
+        "Commerce",
+        "Story"
+      ],
+      "featured": false,
+      "githubUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-169"
+    },
+    {
       "id": 168,
       "title": "手写中西药方图片",
       "image": "/images/case168.jpg",
@@ -11329,6 +11494,29 @@
       ],
       "featured": false,
       "githubUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-1.md#case-13"
+    },
+    {
+      "id": 12,
+      "title": "FluxPic 品牌与产品视觉样板",
+      "image": "/images/case12.jpg",
+      "imageAlt": "FluxPic 品牌与产品视觉样板",
+      "sourceLabel": "未提供",
+      "sourceUrl": "",
+      "prompt": "[中文]\n设计一套极简黑白高级 AI 图像生成平台品牌视觉样板，品牌名为 “FluxPic”。整体基调偏极简、科技感、未来感，适合展示在品牌官网或产品介绍页。\n\n画面可分为四个区域：\n1. 左上大面积黑底主视觉：品牌 logo 采用极简几何字形，白色字母与圆环构成强视觉识别，搭配柔和虚影与圆形排布。\n2. 中间偏左区域：展示品牌核心定位与 slogan：AI 生图，无限想象，字体清晰，布局留白充足。\n3. 右侧区域：展示品牌色板、功能图标与组件规范，例如品牌主色、辅助色、图标、卡片、状态栏、按钮等，风格统一、模块化清晰。\n4. 下方区域：展示产品应用场景，如 app 预览、文档编辑、生成结果、图标列表和功能卡片，整体像一份品牌规范与 UI 样板图。\n\n视觉要求：\n- 极简黑白+冷灰色系为主，搭配高级偏中性色板\n- 采用现代 SaaS 品牌设计语言，留白充足，层级清晰\n- 字体粗重、功能图标简洁，构成企业级品牌展示页\n- 整体像一张完整的品牌规范稿、产品功能说明图和界面演示图\n- 画面精致、干净、现代、具备故事感和产品感\n\n[English]\nDesign a premium minimalist brand and product visual system for an AI image generation platform called “FluxPic.” Use a sleek black-and-white aesthetic with subtle futuristic technology cues and a clean, premium SaaS-style branding presentation.\n\nThe composition is structured into several blocks:\n1. Large dark black hero panel on the left with a geometric minimalist brand logo in white and circular icon system.\n2. A clear brand statement section with the slogan “AI image generation, unlimited imagination.”\n3. A right-side specification board showing the brand palette, icon set, UI components, interface cards, and product modules.\n4. Lower section showing product mockups and feature scenarios like app interface previews, generation outputs, and functional card layouts.\n\nVisual requirements:\n- Minimalist black, white, and cool gray palette\n- Modern SaaS presentation with strong whitespace and clean hierarchy\n- Bold brand typography and simple product icon language\n- Feels like a polished brand guideline board and feature showcase\n- Elegant, premium, high-end, and product-focused",
+      "promptPreview": "[中文] 设计一套极简黑白高级 AI 图像生成平台品牌视觉样板，品牌名为 “FluxPic”。整体基调偏极简、科技感、未来感，适合展示在品牌官网或产品介绍页。 画面可分为四个区域： 1. 左上大面积黑底主视觉：品牌 logo 采用极简几何字形，白色字母与圆环构成强视觉识别，搭配柔和虚影与圆形排布。 2. 中间偏左区域：展示品牌核心定位与 slogan：AI 生图，无限想象，字体清晰，布局留白充足。 3. 右侧区域：展示品牌色板、功能图标",
+      "category": "UI & Interfaces",
+      "styles": [
+        "UI",
+        "Poster",
+        "Product"
+      ],
+      "scenes": [
+        "Tech",
+        "Commerce",
+        "Education"
+      ],
+      "featured": false,
+      "githubUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-1.md#case-12"
     },
     {
       "id": 11,
