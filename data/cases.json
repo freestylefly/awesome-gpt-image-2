@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/freestylefly/awesome-gpt-image-2",
-  "totalCases": 541,
+  "totalCases": 547,
   "categories": [
     "Architecture & Spaces",
     "Brand & Logos",
@@ -50,6 +50,143 @@
     "Travel"
   ],
   "cases": [
+    {
+      "id": 550,
+      "title": "动漫动作短片设定分镜板",
+      "image": "/images/case550.jpg",
+      "imageAlt": "动漫动作短片设定分镜板",
+      "sourceLabel": "@Strength04_X",
+      "sourceUrl": "https://x.com/Strength04_X/status/2093726038400585925",
+      "prompt": "Create a single vertical anime animation development board for an original high-energy action short film titled \"Underground Train Yard Clash.\"\n\nThe final output must be ONE combined image only, clearly divided into 2 sections:\nTOP SECTION: Character design sheet\nBOTTOM SECTION: 12-frame storyboard page\n\nCreate fully original anime characters. Do not imitate any existing anime, manga, game, or copyrighted character designs. Keep everything original, cinematic, dynamic, and easy to understand.\n\nSTYLE: Premium anime pre-production board, loose pencil sketches mixed with semi-rendered anime keyframes, dramatic lighting, strong contrast, speed lines, impact frames, red panel borders, blue motion arrows, handwritten notes, timing notes, and lens notes.\n\nTOP SECTION — CHARACTER DESIGN SHEET\nUse a light neutral paper-like background.\n\nFighter A: Young anime street fighter, around 19, messy spiky dark brown hair, sharp hazel eyes, lean muscular build, cocky expression. Outfit: sleeveless zip jacket worn open, fitted tank top underneath, cargo pants, taped ankles, sneakers. Personality: fast, reckless, unpredictable, improvises mid-fight. Show front view, side view, back view, 3/4 view, low crouched dash stance, flying knee pose, wall-rebound kick pose, and a few expressions.\n\nFighter B: Disciplined rival fighter, around 23, short clean-cut dark hair, calm brown eyes, broad powerful build, focused expression. Outfit: fitted compression long-sleeve, military trousers, heavy boots, forearm wraps. Personality: structured, powerful, shuts down opponents with efficiency. Show front view, side view, back view, 3/4 view, upright guard stance, shoulder block pose, single heavy straight punch pose, and a few expressions.\n\nAdd small handwritten design notes and compact anime color swatches.\n\nBOTTOM SECTION — STORYBOARD PAGE\nUse a dark black background for the entire storyboard section. Do not use beige, yellow, or paper-colored background here.\n\nCreate 12 cinematic anime storyboard panels in a clean grid. Use red panel borders, blue motion arrows, handwritten camera notes, timing notes, and action notes. Keep both fighters visually consistent.\n\n12 STORYBOARD FRAMES:\n\n➤ Split-screen with thick black divider: Fighter A balancing on top of a stationary train car, arms loose, grinning (upper frame); Fighter B standing on the concrete platform below, arms at his sides, waiting (lower frame).\n\n➤ Split-screen close-ups: Fighter A's sneaker taps the train roof impatiently; Fighter B's forearm wraps tighten as he clenches his fists.\n\n➤ Wide shot of the underground train yard — dim overhead lights, parked train cars, Fighter A drops down from the roof to face Fighter B on the platform.\n\n➤ Fighter A dashes forward and launches a flying knee strike.\n\n➤ Tracking shot of the flying knee closing in fast.\n\n➤ Slow-motion: Fighter B raises his forearm and blocks the knee hard, shockwave of force visible in slow motion.\n\n➤ Fighter B grabs Fighter A mid-air and slams him down onto the concrete platform.\n\n➤ Fighter A bounces up immediately and sprints toward a train car wall.\n\n➤ Fighter A rebounds off the wall and launches a spinning heel kick.\n\n➤ Fighter B side-steps and the kick misses, Fighter A stumbles forward.\n\n➤ Fighter B delivers one single devastating straight punch directly into Fighter A's chest.\n\n➤ Aftermath: Train yard goes quiet. Fighter B stands on the platform, composed. Fighter A is down against the base of the train car, dim lights flickering above, train cars stretching into darkness behind them.\n\nENVIRONMENT: Underground train yard, dim overhead industrial lights, concrete platform, parked train cars, dark tunnels stretching beyond, dust, scattered gravel, flickering lights.\n\nFINAL GOAL: Make the board clean, readable, cinematic, and production-ready. The top section should clearly show the character designs. The bottom section should clearly show the 12-frame action choreography on a black storyboard background.",
+      "promptPreview": "Create a single vertical anime animation development board for an original high-energy action short film titled \"Underground Train Yard Clash.\" The final output must be ONE combined image only, clearly divided into 2 sec",
+      "category": "Scenes & Storytelling",
+      "styles": [
+        "UI",
+        "Realistic",
+        "Product"
+      ],
+      "scenes": [
+        "Tech",
+        "Commerce",
+        "Travel"
+      ],
+      "featured": false,
+      "githubUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-550"
+    },
+    {
+      "id": 549,
+      "title": "国家旅行涂鸦地图插画",
+      "image": "/images/case549.jpg",
+      "imageAlt": "国家旅行涂鸦地图插画",
+      "sourceLabel": "@Naiknelofar788",
+      "sourceUrl": "https://x.com/Naiknelofar788/status/2093679919473840378",
+      "prompt": "Doodle Country Illustration [COUNTRY NAME]\n\nCreate a charming, highly detailed hand-drawn doodle illustration of [COUNTRY NAME], designed like a whimsical illustrated travel map. Use the recognizable outline/shape of the country as the main composition, filled with dozens of tiny black-ink doodles representing its culture, landscapes, food, architecture, traditions, wildlife, landmarks, and everyday life.\n\nInclude iconic elements such as [LANDMARK 1], [LANDMARK 2], [FOOD], [ANIMAL], [TRADITION], [NATURE], [FAMOUS OBJECT], along with small decorative elements scattered naturally throughout the map.\n\nStyle: intricate pen-and-ink doodle art, playful hand-drawn lines, tiny illustrations, whimsical details, slightly imperfect sketching, travel-journal aesthetic, monochrome ink with subtle paper texture, white/off-white background, balanced composition, visually rich but clean, no photorealism.\n\nAdd the country name “[COUNTRY NAME]” in beautiful hand-lettered typography integrated naturally into the artwork.\n\nAspect ratio: 4:5 portrait\nMood: artistic, nostalgic, cozy, adventurous, culturally rich\nQuality: extremely detailed, crisp linework, professional illustrated travel poster.",
+      "promptPreview": "Doodle Country Illustration [COUNTRY NAME] Create a charming, highly detailed hand-drawn doodle illustration of [COUNTRY NAME], designed like a whimsical illustrated travel map. Use the recognizable outline/shape of the ",
+      "category": "Illustration & Art",
+      "styles": [
+        "Poster",
+        "Realistic",
+        "Illustration"
+      ],
+      "scenes": [
+        "Tech",
+        "Commerce",
+        "Fashion"
+      ],
+      "featured": false,
+      "githubUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-549"
+    },
+    {
+      "id": 548,
+      "title": "真实材质反应字体广告海报",
+      "image": "/images/case548.jpg",
+      "imageAlt": "真实材质反应字体广告海报",
+      "sourceLabel": "@Just_sharon7",
+      "sourceUrl": "https://x.com/Just_sharon7/status/2093770721927508056",
+      "prompt": "Bold editorial campaign poster, 9:16. Oversized typography of the word '[WORD]' fills 60–70% of the frame, letters built from real [MATERIAL] with believable texture, seams, and lighting. The material [BEHAVIOR — compresses/tears/melts/etc.] realistically where [SUBJECT/PRODUCT] makes contact with it, creating natural folds, tension, or damage. Realistic commercial photography, high-contrast [MAIN COLOR] palette with [ACCENT COLOR] accents. Small campaign text: '[BRAND] — [SLOGAN/DETAILS].' Tactile, physically accurate material behavior, no plastic or CGI look, clean contemporary editorial design.",
+      "promptPreview": "Bold editorial campaign poster, 9:16. Oversized typography of the word '[WORD]' fills 60–70% of the frame, letters built from real [MATERIAL] with believable texture, seams, and lighting. The material [BEHAVIOR — compres",
+      "category": "Posters & Typography",
+      "styles": [
+        "UI",
+        "Poster",
+        "Realistic"
+      ],
+      "scenes": [
+        "Tech",
+        "Commerce",
+        "Food"
+      ],
+      "featured": false,
+      "githubUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-548"
+    },
+    {
+      "id": 547,
+      "title": "日系 Chibi 互动小插画",
+      "image": "/images/case547.jpg",
+      "imageAlt": "日系 Chibi 互动小插画",
+      "sourceLabel": "@Sairah_0",
+      "sourceUrl": "https://x.com/Sairah_0/status/2093929087010246754",
+      "prompt": "Create a cute hand-drawn Japanese chibi illustration of two characters interacting in a sweet, playful moment. Use a soft traditional colored-pencil and crayon drawing style, with visible sketchy pencil strokes, slightly rough imperfect outlines, gentle pastel coloring, and a handmade children’s storybook feel. Characters should have oversized heads, tiny bodies, simple oval black eyes, tiny smiling mouths, rosy cheeks, and expressive innocent faces. Give them natural, adorable poses and interactions, with clothing and hairstyles matching the requested scene. Keep the composition clean and minimal on a plain white background, with plenty of negative space. Add small hand-drawn decorative elements such as hearts, sparkles, or motion lines around the characters where appropriate. Soft pastel palette, subtle paper texture, delicate linework, slightly imperfect coloring, cozy wholesome romantic atmosphere, full-body composition, centered characters, high-quality illustration.\n\nFor different scenes\n\nReplace this part:\n\n“two characters interacting in a sweet, playful moment”\n\nwith whatever you want, e.g.:\n•“a couple holding hands while walking”\n•“a boy surprising a girl with flowers”\n•“two friends laughing together”\n•“a couple sitting together under an umbrella”\n•“a girl teasing a shy boy”\n•“two characters taking a cute selfie”",
+      "promptPreview": "Create a cute hand-drawn Japanese chibi illustration of two characters interacting in a sweet, playful moment. Use a soft traditional colored-pencil and crayon drawing style, with visible sketchy pencil strokes, slightly",
+      "category": "Characters & People",
+      "styles": [
+        "Illustration",
+        "Character"
+      ],
+      "scenes": [
+        "Tech",
+        "Commerce",
+        "Fashion"
+      ],
+      "featured": false,
+      "githubUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-547"
+    },
+    {
+      "id": 546,
+      "title": "咖啡馆旅行手账分栏页",
+      "image": "/images/case546.jpg",
+      "imageAlt": "咖啡馆旅行手账分栏页",
+      "sourceLabel": "@Taaruk_",
+      "sourceUrl": "https://x.com/Taaruk_/status/2093931420079321245",
+      "prompt": "Create a cohesive editorial travel-journal image inspired by the provided reference photos: a real-world coffee shop moment paired with a minimalist hand-drawn illustration of the exact same scene, arranged as a sophisticated split-page layout. On the left, show a warm documentary-style photograph of a barista’s hand holding a clear glass of iced coffee beside a professional coffee machine, with visible ice cubes, rich amber-brown coffee, realistic reflections, stainless-steel equipment, and subtle café details; on the right, recreate the same composition as a loose vintage ink-and-watercolor sketch on textured warm ivory paper, preserving the glass, hand, coffee machine, perspective, and key details while using imperfect black linework with restrained earthy ochre and muted blue accents. Use an authentic independent café travel-zine aesthetic, natural imperfections, soft grain, slightly faded analog photography, tactile paper texture, editorial typography, generous negative space, small understated location/date/caption text, balanced asymmetrical composition, nostalgic 2020s travel diary mood, premium art-direction, realistic photography seamlessly contrasted with handmade illustration, muted earthy color palette, soft natural lighting, subtle film grain, high detail, vertical 4:5 composition, no logos, no watermark.",
+      "promptPreview": "Create a cohesive editorial travel-journal image inspired by the provided reference photos: a real-world coffee shop moment paired with a minimalist hand-drawn illustration of the exact same scene, arranged as a sophisti",
+      "category": "Documents & Publishing",
+      "styles": [
+        "UI",
+        "Poster",
+        "Realistic"
+      ],
+      "scenes": [
+        "Tech",
+        "Commerce",
+        "Food"
+      ],
+      "featured": false,
+      "githubUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-546"
+    },
+    {
+      "id": 545,
+      "title": "厚涂建筑地标艺术海报",
+      "image": "/images/case545.jpg",
+      "imageAlt": "厚涂建筑地标艺术海报",
+      "sourceLabel": "@Naiknelofar788",
+      "sourceUrl": "https://x.com/Naiknelofar788/status/2093948869000495565",
+      "prompt": "Create a sophisticated fine-art architectural painting of [STRUCTURE / LANDMARK], presented as a highly tactile, three-dimensional impasto oil painting on textured archival paper.\n\nMake [STRUCTURE / LANDMARK] the unmistakable central focal point, shown from a slightly low, frontal perspective so its architecture feels grand, monumental, elegant, and sculptural. Preserve the recognizable architectural features, proportions, silhouette, windows, columns, arches, roofline, ornamentation, materials, and distinctive details of the structure, but reinterpret the entire scene as a handcrafted contemporary oil painting.\n\nUse extremely thick palette-knife impasto with visible raised strokes, layered paint, broken edges, scraped textures, ridges, and expressive overlapping marks. The architecture should appear almost sculpted entirely from paint, with heavy cream, warm stone, soft gray, muted blue, dusty green, subtle charcoal, and delicate antique-gold accents.\n\nBehind the structure, create a simplified atmospheric sky made entirely from thick textured brushstrokes in soft powder blue, ivory, pale gray, and warm white. Keep the background understated, elegant, and painterly so the architectural form remains dominant.\n\nAdd subtle environmental details at the bottom — a few bicycles, elegant vintage street lamps, plants, steps, pavement, tiny distant figures, or other small location-specific details — but keep them secondary, miniature, and painterly.\n\nThe artwork should sit like a physical painted panel mounted on a warm off-white handmade paper background. Give the painted panel an irregular, naturally torn and rough painted edge, with subtle dimensional shadows around it, suggesting that a thick original artwork has been physically placed onto textured archival paper.\n\nAt the bottom of the artwork, incorporate the name of the landmark in beautiful refined italic typography:\n\n“[STRUCTURE / LANDMARK]”\n\nUse sophisticated high-contrast editorial serif lettering, elegant flowing italics, slightly vintage European book-cover styling, subtle antique-gold or muted charcoal ink, perfectly centered and carefully integrated into the artwork. The typography should feel printed/painted onto the textured surface rather than digitally overlaid. Keep the lettering delicate, tasteful, and legible without competing with the architecture.\n\nIf appropriate, add a smaller understated italic subtitle beneath it:\n\n“[CITY, COUNTRY]”\n\nUse generous spacing, refined typography, and a museum-quality art-print composition.\n\nLighting should be soft and natural, emphasizing the raised impasto texture and creating tiny shadows between layers of paint. Elegant European art-book aesthetic, museum-quality architectural painting, sophisticated vintage travel-art feeling, tactile handmade surface, restrained luxury color palette, painterly realism, highly detailed, atmospheric, timeless, no photorealistic appearance.\n\nVertical composition, centered architecture, generous off-white negative space around the artwork, premium editorial art print, collectible gallery poster, 8k detail.\n\n--ar 4:5 --style raw",
+      "promptPreview": "Create a sophisticated fine-art architectural painting of [STRUCTURE / LANDMARK], presented as a highly tactile, three-dimensional impasto oil painting on textured archival paper. Make [STRUCTURE / LANDMARK] the unmistak",
+      "category": "Architecture & Spaces",
+      "styles": [
+        "Poster",
+        "Realistic",
+        "Illustration"
+      ],
+      "scenes": [
+        "Tech",
+        "Commerce",
+        "Travel"
+      ],
+      "featured": false,
+      "githubUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-545"
+    },
     {
       "id": 544,
       "title": "幼儿词汇拆解学习卡",
