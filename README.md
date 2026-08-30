@@ -291,6 +291,20 @@ gpt-image-2-style-library install all
 
 `install all` writes the skill to the common local folders used by Codex and Claude Code, including `~/.codex/skills`, `~/.claude/skills`, and `~/.agents/skills`. Restart the agent session after installing.
 
+### Astron SkillHub, Astron Agent, and AstronClaw
+
+The skill directory follows SkillHub's OpenSkills-style package contract: `SKILL.md` is at the package root and all references and assets are local. Publish it unchanged to an [Astron SkillHub](https://github.com/iflytek/skillhub) registry:
+
+```bash
+npm install -g @astron-team/skillhub
+skillhub login --token sk_your_token_here --registry https://skillhub.example.com
+skillhub publish ./agents/skills/gpt-image-2-style-library --namespace my-team --visibility public --registry https://skillhub.example.com
+```
+
+After publishing, import the skill from **Resource Management** in Astron Agent and attach it to a standard Agent or workflow. This package contains instructions, references, and assets only, so Astron Agent can use it through `read_skill_*` without a script sandbox. See the official [SkillHub CLI guide](https://iflytek.github.io/skillhub/en/guide/cli) and [Astron Agent skill FAQ](https://github.com/iflytek/astron-agent/blob/main/faq/features.md).
+
+For AstronClaw, zip the contents of [`agents/skills/gpt-image-2-style-library`](agents/skills/gpt-image-2-style-library/SKILL.md), keep `SKILL.md` at the archive root, and upload the ZIP from **My Skills**. See the [AstronClaw Skills guide](https://github.com/iflytek/astronclaw-tutorial/blob/main/docs/en/guide/astronclaw/skills.md).
+
 Use it with a request like:
 
 ```text

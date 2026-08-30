@@ -288,6 +288,20 @@ gpt-image-2-style-library install all
 
 `install all` は、Codex と Claude Code で一般的に使われるローカル Skill ディレクトリへ書き込みます。対象には `~/.codex/skills`、`~/.claude/skills`、`~/.agents/skills` が含まれます。インストール後は Agent セッションを再起動してください。
 
+### Astron SkillHub、Astron Agent、AstronClaw
+
+この Skill ディレクトリは SkillHub の OpenSkills 形式のパッケージ規約に準拠しています。`SKILL.md` がパッケージのルートにあり、参照資料とアセットもすべてパッケージ内にあります。そのまま [Astron SkillHub](https://github.com/iflytek/skillhub) レジストリへ公開できます。
+
+```bash
+npm install -g @astron-team/skillhub
+skillhub login --token sk_your_token_here --registry https://skillhub.example.com
+skillhub publish ./agents/skills/gpt-image-2-style-library --namespace my-team --visibility public --registry https://skillhub.example.com
+```
+
+公開後、Astron Agent の**リソース管理**から Skill をインポートし、標準 Agent またはワークフローに追加します。このパッケージには指示、参照資料、アセットのみが含まれるため、スクリプトサンドボックスを設定せずに `read_skill_*` から利用できます。公式の [SkillHub CLI ガイド](https://iflytek.github.io/skillhub/en/guide/cli)と [Astron Agent Skill FAQ](https://github.com/iflytek/astron-agent/blob/main/faq/features.md)も参照してください。
+
+AstronClaw では、[`agents/skills/gpt-image-2-style-library`](agents/skills/gpt-image-2-style-library/SKILL.md) の内容を ZIP にまとめ、`SKILL.md` がアーカイブのルートに来るようにして、**My Skills** からアップロードします。詳しくは [AstronClaw Skills ガイド](https://github.com/iflytek/astronclaw-tutorial/blob/main/docs/en/guide/astronclaw/skills.md)を参照してください。
+
 次のようなリクエストで利用できます。
 
 ```text
