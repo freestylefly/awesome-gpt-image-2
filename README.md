@@ -319,6 +319,12 @@ SUPABASE_SERVICE_ROLE_KEY=
 SUPER_ADMIN_EMAILS=2689458656@qq.com,canghe0818@gmail.com
 CIYUAN_API_KEY=
 CIYUAN_BASE_URL=https://ciyuan.today
+
+# Optional Atlas Cloud backend (Ciyuan remains the default)
+IMAGE_GENERATION_PROVIDER=ciyuan
+ATLASCLOUD_API_KEY=
+ATLASCLOUD_BASE_URL=https://api.atlascloud.ai/api/v1
+ATLASCLOUD_IMAGE_MODEL=openai/gpt-image-2/text-to-image
 APP_URL=https://gpt-image2.canghe.ai
 STRIPE_SECRET_KEY=
 STRIPE_WEBHOOK_SECRET=
@@ -328,6 +334,11 @@ GOOGLE_ANALYTICS_CLIENT_ID=
 GOOGLE_ANALYTICS_CLIENT_SECRET=
 GOOGLE_ANALYTICS_REFRESH_TOKEN=
 ```
+
+Set `IMAGE_GENERATION_PROVIDER=atlascloud` to use Atlas Cloud for generation.
+The Atlas backend submits each asynchronous generation task once, then polls the
+result endpoint with a bounded wait. `ATLASCLOUD_IMAGE_MODEL` may be changed only
+to a model whose current input schema accepts the configured request fields.
 
 Setup checklist:
 

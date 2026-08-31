@@ -3,16 +3,19 @@ import {
   getProfileById,
   isSupabaseServerConfigured
 } from './_lib/supabase.js';
+import {
+  generateImage,
+  isImageGenerationConfigured
+} from './_lib/image-generation.js';
 
 const MAX_PROMPT_LENGTH = 6000;
-const DEFAULT_CIYUAN_BASE_URL = 'https://ciyuan.today';
 
 function json(res, status, payload) {
   res.status(status).json(payload);
 }
 
 function isServerConfigured() {
-  return Boolean(process.env.CIYUAN_API_KEY && isSupabaseServerConfigured());
+  return Boolean(isImageGenerationConfigured() && isSupabaseServerConfigured());
 }
 
 async function readBody(req) {
@@ -121,39 +124,6 @@ async function releaseReservation(client, reservationId, errorCode) {
       message: String(error?.message || 'unknown').slice(0, 240)
     });
   }
-}
-
-async function generateImage(prompt) {
-  const baseUrl = (process.env.CIYUAN_BASE_URL || DEFAULT_CIYUAN_BASE_URL).replace(/\/$/, '');
-  const response = await fetch(`${baseUrl}/v1/images/generations`, {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${process.env.CIYUAN_API_KEY}`,
-      'Content-Type': 'application/json',
-      Accept: 'application/json'
-    },
-    body: JSON.stringify({
-      model: 'gpt-image-2',
-      prompt,
-      n: 1,
-      size: '1024x1024',
-      quality: 'low',
-      format: 'jpeg'
-    })
-  });
-  const payload = await response.json().catch(() => ({}));
-  const b64 = payload?.data?.[0]?.b64_json;
-
-  if (!response.ok || !b64) {
-    const message = payload?.error?.message || payload?.message || `Image generation failed with status ${response.status}`;
-    const error = new Error(message);
-    error.status = response.status;
-    error.code = payload?.error?.code || payload?.code;
-    error.type = payload?.error?.type || payload?.type;
-    throw error;
-  }
-
-  return `data:image/jpeg;base64,${b64}`;
 }
 
 export default async function handler(req, res) {
