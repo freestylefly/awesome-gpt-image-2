@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "generate:site-data": "node scripts/generate-site-data.mjs",
+    "check:gallery": "node scripts/check-gallery-index.mjs",
     "generate:style-skill": "node scripts/generate-style-skill.mjs",
     "ga4:oauth": "node scripts/google-analytics-oauth.mjs",
     "install:skill": "node scripts/install-style-skill.mjs",
