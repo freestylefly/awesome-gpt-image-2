@@ -73,6 +73,8 @@ const watchaLogoUrl =
 const copy = {
   en: {
     loading: 'Loading GPT-Image2 cases...',
+    loadFailed: 'Could not load the gallery data.',
+    loadRetry: 'Retry',
     brand: 'GPT-Image2 Gallery',
     navCases: 'Cases',
     navSkill: 'Skill',
@@ -331,6 +333,8 @@ const copy = {
   },
   zh: {
     loading: '正在加载 GPT-Image2 案例...',
+    loadFailed: '画廊数据加载失败。',
+    loadRetry: '重试',
     brand: 'GPT-Image2 画廊',
     navCases: '案例',
     navSkill: '技能',
@@ -3582,6 +3586,8 @@ function App() {
   useGaPageViews();
   const [siteData, setSiteData] = useState(null);
   const [styleLibrary, setStyleLibrary] = useState(null);
+  const [siteDataFailed, setSiteDataFailed] = useState(false);
+  const [siteDataAttempt, setSiteDataAttempt] = useState(0);
   const [language, setLanguage] = useState(() => localStorage.getItem('language') || 'en');
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('All');
@@ -3618,20 +3624,32 @@ function App() {
   useEffect(() => {
     let cancelled = false;
     cleanupExpiredGeneratedTests();
-    Promise.all([
-      fetch('/cases.json').then((response) => response.json()),
-      fetch('/style-library.json').then((response) => response.json())
-    ])
+
+    async function loadJson(url) {
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`${url} responded with ${response.status}`);
+      return response.json();
+    }
+
+    setSiteDataFailed(false);
+    Promise.all([loadJson('/cases.json'), loadJson('/style-library.json')])
       .then(([payload, library]) => {
         if (!cancelled) {
           setSiteData(payload);
           setStyleLibrary(library);
         }
+      })
+      .catch((error) => {
+        if (cancelled) return;
+        console.warn('Failed to load site data', {
+          message: String(error?.message || 'unknown').slice(0, 240)
+        });
+        setSiteDataFailed(true);
       });
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [siteDataAttempt]);
 
   useEffect(() => {
     let cancelled = false;
@@ -4040,9 +4058,25 @@ function App() {
   if (!siteData || !styleLibrary) {
     return (
       <main>
-        <div className="loadingScreen">
-          <WandSparkles size={28} />
-          <span>{t.loading}</span>
+        <div className={siteDataFailed ? 'loadingScreen loadingScreenFailed' : 'loadingScreen'}>
+          {siteDataFailed ? (
+            <>
+              <span>{t.loadFailed}</span>
+              <button
+                type="button"
+                className="iconTextButton"
+                onClick={() => setSiteDataAttempt((attempt) => attempt + 1)}
+              >
+                <RefreshCw size={16} />
+                {t.loadRetry}
+              </button>
+            </>
+          ) : (
+            <>
+              <WandSparkles size={28} />
+              <span>{t.loading}</span>
+            </>
+          )}
         </div>
       </main>
     );
