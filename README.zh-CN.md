@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/stars/freestylefly/awesome-gpt-image-2?style=flat-square&color=rgb(25%2C%20121%2C%20255)" alt="Stars"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/forks/freestylefly/awesome-gpt-image-2?style=flat-square&color=green" alt="Forks"></a>
-  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-544-blueviolet?style=flat-square" alt="Cases"></a>
+  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-550-blueviolet?style=flat-square" alt="Cases"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/100%25-Original_AI_Rewritten-green?style=flat-square" alt="Original"></a>
   <a href="https://github.com/sponsors/freestylefly"><img src="https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ff69b4?style=flat-square" alt="Sponsor"></a>
 </p>
@@ -67,7 +67,7 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
 
 - [完整案例总览](docs/gallery.md)
 - [案例画廊 Part 1：例 1-165](docs/gallery-part-1.md)
-- [案例画廊 Part 2：例 166-544](docs/gallery-part-2.md)
+- [案例画廊 Part 2：例 166-550](docs/gallery-part-2.md)
 - [工业级提示词模板与防坑指南](docs/templates.md#section-templates)
 - [Agent Skill：GPT-Image2 风格库](agents/skills/gpt-image-2-style-library/SKILL.md)
 - [MIT License](LICENSE)
@@ -94,7 +94,7 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
       <a href="docs/gallery.md#cat-infographic"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>📰 海报与排版</strong><br><sub>90 cases</sub></p>
+      <p><strong>📰 海报与排版</strong><br><sub>91 cases</sub></p>
       <a href="docs/gallery.md#cat-poster"><img src="data/images/category-covers/poster.jpg" alt="海报与排版" width="220"></a><br>
       <sub>活动海报、封面、字体视觉和强排版画面。</sub><br>
       <a href="docs/gallery.md#cat-poster"><strong>查看案例</strong></a>
@@ -114,7 +114,7 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
       <a href="docs/gallery.md#cat-brand"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>🏛️ 建筑与空间</strong><br><sub>12 cases</sub></p>
+      <p><strong>🏛️ 建筑与空间</strong><br><sub>13 cases</sub></p>
       <a href="docs/gallery.md#cat-architecture"><img src="data/images/category-covers/architecture.jpg" alt="建筑与空间" width="220"></a><br>
       <sub>建筑表现、室内空间、城市地图和空间概念。</sub><br>
       <a href="docs/gallery.md#cat-architecture"><strong>查看案例</strong></a>
@@ -128,13 +128,13 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
       <a href="docs/gallery.md#cat-photo"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>🎨 插画与艺术</strong><br><sub>59 cases</sub></p>
+      <p><strong>🎨 插画与艺术</strong><br><sub>60 cases</sub></p>
       <a href="docs/gallery.md#cat-illustration"><img src="data/images/category-covers/illustration.jpg" alt="插画与艺术" width="220"></a><br>
       <sub>插画、艺术风格、材质实验和装饰画面。</sub><br>
       <a href="docs/gallery.md#cat-illustration"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>🧍 人物与角色</strong><br><sub>31 cases</sub></p>
+      <p><strong>🧍 人物与角色</strong><br><sub>32 cases</sub></p>
       <a href="docs/gallery.md#cat-character"><img src="data/images/category-covers/character.jpg" alt="人物与角色" width="220"></a><br>
       <sub>角色设定、动作参考、卡牌和 3D 玩具。</sub><br>
       <a href="docs/gallery.md#cat-character"><strong>查看案例</strong></a>
@@ -142,7 +142,7 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>🎬 场景与叙事</strong><br><sub>21 cases</sub></p>
+      <p><strong>🎬 场景与叙事</strong><br><sub>22 cases</sub></p>
       <a href="docs/gallery.md#cat-scene"><img src="data/images/category-covers/scene.jpg" alt="场景与叙事" width="220"></a><br>
       <sub>分镜、故事场景、直播画面和世界观叙事。</sub><br>
       <a href="docs/gallery.md#cat-scene"><strong>查看案例</strong></a>
@@ -154,7 +154,7 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
       <a href="docs/gallery.md#cat-history"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>📚 文档与出版物</strong><br><sub>11 cases</sub></p>
+      <p><strong>📚 文档与出版物</strong><br><sub>12 cases</sub></p>
       <a href="docs/gallery.md#cat-document"><img src="data/images/category-covers/document.jpg" alt="文档与出版物" width="220"></a><br>
       <sub>白皮书、手册、百科图鉴和出版页设计。</sub><br>
       <a href="docs/gallery.md#cat-document"><strong>查看案例</strong></a>
@@ -170,14 +170,14 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
     <td width="33%" valign="top" align="center">
       <h4>🖼️ 完整画廊</h4>
       <a href="docs/gallery.md"><img src="data/images/category-covers/gallery.jpg" alt="完整画廊" width="220"></a><br>
-      <sub>按分册浏览全部 544 个案例和代表案例入口。</sub><br>
+      <sub>按分册浏览全部 550 个案例和代表案例入口。</sub><br>
       <a href="docs/gallery.md"><strong>进入画廊</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
       <h4>⭐ 最新新增</h4>
-      <a href="docs/gallery-part-2.md#case-544"><img src="data/images/case544.jpg" alt="最新新增" width="220"></a><br>
+      <a href="docs/gallery-part-2.md#case-550"><img src="data/images/case550.jpg" alt="最新新增" width="220"></a><br>
       <sub>最近收录的 X 社区案例和新玩法。</sub><br>
-      <a href="docs/gallery-part-2.md#case-544"><strong>查看最新</strong></a>
+      <a href="docs/gallery-part-2.md#case-550"><strong>查看最新</strong></a>
     </td>
   </tr>
 </table>
@@ -443,42 +443,42 @@ GOOGLE_ANALYTICS_REFRESH_TOKEN=
 <table>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>例 539：粗粝手绘搭档肖像海报</strong></p>
-      <a href="docs/gallery-part-2.md#case-539"><img src="data/images/case539.jpg" alt="粗粝手绘搭档肖像海报" width="180"></a><br>
-      <sub>粗粝墨线人物海报，组合半身主体、近景搭档、极简背景、受控配色和纸张印刷质感。</sub><br>
-      <a href="docs/gallery-part-2.md#case-539"><strong>查看案例</strong></a>
+      <p><strong>例 545：厚涂建筑地标艺术海报</strong></p>
+      <a href="docs/gallery-part-2.md#case-545"><img src="data/images/case545.jpg" alt="厚涂建筑地标艺术海报" width="180"></a><br>
+      <sub>用厚涂油画语言重塑地标建筑，强调刮刀肌理、温和纸面、精致斜体字和博物馆级装裱感。</sub><br>
+      <a href="docs/gallery-part-2.md#case-545"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>例 540：梦幻未来城市编辑艺术海报</strong></p>
-      <a href="docs/gallery-part-2.md#case-540"><img src="data/images/case540.jpg" alt="梦幻未来城市编辑艺术海报" width="180"></a><br>
-      <sub>竖版编辑艺术海报，组织未来城市、雕塑建筑、巨型植物、小人物、复古旅行海报质感。</sub><br>
-      <a href="docs/gallery-part-2.md#case-540"><strong>查看案例</strong></a>
+      <p><strong>例 546：咖啡馆旅行手账分栏页</strong></p>
+      <a href="docs/gallery-part-2.md#case-546"><img src="data/images/case546.jpg" alt="咖啡馆旅行手账分栏页" width="180"></a><br>
+      <sub>将咖啡店实拍与同场景线描水彩并置，控制左右分栏、纸张纹理、旅行手账字体和胶片颗粒。</sub><br>
+      <a href="docs/gallery-part-2.md#case-546"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>例 541：50/50 混合媒介回忆卡</strong></p>
-      <a href="docs/gallery-part-2.md#case-541"><img src="data/images/case541.jpg" alt="50/50 混合媒介回忆卡" width="180"></a><br>
-      <sub>把参考照片做成上下 50/50 回忆卡，上半区保留照片，下半区转为手工纸与蜡笔线稿。</sub><br>
-      <a href="docs/gallery-part-2.md#case-541"><strong>查看案例</strong></a>
+      <p><strong>例 547：日系 Chibi 互动小插画</strong></p>
+      <a href="docs/gallery-part-2.md#case-547"><img src="data/images/case547.jpg" alt="日系 Chibi 互动小插画" width="180"></a><br>
+      <sub>可复用的双人 Chibi 互动插画提示词，控制彩铅蜡笔质感、圆润表情、留白和小装饰元素。</sub><br>
+      <a href="docs/gallery-part-2.md#case-547"><strong>查看案例</strong></a>
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>例 542：黑白排版侧脸肖像海报</strong></p>
-      <a href="docs/gallery-part-2.md#case-542"><img src="data/images/case542.jpg" alt="黑白排版侧脸肖像海报" width="180"></a><br>
-      <sub>黑白高反差排版肖像，控制侧脸剪影、粗糙墨迹、小字信息和大号可读标题块。</sub><br>
-      <a href="docs/gallery-part-2.md#case-542"><strong>查看案例</strong></a>
+      <p><strong>例 548：真实材质反应字体广告海报</strong></p>
+      <a href="docs/gallery-part-2.md#case-548"><img src="data/images/case548.jpg" alt="真实材质反应字体广告海报" width="180"></a><br>
+      <sub>把主标题做成真实材质，并让产品接触产生压缩、撕裂或融化等物理反应，形成商业海报模板。</sub><br>
+      <a href="docs/gallery-part-2.md#case-548"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>例 543：旅行纪念珐琅徽章</strong></p>
-      <a href="docs/gallery-part-2.md#case-543"><img src="data/images/case543.jpg" alt="旅行纪念珐琅徽章" width="180"></a><br>
-      <sub>把旅行照片转成场景型珐琅徽章，控制金色分隔线、人物比例、光泽和深色布纹背景。</sub><br>
-      <a href="docs/gallery-part-2.md#case-543"><strong>查看案例</strong></a>
+      <p><strong>例 549：国家旅行涂鸦地图插画</strong></p>
+      <a href="docs/gallery-part-2.md#case-549"><img src="data/images/case549.jpg" alt="国家旅行涂鸦地图插画" width="180"></a><br>
+      <sub>以国家轮廓为主体，填入地标、食物、自然和文化符号，生成黑白钢笔旅行地图海报。</sub><br>
+      <a href="docs/gallery-part-2.md#case-549"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>例 544：幼儿词汇拆解学习卡</strong></p>
-      <a href="docs/gallery-part-2.md#case-544"><img src="data/images/case544.jpg" alt="幼儿词汇拆解学习卡" width="180"></a><br>
-      <sub>幼儿词汇学习卡，控制大物体、局部拆解、虚线箭头、简笔提示和清晰英文标签。</sub><br>
-      <a href="docs/gallery-part-2.md#case-544"><strong>查看案例</strong></a>
+      <p><strong>例 550：动漫动作短片设定分镜板</strong></p>
+      <a href="docs/gallery-part-2.md#case-550"><img src="data/images/case550.jpg" alt="动漫动作短片设定分镜板" width="180"></a><br>
+      <sub>把角色设定表和 12 格动作分镜合成一张竖版制作板，控制角色一致性、镜头说明和运动箭头。</sub><br>
+      <a href="docs/gallery-part-2.md#case-550"><strong>查看案例</strong></a>
     </td>
   </tr>
 </table>
