@@ -289,6 +289,20 @@ gpt-image-2-style-library install all
 
 `install all` 会写入 Codex 和 Claude Code 常用的本地技能目录，包括 `~/.codex/skills`、`~/.claude/skills`、`~/.agents/skills`。安装后重启 Agent 会话。
 
+### Astron SkillHub、Astron Agent 与 AstronClaw
+
+该技能目录符合 SkillHub 的 OpenSkills 风格包规范：`SKILL.md` 位于包根目录，引用资料和资源文件均在包内。可将其原样发布到 [Astron SkillHub](https://github.com/iflytek/skillhub) 实例：
+
+```bash
+npm install -g @astron-team/skillhub
+skillhub login --token sk_your_token_here --registry https://skillhub.example.com
+skillhub publish ./agents/skills/gpt-image-2-style-library --namespace my-team --visibility public --registry https://skillhub.example.com
+```
+
+发布后，在 Astron Agent 的**资源管理**中导入该技能，再将其添加到标准 Agent 或工作流。这个技能包只包含指令、引用资料和资源文件，因此 Astron Agent 可直接通过 `read_skill_*` 使用，无需配置脚本沙箱。详见官方 [SkillHub CLI 指南](https://iflytek.github.io/skillhub/guide/cli)与 [Astron Agent 技能 FAQ](https://github.com/iflytek/astron-agent/blob/main/faq/features.md)。
+
+使用 AstronClaw 时，可将 [`agents/skills/gpt-image-2-style-library`](agents/skills/gpt-image-2-style-library/SKILL.md) 目录内容打包为 ZIP，确保 `SKILL.md` 位于压缩包根目录，然后在**我的技能**中上传。详见 [AstronClaw 技能指南](https://github.com/iflytek/astronclaw-tutorial/blob/main/docs/guide/astronclaw/skills.md)。
+
 这样调用：
 
 ```text
