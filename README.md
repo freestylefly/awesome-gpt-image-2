@@ -348,12 +348,17 @@ GOOGLE_ANALYTICS_REFRESH_TOKEN=
 Setup checklist:
 
 - Apply [`supabase/migrations/202605090001_user_credits.sql`](supabase/migrations/202605090001_user_credits.sql) to the Supabase project.
+- Apply [`supabase/migrations/202605090002_auth_policy_lints.sql`](supabase/migrations/202605090002_auth_policy_lints.sql) to add the shared `set_updated_at` trigger helper and the select-own RLS policies for profiles, credit transactions, and generation reservations.
+- Apply [`supabase/migrations/20260509061039_fix_generation_usage_ambiguous_columns.sql`](supabase/migrations/20260509061039_fix_generation_usage_ambiguous_columns.sql) to replace `reserve_generation_usage` with the version that qualifies its column references.
 - Apply [`supabase/migrations/20260509090000_membership_billing.sql`](supabase/migrations/20260509090000_membership_billing.sql) to add membership plans, credit packs, Stripe order records, and credit adjustment RPCs.
+- Apply [`supabase/migrations/20260509091500_membership_plan_index.sql`](supabase/migrations/20260509091500_membership_plan_index.sql) to index `user_memberships.plan_id`.
 - Apply [`supabase/migrations/20260721090000_alipay_webpay.sql`](supabase/migrations/20260721090000_alipay_webpay.sql) before enabling Alipay website payments, then configure each credit pack's reviewed CNY price. See [Alipay website payment setup](docs/alipay-web-payment.md).
 - Apply [`supabase/migrations/20260722090000_paid_community.sql`](supabase/migrations/20260722090000_paid_community.sql) before enabling the paid community. Keep `COMMUNITY_PAYMENT_ENABLED=false` until the protected QR, Alipay onboarding, and production payment/refund checks are complete. See the [paid community runbook](docs/paid-community.md).
 - Apply [`supabase/migrations/20260512090000_google_account_center.sql`](supabase/migrations/20260512090000_google_account_center.sql) to add account usage summaries and forced credit charging for super admins.
 - Apply [`supabase/migrations/20260512143000_pricing_admin_metrics.sql`](supabase/migrations/20260512143000_pricing_admin_metrics.sql) to update the `$5 / 300 credits` catalog and add admin dashboard metrics.
+- Apply [`supabase/migrations/20260513095141_admin_metrics_charts.sql`](supabase/migrations/20260513095141_admin_metrics_charts.sql) to index the `profiles.created_at` and `user_memberships.created_at` timestamps the admin metrics charts group by.
 - Apply [`supabase/migrations/20260515090000_case_favorites.sql`](supabase/migrations/20260515090000_case_favorites.sql) to add per-user case favorites.
+- Apply [`supabase/migrations/20260528090000_watcha_oauth_accounts.sql`](supabase/migrations/20260528090000_watcha_oauth_accounts.sql) before offering the Watcha sign-in option, to create the `watcha_accounts` table the OAuth callback reads and writes.
 - Apply [`supabase/migrations/20260828090000_apimart_generation_tasks.sql`](supabase/migrations/20260828090000_apimart_generation_tasks.sql) to add APIMart task IDs, actual USD costs, expiring result URLs, and provider indexes.
 - Add `https://gpt-image2.canghe.ai` and local dev URLs such as `http://127.0.0.1:5173` to Supabase Auth redirect URLs.
 - Enable the Google Provider after adding Google OAuth credentials in the Supabase Dashboard.

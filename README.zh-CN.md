@@ -346,12 +346,17 @@ GOOGLE_ANALYTICS_REFRESH_TOKEN=
 配置清单：
 
 - 将 [`supabase/migrations/202605090001_user_credits.sql`](supabase/migrations/202605090001_user_credits.sql) 应用到 Supabase 项目。
+- 将 [`supabase/migrations/202605090002_auth_policy_lints.sql`](supabase/migrations/202605090002_auth_policy_lints.sql) 应用到 Supabase 项目，添加共用的 `set_updated_at` 触发器函数，以及 profiles、credit_transactions、generation_reservations 三张表「仅本人可读」的 RLS 策略。
+- 将 [`supabase/migrations/20260509061039_fix_generation_usage_ambiguous_columns.sql`](supabase/migrations/20260509061039_fix_generation_usage_ambiguous_columns.sql) 应用到 Supabase 项目，替换 `reserve_generation_usage`，修正其中列引用的歧义。
 - 将 [`supabase/migrations/20260509090000_membership_billing.sql`](supabase/migrations/20260509090000_membership_billing.sql) 应用到 Supabase 项目，添加会员套餐、积分包、Stripe 订单记录和积分调整 RPC。
+- 将 [`supabase/migrations/20260509091500_membership_plan_index.sql`](supabase/migrations/20260509091500_membership_plan_index.sql) 应用到 Supabase 项目，为 `user_memberships.plan_id` 建立索引。
 - 启用支付宝网站支付前，应用 [`supabase/migrations/20260721090000_alipay_webpay.sql`](supabase/migrations/20260721090000_alipay_webpay.sql)，并为需要销售的积分包配置经业务确认的人民币价格。详见[支付宝网站支付接入说明](docs/alipay-web-payment.md)。
 - 启用付费交流群前，应用 [`supabase/migrations/20260722090000_paid_community.sql`](supabase/migrations/20260722090000_paid_community.sql)。在新群码、支付宝签约和生产付款退款验收完成前，保持 `COMMUNITY_PAYMENT_ENABLED=false`。详见[付费交流群上线手册](docs/paid-community.md)。
 - 将 [`supabase/migrations/20260512090000_google_account_center.sql`](supabase/migrations/20260512090000_google_account_center.sql) 应用到 Supabase 项目，添加账户用量统计和超级管理员强制扣积分逻辑。
 - 将 [`supabase/migrations/20260512143000_pricing_admin_metrics.sql`](supabase/migrations/20260512143000_pricing_admin_metrics.sql) 应用到 Supabase 项目，更新 `$5 / 300 credits` 价格体系，并添加管理员数据看板指标。
+- 将 [`supabase/migrations/20260513095141_admin_metrics_charts.sql`](supabase/migrations/20260513095141_admin_metrics_charts.sql) 应用到 Supabase 项目，为管理员数据看板分组的 `profiles.created_at` 与 `user_memberships.created_at` 建立索引。
 - 将 [`supabase/migrations/20260515090000_case_favorites.sql`](supabase/migrations/20260515090000_case_favorites.sql) 应用到 Supabase 项目，添加用户案例收藏表。
+- 将 [`supabase/migrations/20260528090000_watcha_oauth_accounts.sql`](supabase/migrations/20260528090000_watcha_oauth_accounts.sql) 应用到 Supabase 项目，在开放 Watcha 登录前建立 OAuth 回调读写的 `watcha_accounts` 表。
 - 将 [`supabase/migrations/20260828090000_apimart_generation_tasks.sql`](supabase/migrations/20260828090000_apimart_generation_tasks.sql) 应用到 Supabase 项目，保存 APIMart 任务 ID、实际美元成本、限时结果地址和服务商索引。
 - 在 Supabase Auth Redirect URLs 里加入 `https://gpt-image2.canghe.ai`，以及 `http://127.0.0.1:5173` 等本地开发地址。
 - 在 Supabase Dashboard 填入 Google OAuth 凭据并启用 Google Provider。
