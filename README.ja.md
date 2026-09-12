@@ -342,6 +342,16 @@ GOOGLE_ANALYTICS_CLIENT_SECRET=
 GOOGLE_ANALYTICS_REFRESH_TOKEN=
 ```
 
+任意：Google に加えて Watcha サインインを提供する場合：
+
+```bash
+WATCHA_CLIENT_ID=
+WATCHA_CLIENT_SECRET=
+WATCHA_PUBLIC_CLIENT=false
+```
+
+`WATCHA_REDIRECT_URI` と `WATCHA_SCOPE` は任意の上書き項目で、既定値はそれぞれ `{APP_URL}/api/auth/watcha/callback` と `read email` です。クライアント ID と、クライアントシークレットまたは `WATCHA_PUBLIC_CLIENT=true` を設定するまでは、サインイン画面に Watcha が未設定である旨が表示されます。
+
 セットアップチェックリスト：
 
 - [`supabase/migrations/202605090001_user_credits.sql`](supabase/migrations/202605090001_user_credits.sql) を Supabase プロジェクトへ適用します。
