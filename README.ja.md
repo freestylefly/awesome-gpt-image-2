@@ -346,10 +346,17 @@ GOOGLE_ANALYTICS_REFRESH_TOKEN=
 セットアップチェックリスト：
 
 - [`supabase/migrations/202605090001_user_credits.sql`](supabase/migrations/202605090001_user_credits.sql) を Supabase プロジェクトへ適用します。
+- [`supabase/migrations/202605090002_auth_policy_lints.sql`](supabase/migrations/202605090002_auth_policy_lints.sql) を適用し、共有の `set_updated_at` トリガー関数と、profiles・credit_transactions・generation_reservations の「本人のみ読み取り可」RLS ポリシーを追加します。
+- [`supabase/migrations/20260509061039_fix_generation_usage_ambiguous_columns.sql`](supabase/migrations/20260509061039_fix_generation_usage_ambiguous_columns.sql) を適用し、`reserve_generation_usage` を列参照を修飾した版に置き換えます。
 - [`supabase/migrations/20260509090000_membership_billing.sql`](supabase/migrations/20260509090000_membership_billing.sql) を適用し、メンバーシッププラン、クレジットパック、Stripe 注文レコード、クレジット調整 RPC を追加します。
+- [`supabase/migrations/20260509091500_membership_plan_index.sql`](supabase/migrations/20260509091500_membership_plan_index.sql) を適用し、`user_memberships.plan_id` に索引を追加します。
+- Alipay ウェブ決済を有効化する前に [`supabase/migrations/20260721090000_alipay_webpay.sql`](supabase/migrations/20260721090000_alipay_webpay.sql) を適用し、販売する各クレジットパックの確認済み人民元価格を設定します。詳しくは [Alipay ウェブ決済の設定](docs/alipay-web-payment.md) を参照してください。
+- 有料コミュニティを有効化する前に [`supabase/migrations/20260722090000_paid_community.sql`](supabase/migrations/20260722090000_paid_community.sql) を適用します。保護された QR コード、Alipay 審査、本番の決済・返金確認が完了するまで `COMMUNITY_PAYMENT_ENABLED=false` を維持してください。詳しくは[有料コミュニティ運用ガイド](docs/paid-community.md)を参照してください。
 - [`supabase/migrations/20260512090000_google_account_center.sql`](supabase/migrations/20260512090000_google_account_center.sql) を適用し、アカウント利用サマリーとスーパー管理者向けの強制クレジット課金を追加します。
 - [`supabase/migrations/20260512143000_pricing_admin_metrics.sql`](supabase/migrations/20260512143000_pricing_admin_metrics.sql) を適用し、`$5 / 300 credits` のカタログを更新して管理ダッシュボード指標を追加します。
+- [`supabase/migrations/20260513095141_admin_metrics_charts.sql`](supabase/migrations/20260513095141_admin_metrics_charts.sql) を適用し、管理ダッシュボードのグラフが集計する `profiles.created_at` と `user_memberships.created_at` に索引を追加します。
 - [`supabase/migrations/20260515090000_case_favorites.sql`](supabase/migrations/20260515090000_case_favorites.sql) を適用し、ユーザーごとのケースお気に入り機能を追加します。
+- Watcha ログインを提供する前に [`supabase/migrations/20260528090000_watcha_oauth_accounts.sql`](supabase/migrations/20260528090000_watcha_oauth_accounts.sql) を適用し、OAuth コールバックが読み書きする `watcha_accounts` テーブルを作成します。
 - [`supabase/migrations/20260828090000_apimart_generation_tasks.sql`](supabase/migrations/20260828090000_apimart_generation_tasks.sql) を適用し、APIMart タスク ID、実際の USD コスト、有効期限付き結果 URL、プロバイダー索引を追加します。
 - Supabase Auth の Redirect URLs に `https://gpt-image2.canghe.ai` と、`http://127.0.0.1:5173` などのローカル開発 URL を追加します。
 - Supabase Dashboard に Google OAuth 認証情報を追加したうえで Google Provider を有効化します。
