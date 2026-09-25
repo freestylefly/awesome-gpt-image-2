@@ -344,6 +344,16 @@ GOOGLE_ANALYTICS_CLIENT_SECRET=
 GOOGLE_ANALYTICS_REFRESH_TOKEN=
 ```
 
+可选：在 Google 之外再提供观猹（Watcha）登录方式：
+
+```bash
+WATCHA_CLIENT_ID=
+WATCHA_CLIENT_SECRET=
+WATCHA_PUBLIC_CLIENT=false
+```
+
+`WATCHA_REDIRECT_URI` 与 `WATCHA_SCOPE` 是可选覆盖项，默认值分别为 `{APP_URL}/api/auth/watcha/callback` 和 `read email`。在配置了 client ID，以及 client secret 或 `WATCHA_PUBLIC_CLIENT=true` 之前，登录界面会提示观猹登录尚未配置。
+
 配置清单：
 
 - 将 [`supabase/migrations/202605090001_user_credits.sql`](supabase/migrations/202605090001_user_credits.sql) 应用到 Supabase 项目。

@@ -346,6 +346,16 @@ GOOGLE_ANALYTICS_CLIENT_SECRET=
 GOOGLE_ANALYTICS_REFRESH_TOKEN=
 ```
 
+Optional, to offer the Watcha sign-in option beside Google:
+
+```bash
+WATCHA_CLIENT_ID=
+WATCHA_CLIENT_SECRET=
+WATCHA_PUBLIC_CLIENT=false
+```
+
+`WATCHA_REDIRECT_URI` and `WATCHA_SCOPE` are optional overrides that default to `{APP_URL}/api/auth/watcha/callback` and `read email`. Until a client ID plus either a client secret or `WATCHA_PUBLIC_CLIENT=true` are set, the sign-in screen reports that Watcha is not configured.
+
 Setup checklist:
 
 - Apply [`supabase/migrations/202605090001_user_credits.sql`](supabase/migrations/202605090001_user_credits.sql) to the Supabase project.
