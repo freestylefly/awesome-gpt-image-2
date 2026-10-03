@@ -5319,7 +5319,6 @@ A cinematic fantasy scene of a fierce female use image for face reference warrio
 ```
 
 ***
-
 <a name="case-330"></a>
 
 ### 例 330：月下美女直播画面
@@ -12522,6 +12521,208 @@ Feature [FRUIT] as the main large realistic object on the left, and show a [PART
 Add the word “[FRUIT NAME]” in large bold uppercase letters at the top and “[PART NAME]” in large bold uppercase letters underneath the smaller image. Use a soft white and very light pastel-blue background, rounded image panels, clean spacing, realistic fruit photography, simple blue typography, and minimal playful illustrations.
 
 The overall design should feel bright, educational, modern, uncluttered, and easy for young children to understand, like a premium preschool vocabulary learning card. Vertical 4:5 composition, high resolution, soft lighting, clear labels, no unnecessary decorations.
+```
+
+***
+
+<a name="case-545"></a>
+
+### 例 545：厚涂建筑地标艺术海报
+
+![厚涂建筑地标艺术海报](../data/images/case545.jpg)
+
+**来源：** [@Naiknelofar788](https://x.com/Naiknelofar788/status/2093948869000495565)
+
+**提示词：**
+
+```text
+Create a sophisticated fine-art architectural painting of [STRUCTURE / LANDMARK], presented as a highly tactile, three-dimensional impasto oil painting on textured archival paper.
+
+Make [STRUCTURE / LANDMARK] the unmistakable central focal point, shown from a slightly low, frontal perspective so its architecture feels grand, monumental, elegant, and sculptural. Preserve the recognizable architectural features, proportions, silhouette, windows, columns, arches, roofline, ornamentation, materials, and distinctive details of the structure, but reinterpret the entire scene as a handcrafted contemporary oil painting.
+
+Use extremely thick palette-knife impasto with visible raised strokes, layered paint, broken edges, scraped textures, ridges, and expressive overlapping marks. The architecture should appear almost sculpted entirely from paint, with heavy cream, warm stone, soft gray, muted blue, dusty green, subtle charcoal, and delicate antique-gold accents.
+
+Behind the structure, create a simplified atmospheric sky made entirely from thick textured brushstrokes in soft powder blue, ivory, pale gray, and warm white. Keep the background understated, elegant, and painterly so the architectural form remains dominant.
+
+Add subtle environmental details at the bottom — a few bicycles, elegant vintage street lamps, plants, steps, pavement, tiny distant figures, or other small location-specific details — but keep them secondary, miniature, and painterly.
+
+The artwork should sit like a physical painted panel mounted on a warm off-white handmade paper background. Give the painted panel an irregular, naturally torn and rough painted edge, with subtle dimensional shadows around it, suggesting that a thick original artwork has been physically placed onto textured archival paper.
+
+At the bottom of the artwork, incorporate the name of the landmark in beautiful refined italic typography:
+
+“[STRUCTURE / LANDMARK]”
+
+Use sophisticated high-contrast editorial serif lettering, elegant flowing italics, slightly vintage European book-cover styling, subtle antique-gold or muted charcoal ink, perfectly centered and carefully integrated into the artwork. The typography should feel printed/painted onto the textured surface rather than digitally overlaid. Keep the lettering delicate, tasteful, and legible without competing with the architecture.
+
+If appropriate, add a smaller understated italic subtitle beneath it:
+
+“[CITY, COUNTRY]”
+
+Use generous spacing, refined typography, and a museum-quality art-print composition.
+
+Lighting should be soft and natural, emphasizing the raised impasto texture and creating tiny shadows between layers of paint. Elegant European art-book aesthetic, museum-quality architectural painting, sophisticated vintage travel-art feeling, tactile handmade surface, restrained luxury color palette, painterly realism, highly detailed, atmospheric, timeless, no photorealistic appearance.
+
+Vertical composition, centered architecture, generous off-white negative space around the artwork, premium editorial art print, collectible gallery poster, 8k detail.
+
+--ar 4:5 --style raw
+```
+
+***
+
+<a name="case-546"></a>
+
+### 例 546：咖啡馆旅行手账分栏页
+
+![咖啡馆旅行手账分栏页](../data/images/case546.jpg)
+
+**来源：** [@Taaruk\_](https://x.com/Taaruk_/status/2093931420079321245)
+
+**提示词：**
+
+```text
+Create a cohesive editorial travel-journal image inspired by the provided reference photos: a real-world coffee shop moment paired with a minimalist hand-drawn illustration of the exact same scene, arranged as a sophisticated split-page layout. On the left, show a warm documentary-style photograph of a barista’s hand holding a clear glass of iced coffee beside a professional coffee machine, with visible ice cubes, rich amber-brown coffee, realistic reflections, stainless-steel equipment, and subtle café details; on the right, recreate the same composition as a loose vintage ink-and-watercolor sketch on textured warm ivory paper, preserving the glass, hand, coffee machine, perspective, and key details while using imperfect black linework with restrained earthy ochre and muted blue accents. Use an authentic independent café travel-zine aesthetic, natural imperfections, soft grain, slightly faded analog photography, tactile paper texture, editorial typography, generous negative space, small understated location/date/caption text, balanced asymmetrical composition, nostalgic 2020s travel diary mood, premium art-direction, realistic photography seamlessly contrasted with handmade illustration, muted earthy color palette, soft natural lighting, subtle film grain, high detail, vertical 4:5 composition, no logos, no watermark.
+```
+
+***
+
+<a name="case-547"></a>
+
+### 例 547：日系 Chibi 互动小插画
+
+![日系 Chibi 互动小插画](../data/images/case547.jpg)
+
+**来源：** [@Sairah\_0](https://x.com/Sairah_0/status/2093929087010246754)
+
+**提示词：**
+
+```text
+Create a cute hand-drawn Japanese chibi illustration of two characters interacting in a sweet, playful moment. Use a soft traditional colored-pencil and crayon drawing style, with visible sketchy pencil strokes, slightly rough imperfect outlines, gentle pastel coloring, and a handmade children’s storybook feel. Characters should have oversized heads, tiny bodies, simple oval black eyes, tiny smiling mouths, rosy cheeks, and expressive innocent faces. Give them natural, adorable poses and interactions, with clothing and hairstyles matching the requested scene. Keep the composition clean and minimal on a plain white background, with plenty of negative space. Add small hand-drawn decorative elements such as hearts, sparkles, or motion lines around the characters where appropriate. Soft pastel palette, subtle paper texture, delicate linework, slightly imperfect coloring, cozy wholesome romantic atmosphere, full-body composition, centered characters, high-quality illustration.
+
+For different scenes
+
+Replace this part:
+
+“two characters interacting in a sweet, playful moment”
+
+with whatever you want, e.g.:
+•“a couple holding hands while walking”
+•“a boy surprising a girl with flowers”
+•“two friends laughing together”
+•“a couple sitting together under an umbrella”
+•“a girl teasing a shy boy”
+•“two characters taking a cute selfie”
+```
+
+***
+
+<a name="case-548"></a>
+
+### 例 548：真实材质反应字体广告海报
+
+![真实材质反应字体广告海报](../data/images/case548.jpg)
+
+**来源：** [@Just\_sharon7](https://x.com/Just_sharon7/status/2093770721927508056)
+
+**提示词：**
+
+```text
+Bold editorial campaign poster, 9:16. Oversized typography of the word '[WORD]' fills 60–70% of the frame, letters built from real [MATERIAL] with believable texture, seams, and lighting. The material [BEHAVIOR — compresses/tears/melts/etc.] realistically where [SUBJECT/PRODUCT] makes contact with it, creating natural folds, tension, or damage. Realistic commercial photography, high-contrast [MAIN COLOR] palette with [ACCENT COLOR] accents. Small campaign text: '[BRAND] — [SLOGAN/DETAILS].' Tactile, physically accurate material behavior, no plastic or CGI look, clean contemporary editorial design.
+```
+
+***
+
+<a name="case-549"></a>
+
+### 例 549：国家旅行涂鸦地图插画
+
+![国家旅行涂鸦地图插画](../data/images/case549.jpg)
+
+**来源：** [@Naiknelofar788](https://x.com/Naiknelofar788/status/2093679919473840378)
+
+**提示词：**
+
+```text
+Doodle Country Illustration [COUNTRY NAME]
+
+Create a charming, highly detailed hand-drawn doodle illustration of [COUNTRY NAME], designed like a whimsical illustrated travel map. Use the recognizable outline/shape of the country as the main composition, filled with dozens of tiny black-ink doodles representing its culture, landscapes, food, architecture, traditions, wildlife, landmarks, and everyday life.
+
+Include iconic elements such as [LANDMARK 1], [LANDMARK 2], [FOOD], [ANIMAL], [TRADITION], [NATURE], [FAMOUS OBJECT], along with small decorative elements scattered naturally throughout the map.
+
+Style: intricate pen-and-ink doodle art, playful hand-drawn lines, tiny illustrations, whimsical details, slightly imperfect sketching, travel-journal aesthetic, monochrome ink with subtle paper texture, white/off-white background, balanced composition, visually rich but clean, no photorealism.
+
+Add the country name “[COUNTRY NAME]” in beautiful hand-lettered typography integrated naturally into the artwork.
+
+Aspect ratio: 4:5 portrait
+Mood: artistic, nostalgic, cozy, adventurous, culturally rich
+Quality: extremely detailed, crisp linework, professional illustrated travel poster.
+```
+
+***
+
+<a name="case-550"></a>
+
+### 例 550：动漫动作短片设定分镜板
+
+![动漫动作短片设定分镜板](../data/images/case550.jpg)
+
+**来源：** [@Strength04\_X](https://x.com/Strength04_X/status/2093726038400585925)
+
+**提示词：**
+
+```text
+Create a single vertical anime animation development board for an original high-energy action short film titled "Underground Train Yard Clash."
+
+The final output must be ONE combined image only, clearly divided into 2 sections:
+TOP SECTION: Character design sheet
+BOTTOM SECTION: 12-frame storyboard page
+
+Create fully original anime characters. Do not imitate any existing anime, manga, game, or copyrighted character designs. Keep everything original, cinematic, dynamic, and easy to understand.
+
+STYLE: Premium anime pre-production board, loose pencil sketches mixed with semi-rendered anime keyframes, dramatic lighting, strong contrast, speed lines, impact frames, red panel borders, blue motion arrows, handwritten notes, timing notes, and lens notes.
+
+TOP SECTION — CHARACTER DESIGN SHEET
+Use a light neutral paper-like background.
+
+Fighter A: Young anime street fighter, around 19, messy spiky dark brown hair, sharp hazel eyes, lean muscular build, cocky expression. Outfit: sleeveless zip jacket worn open, fitted tank top underneath, cargo pants, taped ankles, sneakers. Personality: fast, reckless, unpredictable, improvises mid-fight. Show front view, side view, back view, 3/4 view, low crouched dash stance, flying knee pose, wall-rebound kick pose, and a few expressions.
+
+Fighter B: Disciplined rival fighter, around 23, short clean-cut dark hair, calm brown eyes, broad powerful build, focused expression. Outfit: fitted compression long-sleeve, military trousers, heavy boots, forearm wraps. Personality: structured, powerful, shuts down opponents with efficiency. Show front view, side view, back view, 3/4 view, upright guard stance, shoulder block pose, single heavy straight punch pose, and a few expressions.
+
+Add small handwritten design notes and compact anime color swatches.
+
+BOTTOM SECTION — STORYBOARD PAGE
+Use a dark black background for the entire storyboard section. Do not use beige, yellow, or paper-colored background here.
+
+Create 12 cinematic anime storyboard panels in a clean grid. Use red panel borders, blue motion arrows, handwritten camera notes, timing notes, and action notes. Keep both fighters visually consistent.
+
+12 STORYBOARD FRAMES:
+
+➤ Split-screen with thick black divider: Fighter A balancing on top of a stationary train car, arms loose, grinning (upper frame); Fighter B standing on the concrete platform below, arms at his sides, waiting (lower frame).
+
+➤ Split-screen close-ups: Fighter A's sneaker taps the train roof impatiently; Fighter B's forearm wraps tighten as he clenches his fists.
+
+➤ Wide shot of the underground train yard — dim overhead lights, parked train cars, Fighter A drops down from the roof to face Fighter B on the platform.
+
+➤ Fighter A dashes forward and launches a flying knee strike.
+
+➤ Tracking shot of the flying knee closing in fast.
+
+➤ Slow-motion: Fighter B raises his forearm and blocks the knee hard, shockwave of force visible in slow motion.
+
+➤ Fighter B grabs Fighter A mid-air and slams him down onto the concrete platform.
+
+➤ Fighter A bounces up immediately and sprints toward a train car wall.
+
+➤ Fighter A rebounds off the wall and launches a spinning heel kick.
+
+➤ Fighter B side-steps and the kick misses, Fighter A stumbles forward.
+
+➤ Fighter B delivers one single devastating straight punch directly into Fighter A's chest.
+
+➤ Aftermath: Train yard goes quiet. Fighter B stands on the platform, composed. Fighter A is down against the base of the train car, dim lights flickering above, train cars stretching into darkness behind them.
+
+ENVIRONMENT: Underground train yard, dim overhead industrial lights, concrete platform, parked train cars, dark tunnels stretching beyond, dust, scattered gravel, flickering lights.
+
+FINAL GOAL: Make the board clean, readable, cinematic, and production-ready. The top section should clearly show the character designs. The bottom section should clearly show the 12-frame action choreography on a black storyboard background.
 ```
 
 ***
