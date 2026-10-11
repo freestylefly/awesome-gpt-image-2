@@ -3152,7 +3152,7 @@ Generate a screenshot of WeChat Channels content, theme: middle-aged and elderly
 
 ![官方角色设定资料图鉴](../data/images/case270.jpg)
 
-**来源：** \[OpenNana]\(]\(<https://x.com/Toshi_nyaruo_AI/status/2045025277538107420>)
+**来源：** [OpenNana](https://x.com/Toshi_nyaruo_AI/status/2045025277538107420)
 
 **提示词：**
 
