@@ -5,6 +5,13 @@ import { fileURLToPath } from 'node:url';
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const skillName = 'gpt-image-2-style-library';
+
+// Claude Code relocates ~/.claude via CLAUDE_CONFIG_DIR; CLAUDE_HOME is kept as a
+// fallback so anyone who set it for earlier versions of this installer still works.
+function claudeConfigDir() {
+  return process.env.CLAUDE_CONFIG_DIR || process.env.CLAUDE_HOME || join(homedir(), '.claude');
+}
+
 const source = join(root, 'agents', 'skills', skillName);
 const targetDefinitions = {
   codex: {
@@ -13,7 +20,7 @@ const targetDefinitions = {
   },
   'claude-code': {
     label: 'Claude Code',
-    root: join(process.env.CLAUDE_HOME || join(homedir(), '.claude'), 'skills')
+    root: join(claudeConfigDir(), 'skills')
   },
   agents: {
     label: 'Shared agent skills',

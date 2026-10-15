@@ -29,6 +29,12 @@ if (!allowedCommands.has(command)) {
   process.exit(1);
 }
 
+// Claude Code relocates ~/.claude via CLAUDE_CONFIG_DIR; CLAUDE_HOME is kept as a
+// fallback so anyone who set it for earlier versions of this installer still works.
+function claudeConfigDir() {
+  return process.env.CLAUDE_CONFIG_DIR || process.env.CLAUDE_HOME || join(homedir(), '.claude');
+}
+
 const packageRoot = dirname(dirname(fileURLToPath(import.meta.url)));
 const entries = ['SKILL.md', 'agents', 'assets', 'references'];
 const targetDefinitions = {
@@ -38,7 +44,7 @@ const targetDefinitions = {
   },
   'claude-code': {
     label: 'Claude Code',
-    root: join(process.env.CLAUDE_HOME || join(homedir(), '.claude'), 'skills')
+    root: join(claudeConfigDir(), 'skills')
   },
   agents: {
     label: 'Shared agent skills',
