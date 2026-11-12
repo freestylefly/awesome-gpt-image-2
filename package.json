@@ -16,7 +16,7 @@
     "prebuild": "npm run generate:site-data && npm run generate:style-skill",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "node --test api/_lib/*.test.js",
+    "test": "node --test api/_lib/*.test.js shared/*.test.js src/*.test.js",
     "test:apimart": "node --test shared/apimart.test.js src/apimartClient.test.js api/_lib/apimart.test.js api/_lib/generation.test.js"
   },
   "dependencies": {
