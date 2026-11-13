@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/stars/freestylefly/awesome-gpt-image-2?style=flat-square&color=rgb(25%2C%20121%2C%20255)" alt="Stars"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/forks/freestylefly/awesome-gpt-image-2?style=flat-square&color=green" alt="Forks"></a>
-  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-544-blueviolet?style=flat-square" alt="Cases"></a>
+  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-541-blueviolet?style=flat-square" alt="Cases"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/100%25-Original_AI_Rewritten-green?style=flat-square" alt="Original"></a>
   <a href="https://github.com/sponsors/freestylefly"><img src="https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ff69b4?style=flat-square" alt="Sponsor"></a>
 </p>
@@ -102,19 +102,19 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
 <table>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>🧩 UI与界面</strong><br><sub>73 cases</sub></p>
+      <p><strong>🧩 UI与界面</strong><br><sub>68 cases</sub></p>
       <a href="docs/gallery.md#cat-ui"><img src="data/images/category-covers/ui.jpg" alt="UI与界面" width="220"></a><br>
       <sub>App、网页、仪表盘、社媒截图与产品界面。</sub><br>
       <a href="docs/gallery.md#cat-ui"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>📊 图表与信息可视化</strong><br><sub>53 cases</sub></p>
+      <p><strong>📊 图表与信息可视化</strong><br><sub>58 cases</sub></p>
       <a href="docs/gallery.md#cat-infographic"><img src="data/images/category-covers/infographic.jpg" alt="图表与信息可视化" width="220"></a><br>
       <sub>信息图、知识图谱、技术解释与结构化图解。</sub><br>
       <a href="docs/gallery.md#cat-infographic"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>📰 海报与排版</strong><br><sub>90 cases</sub></p>
+      <p><strong>📰 海报与排版</strong><br><sub>91 cases</sub></p>
       <a href="docs/gallery.md#cat-poster"><img src="data/images/category-covers/poster.jpg" alt="海报与排版" width="220"></a><br>
       <sub>活动海报、封面、字体视觉和强排版画面。</sub><br>
       <a href="docs/gallery.md#cat-poster"><strong>查看案例</strong></a>
@@ -122,7 +122,7 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>🛍️ 商品与电商</strong><br><sub>42 cases</sub></p>
+      <p><strong>🛍️ 商品与电商</strong><br><sub>43 cases</sub></p>
       <a href="docs/gallery.md#cat-product"><img src="data/images/category-covers/product.jpg" alt="商品与电商" width="220"></a><br>
       <sub>商品图、详情页、包装卖点和商业广告。</sub><br>
       <a href="docs/gallery.md#cat-product"><strong>查看案例</strong></a>
@@ -148,13 +148,13 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
       <a href="docs/gallery.md#cat-photo"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>🎨 插画与艺术</strong><br><sub>59 cases</sub></p>
+      <p><strong>🎨 插画与艺术</strong><br><sub>63 cases</sub></p>
       <a href="docs/gallery.md#cat-illustration"><img src="data/images/category-covers/illustration.jpg" alt="插画与艺术" width="220"></a><br>
       <sub>插画、艺术风格、材质实验和装饰画面。</sub><br>
       <a href="docs/gallery.md#cat-illustration"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>🧍 人物与角色</strong><br><sub>31 cases</sub></p>
+      <p><strong>🧍 人物与角色</strong><br><sub>32 cases</sub></p>
       <a href="docs/gallery.md#cat-character"><img src="data/images/category-covers/character.jpg" alt="人物与角色" width="220"></a><br>
       <sub>角色设定、动作参考、卡牌和 3D 玩具。</sub><br>
       <a href="docs/gallery.md#cat-character"><strong>查看案例</strong></a>
@@ -182,7 +182,7 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>🧪 其他应用场景</strong><br><sub>28 cases</sub></p>
+      <p><strong>🧪 其他应用场景</strong><br><sub>24 cases</sub></p>
       <a href="docs/gallery.md#cat-other"><img src="data/images/category-covers/other.jpg" alt="其他应用场景" width="220"></a><br>
       <sub>创意实验、特殊任务、混合玩法和实用场景。</sub><br>
       <a href="docs/gallery.md#cat-other"><strong>查看案例</strong></a>
@@ -190,7 +190,7 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
     <td width="33%" valign="top" align="center">
       <h4>🖼️ 完整画廊</h4>
       <a href="docs/gallery.md"><img src="data/images/category-covers/gallery.jpg" alt="完整画廊" width="220"></a><br>
-      <sub>按分册浏览全部 544 个案例和代表案例入口。</sub><br>
+      <sub>按分册浏览全部 541 个案例和代表案例入口。</sub><br>
       <a href="docs/gallery.md"><strong>进入画廊</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
@@ -346,15 +346,30 @@ GOOGLE_ANALYTICS_CLIENT_SECRET=
 GOOGLE_ANALYTICS_REFRESH_TOKEN=
 ```
 
+可选：在 Google 之外再提供观猹（Watcha）登录方式：
+
+```bash
+WATCHA_CLIENT_ID=
+WATCHA_CLIENT_SECRET=
+WATCHA_PUBLIC_CLIENT=false
+```
+
+`WATCHA_REDIRECT_URI` 与 `WATCHA_SCOPE` 是可选覆盖项，默认值分别为 `{APP_URL}/api/auth/watcha/callback` 和 `read email`。在配置了 client ID，以及 client secret 或 `WATCHA_PUBLIC_CLIENT=true` 之前，登录界面会提示观猹登录尚未配置。
+
 配置清单：
 
 - 将 [`supabase/migrations/202605090001_user_credits.sql`](supabase/migrations/202605090001_user_credits.sql) 应用到 Supabase 项目。
+- 将 [`supabase/migrations/202605090002_auth_policy_lints.sql`](supabase/migrations/202605090002_auth_policy_lints.sql) 应用到 Supabase 项目，添加共用的 `set_updated_at` 触发器函数，以及 profiles、credit_transactions、generation_reservations 三张表「仅本人可读」的 RLS 策略。
+- 将 [`supabase/migrations/20260509061039_fix_generation_usage_ambiguous_columns.sql`](supabase/migrations/20260509061039_fix_generation_usage_ambiguous_columns.sql) 应用到 Supabase 项目，替换 `reserve_generation_usage`，修正其中列引用的歧义。
 - 将 [`supabase/migrations/20260509090000_membership_billing.sql`](supabase/migrations/20260509090000_membership_billing.sql) 应用到 Supabase 项目，添加会员套餐、积分包、Stripe 订单记录和积分调整 RPC。
-- 启用支付宝网站支付前，应用 [`supabase/migrations/20260721090000_alipay_webpay.sql`](supabase/migrations/20260721090000_alipay_webpay.sql)，并为需要销售的积分包配置经业务确认的人民币价格。详见[支付宝网站支付接入说明](docs/alipay-web-payment.md)。
-- 启用付费交流群前，应用 [`supabase/migrations/20260722090000_paid_community.sql`](supabase/migrations/20260722090000_paid_community.sql)。在新群码、支付宝签约和生产付款退款验收完成前，保持 `COMMUNITY_PAYMENT_ENABLED=false`。详见[付费交流群上线手册](docs/paid-community.md)。
+- 将 [`supabase/migrations/20260509091500_membership_plan_index.sql`](supabase/migrations/20260509091500_membership_plan_index.sql) 应用到 Supabase 项目，为 `user_memberships.plan_id` 建立索引。
 - 将 [`supabase/migrations/20260512090000_google_account_center.sql`](supabase/migrations/20260512090000_google_account_center.sql) 应用到 Supabase 项目，添加账户用量统计和超级管理员强制扣积分逻辑。
 - 将 [`supabase/migrations/20260512143000_pricing_admin_metrics.sql`](supabase/migrations/20260512143000_pricing_admin_metrics.sql) 应用到 Supabase 项目，更新 `$5 / 300 credits` 价格体系，并添加管理员数据看板指标。
+- 将 [`supabase/migrations/20260513095141_admin_metrics_charts.sql`](supabase/migrations/20260513095141_admin_metrics_charts.sql) 应用到 Supabase 项目，为管理员数据看板分组的 `profiles.created_at` 与 `user_memberships.created_at` 建立索引。
 - 将 [`supabase/migrations/20260515090000_case_favorites.sql`](supabase/migrations/20260515090000_case_favorites.sql) 应用到 Supabase 项目，添加用户案例收藏表。
+- 将 [`supabase/migrations/20260528090000_watcha_oauth_accounts.sql`](supabase/migrations/20260528090000_watcha_oauth_accounts.sql) 应用到 Supabase 项目，在开放 Watcha 登录前建立 OAuth 回调读写的 `watcha_accounts` 表。
+- 启用支付宝网站支付前，应用 [`supabase/migrations/20260721090000_alipay_webpay.sql`](supabase/migrations/20260721090000_alipay_webpay.sql)，并为需要销售的积分包配置经业务确认的人民币价格。详见[支付宝网站支付接入说明](docs/alipay-web-payment.md)。
+- 启用付费交流群前，应用 [`supabase/migrations/20260722090000_paid_community.sql`](supabase/migrations/20260722090000_paid_community.sql)。在新群码、支付宝签约和生产付款退款验收完成前，保持 `COMMUNITY_PAYMENT_ENABLED=false`。详见[付费交流群上线手册](docs/paid-community.md)。
 - 将 [`supabase/migrations/20260828090000_apimart_generation_tasks.sql`](supabase/migrations/20260828090000_apimart_generation_tasks.sql) 应用到 Supabase 项目，保存 APIMart 任务 ID、实际美元成本、限时结果地址和服务商索引。
 - 在 Supabase Auth Redirect URLs 里加入 `https://gpt-image2.canghe.ai`，以及 `http://127.0.0.1:5173` 等本地开发地址。
 - 在 Supabase Dashboard 填入 Google OAuth 凭据并启用 Google Provider。

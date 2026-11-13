@@ -53,6 +53,14 @@ button {
   animation: cardDrift 2.2s ease-in-out infinite;
 }
 
+.loadingScreenFailed {
+  color: #ffc9c9;
+}
+
+.loadingScreenFailed svg {
+  animation: none;
+}
+
 .topbar {
   position: sticky;
   top: 0;
@@ -3295,9 +3303,8 @@ button {
   color: #93a4bc;
 }
 
-.limitNote {
+.loadMoreCases {
   margin: 24px 0 0;
-  color: #8d9bb0;
   text-align: center;
 }
 

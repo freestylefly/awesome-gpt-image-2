@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/stars/freestylefly/awesome-gpt-image-2?style=flat-square&color=rgb(25%2C%20121%2C%20255)" alt="Stars"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/forks/freestylefly/awesome-gpt-image-2?style=flat-square&color=green" alt="Forks"></a>
-  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-544-blueviolet?style=flat-square" alt="Cases"></a>
+  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-541-blueviolet?style=flat-square" alt="Cases"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/100%25-Original_AI_Rewritten-green?style=flat-square" alt="Original"></a>
 </p>
 
@@ -101,19 +101,19 @@ GPT-Image2 が広く利用できるようになったことで、AI 画像生成
 <table>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>🧩 UI とインターフェース</strong><br><sub>73 cases</sub></p>
+      <p><strong>🧩 UI とインターフェース</strong><br><sub>68 cases</sub></p>
       <a href="docs/gallery.md#cat-ui"><img src="data/images/category-covers/ui.jpg" alt="UI とインターフェース" width="220"></a><br>
       <sub>アプリ、Web サイト、ダッシュボード、SNS スクリーンショット、プロダクト UI。</sub><br>
       <a href="docs/gallery.md#cat-ui"><strong>ケースを見る</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>📊 チャートとインフォグラフィック</strong><br><sub>53 cases</sub></p>
+      <p><strong>📊 チャートとインフォグラフィック</strong><br><sub>58 cases</sub></p>
       <a href="docs/gallery.md#cat-infographic"><img src="data/images/category-covers/infographic.jpg" alt="チャートとインフォグラフィック" width="220"></a><br>
       <sub>インフォグラフィック、ナレッジマップ、技術解説、構造化図解。</sub><br>
       <a href="docs/gallery.md#cat-infographic"><strong>ケースを見る</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>📰 ポスターとタイポグラフィ</strong><br><sub>90 cases</sub></p>
+      <p><strong>📰 ポスターとタイポグラフィ</strong><br><sub>91 cases</sub></p>
       <a href="docs/gallery.md#cat-poster"><img src="data/images/category-covers/poster.jpg" alt="ポスターとタイポグラフィ" width="220"></a><br>
       <sub>イベントポスター、カバー、文字主体のビジュアル、強いレイアウト構成。</sub><br>
       <a href="docs/gallery.md#cat-poster"><strong>ケースを見る</strong></a>
@@ -121,7 +121,7 @@ GPT-Image2 が広く利用できるようになったことで、AI 画像生成
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>🛍️ 商品と E コマース</strong><br><sub>42 cases</sub></p>
+      <p><strong>🛍️ 商品と E コマース</strong><br><sub>43 cases</sub></p>
       <a href="docs/gallery.md#cat-product"><img src="data/images/category-covers/product.jpg" alt="商品と E コマース" width="220"></a><br>
       <sub>商品カット、詳細ページ、パッケージ、訴求ポイント、広告表現。</sub><br>
       <a href="docs/gallery.md#cat-product"><strong>ケースを見る</strong></a>
@@ -147,13 +147,13 @@ GPT-Image2 が広く利用できるようになったことで、AI 画像生成
       <a href="docs/gallery.md#cat-photo"><strong>ケースを見る</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>🎨 イラストとアート</strong><br><sub>59 cases</sub></p>
+      <p><strong>🎨 イラストとアート</strong><br><sub>63 cases</sub></p>
       <a href="docs/gallery.md#cat-illustration"><img src="data/images/category-covers/illustration.jpg" alt="イラストとアート" width="220"></a><br>
       <sub>イラスト、アートスタイル、素材実験、装飾的な画面表現。</sub><br>
       <a href="docs/gallery.md#cat-illustration"><strong>ケースを見る</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>🧍 キャラクターと人物</strong><br><sub>31 cases</sub></p>
+      <p><strong>🧍 キャラクターと人物</strong><br><sub>32 cases</sub></p>
       <a href="docs/gallery.md#cat-character"><img src="data/images/category-covers/character.jpg" alt="キャラクターと人物" width="220"></a><br>
       <sub>キャラクターデザイン、ポーズ資料、カード、3D トイ表現。</sub><br>
       <a href="docs/gallery.md#cat-character"><strong>ケースを見る</strong></a>
@@ -181,7 +181,7 @@ GPT-Image2 が広く利用できるようになったことで、AI 画像生成
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>🧪 その他のユースケース</strong><br><sub>28 cases</sub></p>
+      <p><strong>🧪 その他のユースケース</strong><br><sub>24 cases</sub></p>
       <a href="docs/gallery.md#cat-other"><img src="data/images/category-covers/other.jpg" alt="その他のユースケース" width="220"></a><br>
       <sub>クリエイティブ実験、特殊タスク、複合ワークフロー、実務ケース。</sub><br>
       <a href="docs/gallery.md#cat-other"><strong>ケースを見る</strong></a>
@@ -189,7 +189,7 @@ GPT-Image2 が広く利用できるようになったことで、AI 画像生成
     <td width="33%" valign="top" align="center">
       <h4>🖼️ フルギャラリー</h4>
       <a href="docs/gallery.md"><img src="data/images/category-covers/gallery.jpg" alt="フルギャラリー" width="220"></a><br>
-      <sub>全 544 件のケースをパートとカテゴリ別に閲覧できます。</sub><br>
+      <sub>全 541 件のケースをパートとカテゴリ別に閲覧できます。</sub><br>
       <a href="docs/gallery.md"><strong>ギャラリーを開く</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
@@ -345,13 +345,30 @@ GOOGLE_ANALYTICS_CLIENT_SECRET=
 GOOGLE_ANALYTICS_REFRESH_TOKEN=
 ```
 
+任意：Google に加えて Watcha サインインを提供する場合：
+
+```bash
+WATCHA_CLIENT_ID=
+WATCHA_CLIENT_SECRET=
+WATCHA_PUBLIC_CLIENT=false
+```
+
+`WATCHA_REDIRECT_URI` と `WATCHA_SCOPE` は任意の上書き項目で、既定値はそれぞれ `{APP_URL}/api/auth/watcha/callback` と `read email` です。クライアント ID と、クライアントシークレットまたは `WATCHA_PUBLIC_CLIENT=true` を設定するまでは、サインイン画面に Watcha が未設定である旨が表示されます。
+
 セットアップチェックリスト：
 
 - [`supabase/migrations/202605090001_user_credits.sql`](supabase/migrations/202605090001_user_credits.sql) を Supabase プロジェクトへ適用します。
+- [`supabase/migrations/202605090002_auth_policy_lints.sql`](supabase/migrations/202605090002_auth_policy_lints.sql) を適用し、共有の `set_updated_at` トリガー関数と、profiles・credit_transactions・generation_reservations の「本人のみ読み取り可」RLS ポリシーを追加します。
+- [`supabase/migrations/20260509061039_fix_generation_usage_ambiguous_columns.sql`](supabase/migrations/20260509061039_fix_generation_usage_ambiguous_columns.sql) を適用し、`reserve_generation_usage` を列参照を修飾した版に置き換えます。
 - [`supabase/migrations/20260509090000_membership_billing.sql`](supabase/migrations/20260509090000_membership_billing.sql) を適用し、メンバーシッププラン、クレジットパック、Stripe 注文レコード、クレジット調整 RPC を追加します。
+- [`supabase/migrations/20260509091500_membership_plan_index.sql`](supabase/migrations/20260509091500_membership_plan_index.sql) を適用し、`user_memberships.plan_id` に索引を追加します。
 - [`supabase/migrations/20260512090000_google_account_center.sql`](supabase/migrations/20260512090000_google_account_center.sql) を適用し、アカウント利用サマリーとスーパー管理者向けの強制クレジット課金を追加します。
 - [`supabase/migrations/20260512143000_pricing_admin_metrics.sql`](supabase/migrations/20260512143000_pricing_admin_metrics.sql) を適用し、`$5 / 300 credits` のカタログを更新して管理ダッシュボード指標を追加します。
+- [`supabase/migrations/20260513095141_admin_metrics_charts.sql`](supabase/migrations/20260513095141_admin_metrics_charts.sql) を適用し、管理ダッシュボードのグラフが集計する `profiles.created_at` と `user_memberships.created_at` に索引を追加します。
 - [`supabase/migrations/20260515090000_case_favorites.sql`](supabase/migrations/20260515090000_case_favorites.sql) を適用し、ユーザーごとのケースお気に入り機能を追加します。
+- Watcha ログインを提供する前に [`supabase/migrations/20260528090000_watcha_oauth_accounts.sql`](supabase/migrations/20260528090000_watcha_oauth_accounts.sql) を適用し、OAuth コールバックが読み書きする `watcha_accounts` テーブルを作成します。
+- Alipay ウェブ決済を有効化する前に [`supabase/migrations/20260721090000_alipay_webpay.sql`](supabase/migrations/20260721090000_alipay_webpay.sql) を適用し、販売する各クレジットパックの確認済み人民元価格を設定します。詳しくは [Alipay ウェブ決済の設定](docs/alipay-web-payment.md) を参照してください。
+- 有料コミュニティを有効化する前に [`supabase/migrations/20260722090000_paid_community.sql`](supabase/migrations/20260722090000_paid_community.sql) を適用します。保護された QR コード、Alipay 審査、本番の決済・返金確認が完了するまで `COMMUNITY_PAYMENT_ENABLED=false` を維持してください。詳しくは[有料コミュニティ運用ガイド](docs/paid-community.md)を参照してください。
 - [`supabase/migrations/20260828090000_apimart_generation_tasks.sql`](supabase/migrations/20260828090000_apimart_generation_tasks.sql) を適用し、APIMart タスク ID、実際の USD コスト、有効期限付き結果 URL、プロバイダー索引を追加します。
 - Supabase Auth の Redirect URLs に `https://gpt-image2.canghe.ai` と、`http://127.0.0.1:5173` などのローカル開発 URL を追加します。
 - Supabase Dashboard に Google OAuth 認証情報を追加したうえで Google Provider を有効化します。

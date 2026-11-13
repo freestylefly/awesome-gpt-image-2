@@ -73,6 +73,8 @@ const watchaLogoUrl =
 const copy = {
   en: {
     loading: 'Loading GPT-Image2 cases...',
+    loadFailed: 'Could not load the gallery data.',
+    loadRetry: 'Retry',
     brand: 'GPT-Image2 Gallery',
     navCases: 'Cases',
     navSkill: 'Skill',
@@ -327,10 +329,12 @@ const copy = {
     examples: 'Example Cases',
     source: 'Source',
     openOnGithub: 'Open on GitHub',
-    limit: (count) => `Showing the first ${count} results for speed. Use search or filters to narrow the gallery.`
+    loadMore: 'Load more'
   },
   zh: {
     loading: '正在加载 GPT-Image2 案例...',
+    loadFailed: '画廊数据加载失败。',
+    loadRetry: '重试',
     brand: 'GPT-Image2 画廊',
     navCases: '案例',
     navSkill: '技能',
@@ -585,7 +589,7 @@ const copy = {
     examples: '关联案例',
     source: '来源',
     openOnGithub: '在 GitHub 打开',
-    limit: (count) => `为了保证浏览速度，当前展示前 ${count} 条结果。可以用搜索或筛选缩小范围。`
+    loadMore: '加载更多'
   }
 };
 
@@ -653,6 +657,7 @@ function compactText(value, maxLength = 180) {
   return `${value.slice(0, maxLength)}...`;
 }
 
+const GALLERY_PAGE_SIZE = 72;
 const HERO_CASE_COUNT = 5;
 const HOT_STRIP_CASE_COUNT = 8;
 let bodyScrollLockCount = 0;
@@ -3582,7 +3587,10 @@ function App() {
   useGaPageViews();
   const [siteData, setSiteData] = useState(null);
   const [styleLibrary, setStyleLibrary] = useState(null);
+  const [siteDataFailed, setSiteDataFailed] = useState(false);
+  const [siteDataAttempt, setSiteDataAttempt] = useState(0);
   const [language, setLanguage] = useState(() => localStorage.getItem('language') || 'en');
+  const [visibleCount, setVisibleCount] = useState(GALLERY_PAGE_SIZE);
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('All');
   const [style, setStyle] = useState('All');
@@ -3618,20 +3626,32 @@ function App() {
   useEffect(() => {
     let cancelled = false;
     cleanupExpiredGeneratedTests();
-    Promise.all([
-      fetch('/cases.json').then((response) => response.json()),
-      fetch('/style-library.json').then((response) => response.json())
-    ])
+
+    async function loadJson(url) {
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`${url} responded with ${response.status}`);
+      return response.json();
+    }
+
+    setSiteDataFailed(false);
+    Promise.all([loadJson('/cases.json'), loadJson('/style-library.json')])
       .then(([payload, library]) => {
         if (!cancelled) {
           setSiteData(payload);
           setStyleLibrary(library);
         }
+      })
+      .catch((error) => {
+        if (cancelled) return;
+        console.warn('Failed to load site data', {
+          message: String(error?.message || 'unknown').slice(0, 240)
+        });
+        setSiteDataFailed(true);
       });
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [siteDataAttempt]);
 
   useEffect(() => {
     let cancelled = false;
@@ -3907,7 +3927,12 @@ function App() {
     [siteData, styleLibrary]
   );
 
-  const visibleCases = filteredCases.slice(0, 72);
+  function updateGalleryFilter(setFilter, value) {
+    setFilter(value);
+    setVisibleCount(GALLERY_PAGE_SIZE);
+  }
+
+  const visibleCases = filteredCases.slice(0, visibleCount);
   const casesById = useMemo(() => new Map((siteData?.cases || []).map((caseItem) => [caseItem.id, caseItem])), [siteData]);
   const favoriteCaseIds = useMemo(
     () => new Set(normalizeFavoriteRows(favoriteRows).map((favorite) => favorite.caseId)),
@@ -4056,9 +4081,25 @@ function App() {
   if (!siteData || !styleLibrary) {
     return (
       <main>
-        <div className="loadingScreen">
-          <WandSparkles size={28} />
-          <span>{t.loading}</span>
+        <div className={siteDataFailed ? 'loadingScreen loadingScreenFailed' : 'loadingScreen'}>
+          {siteDataFailed ? (
+            <>
+              <span>{t.loadFailed}</span>
+              <button
+                type="button"
+                className="iconTextButton"
+                onClick={() => setSiteDataAttempt((attempt) => attempt + 1)}
+              >
+                <RefreshCw size={16} />
+                {t.loadRetry}
+              </button>
+            </>
+          ) : (
+            <>
+              <WandSparkles size={28} />
+              <span>{t.loading}</span>
+            </>
+          )}
         </div>
       </main>
     );
@@ -4144,7 +4185,7 @@ function App() {
             <Search size={18} />
             <input
               value={query}
-              onChange={(event) => setQuery(event.target.value)}
+              onChange={(event) => updateGalleryFilter(setQuery, event.target.value)}
               placeholder={t.search}
             />
           </div>
@@ -4154,9 +4195,9 @@ function App() {
           <div>
             <strong>{t.category}</strong>
             <div className="filterRow">
-              <FilterPill active={category === 'All'} onClick={() => setCategory('All')}>{t.all}</FilterPill>
+              <FilterPill active={category === 'All'} onClick={() => updateGalleryFilter(setCategory, 'All')}>{t.all}</FilterPill>
               {orderedCategories.map((item) => (
-                <FilterPill key={item} active={category === item} onClick={() => setCategory(item)}>
+                <FilterPill key={item} active={category === item} onClick={() => updateGalleryFilter(setCategory, item)}>
                   {localizeLabel(item, language, styleLibrary)}
                 </FilterPill>
               ))}
@@ -4165,9 +4206,9 @@ function App() {
           <div>
             <strong>{t.style}</strong>
             <div className="filterRow">
-              <FilterPill active={style === 'All'} onClick={() => setStyle('All')}>{t.all}</FilterPill>
+              <FilterPill active={style === 'All'} onClick={() => updateGalleryFilter(setStyle, 'All')}>{t.all}</FilterPill>
               {orderedStyles.map((item) => (
-                <FilterPill key={item} active={style === item} onClick={() => setStyle(item)}>
+                <FilterPill key={item} active={style === item} onClick={() => updateGalleryFilter(setStyle, item)}>
                   {localizeLabel(item, language, styleLibrary)}
                 </FilterPill>
               ))}
@@ -4176,9 +4217,9 @@ function App() {
           <div>
             <strong>{t.scene}</strong>
             <div className="filterRow">
-              <FilterPill active={scene === 'All'} onClick={() => setScene('All')}>{t.all}</FilterPill>
+              <FilterPill active={scene === 'All'} onClick={() => updateGalleryFilter(setScene, 'All')}>{t.all}</FilterPill>
               {orderedScenes.map((item) => (
-                <FilterPill key={item} active={scene === item} onClick={() => setScene(item)}>
+                <FilterPill key={item} active={scene === item} onClick={() => updateGalleryFilter(setScene, item)}>
                   {localizeLabel(item, language, styleLibrary)}
                 </FilterPill>
               ))}
@@ -4213,9 +4254,15 @@ function App() {
         </div>
 
         {filteredCases.length > visibleCases.length && (
-          <p className="limitNote">
-            {t.limit(visibleCases.length)}
-          </p>
+          <div className="loadMoreCases">
+            <button
+              type="button"
+              className="iconTextButton"
+              onClick={() => setVisibleCount((count) => count + GALLERY_PAGE_SIZE)}
+            >
+              {t.loadMore}
+            </button>
+          </div>
         )}
       </section>
 
