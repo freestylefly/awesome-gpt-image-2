@@ -50,11 +50,11 @@
       ]
     },
     {
-      "source": "/gpt-image-2-5/(.*)",
+      "source": "/gpt-image-2-5(/index\\.html|/)?",
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
+          "value": "public, no-cache"
         }
       ]
     }
