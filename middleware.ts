@@ -14,7 +14,7 @@ const ALLOWED_REFERRER_HOSTS = [
   '127.0.0.1',
 ];
 
-const PROTECTED_PREFIXES = ['/images/', '/cases.json', '/assets/', '/gpt-image-2-5/'];
+const PROTECTED_PREFIXES = ['/images/', '/cases.json', '/assets/'];
 
 function isAllowedReferer(refererHostname, requestHostname) {
   if (!refererHostname) {
@@ -72,5 +72,5 @@ export default function middleware(request) {
 }
 
 export const config = {
-  matcher: ['/images/:path*', '/cases.json', '/assets/:path*', '/gpt-image-2-5/:path*'],
+  matcher: ['/images/:path*', '/cases.json', '/assets/:path*'],
 };
