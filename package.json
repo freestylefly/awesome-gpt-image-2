@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "generate:site-data": "node scripts/generate-site-data.mjs",
+    "sync:gallery-counts": "node scripts/check-gallery-index.mjs --write-counts",
+    "check:gallery": "node scripts/check-gallery-index.mjs",
     "generate:style-skill": "node scripts/generate-style-skill.mjs",
     "ga4:oauth": "node scripts/google-analytics-oauth.mjs",
     "install:skill": "node scripts/install-style-skill.mjs",
@@ -16,7 +18,7 @@
     "prebuild": "npm run generate:site-data && npm run generate:style-skill",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "node --test api/_lib/*.test.js",
+    "test": "node --test",
     "test:apimart": "node --test shared/apimart.test.js src/apimartClient.test.js api/_lib/apimart.test.js api/_lib/generation.test.js"
   },
   "dependencies": {

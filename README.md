@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/stars/freestylefly/awesome-gpt-image-2?style=flat-square&color=rgb(25%2C%20121%2C%20255)" alt="Stars"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/forks/freestylefly/awesome-gpt-image-2?style=flat-square&color=green" alt="Forks"></a>
-  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-544-blueviolet?style=flat-square" alt="Cases"></a>
+  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-541-blueviolet?style=flat-square" alt="Cases"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/100%25-Original_AI_Rewritten-green?style=flat-square" alt="Original"></a>
   <a href="https://github.com/sponsors/freestylefly"><img src="https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ff69b4?style=flat-square" alt="Sponsor"></a>
 </p>
@@ -102,19 +102,19 @@ Start with the case album to find a visual direction, then open the prompt templ
 <table>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>🧩 UI & Interfaces</strong><br><sub>73 cases</sub></p>
+      <p><strong>🧩 UI & Interfaces</strong><br><sub>68 cases</sub></p>
       <a href="docs/gallery.md#cat-ui"><img src="data/images/category-covers/ui.jpg" alt="UI and interfaces" width="220"></a><br>
       <sub>Apps, websites, dashboards, social screenshots, and product interfaces.</sub><br>
       <a href="docs/gallery.md#cat-ui"><strong>View Cases</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>📊 Charts & Infographics</strong><br><sub>53 cases</sub></p>
+      <p><strong>📊 Charts & Infographics</strong><br><sub>58 cases</sub></p>
       <a href="docs/gallery.md#cat-infographic"><img src="data/images/category-covers/infographic.jpg" alt="Charts and infographics" width="220"></a><br>
       <sub>Infographics, knowledge maps, technical explainers, and structured diagrams.</sub><br>
       <a href="docs/gallery.md#cat-infographic"><strong>View Cases</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>📰 Posters & Typography</strong><br><sub>90 cases</sub></p>
+      <p><strong>📰 Posters & Typography</strong><br><sub>91 cases</sub></p>
       <a href="docs/gallery.md#cat-poster"><img src="data/images/category-covers/poster.jpg" alt="Posters and typography" width="220"></a><br>
       <sub>Event posters, covers, type-driven visuals, and strong layout compositions.</sub><br>
       <a href="docs/gallery.md#cat-poster"><strong>View Cases</strong></a>
@@ -122,7 +122,7 @@ Start with the case album to find a visual direction, then open the prompt templ
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>🛍️ Products & E-commerce</strong><br><sub>42 cases</sub></p>
+      <p><strong>🛍️ Products & E-commerce</strong><br><sub>43 cases</sub></p>
       <a href="docs/gallery.md#cat-product"><img src="data/images/category-covers/product.jpg" alt="Products and e-commerce" width="220"></a><br>
       <sub>Product shots, detail pages, packaging, selling points, and ads.</sub><br>
       <a href="docs/gallery.md#cat-product"><strong>View Cases</strong></a>
@@ -148,13 +148,13 @@ Start with the case album to find a visual direction, then open the prompt templ
       <a href="docs/gallery.md#cat-photo"><strong>View Cases</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>🎨 Illustration & Art</strong><br><sub>59 cases</sub></p>
+      <p><strong>🎨 Illustration & Art</strong><br><sub>63 cases</sub></p>
       <a href="docs/gallery.md#cat-illustration"><img src="data/images/category-covers/illustration.jpg" alt="Illustration and art" width="220"></a><br>
       <sub>Illustration, art styles, material experiments, and decorative images.</sub><br>
       <a href="docs/gallery.md#cat-illustration"><strong>View Cases</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>🧍 Characters & People</strong><br><sub>31 cases</sub></p>
+      <p><strong>🧍 Characters & People</strong><br><sub>32 cases</sub></p>
       <a href="docs/gallery.md#cat-character"><img src="data/images/category-covers/character.jpg" alt="Characters and people" width="220"></a><br>
       <sub>Character design, pose references, cards, and 3D toys.</sub><br>
       <a href="docs/gallery.md#cat-character"><strong>View Cases</strong></a>
@@ -182,7 +182,7 @@ Start with the case album to find a visual direction, then open the prompt templ
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>🧪 Other Use Cases</strong><br><sub>28 cases</sub></p>
+      <p><strong>🧪 Other Use Cases</strong><br><sub>24 cases</sub></p>
       <a href="docs/gallery.md#cat-other"><img src="data/images/category-covers/other.jpg" alt="Other use cases" width="220"></a><br>
       <sub>Creative experiments, special tasks, mixed workflows, and practical cases.</sub><br>
       <a href="docs/gallery.md#cat-other"><strong>View Cases</strong></a>
@@ -190,7 +190,7 @@ Start with the case album to find a visual direction, then open the prompt templ
     <td width="33%" valign="top" align="center">
       <h4>🖼️ Full Gallery</h4>
       <a href="docs/gallery.md"><img src="data/images/category-covers/gallery.jpg" alt="Full gallery" width="220"></a><br>
-      <sub>Browse all 544 cases by gallery part and category.</sub><br>
+      <sub>Browse all 541 cases by gallery part and category.</sub><br>
       <a href="docs/gallery.md"><strong>Open Gallery</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
@@ -348,15 +348,30 @@ GOOGLE_ANALYTICS_CLIENT_SECRET=
 GOOGLE_ANALYTICS_REFRESH_TOKEN=
 ```
 
+Optional, to offer the Watcha sign-in option beside Google:
+
+```bash
+WATCHA_CLIENT_ID=
+WATCHA_CLIENT_SECRET=
+WATCHA_PUBLIC_CLIENT=false
+```
+
+`WATCHA_REDIRECT_URI` and `WATCHA_SCOPE` are optional overrides that default to `{APP_URL}/api/auth/watcha/callback` and `read email`. Until a client ID plus either a client secret or `WATCHA_PUBLIC_CLIENT=true` are set, the sign-in screen reports that Watcha is not configured.
+
 Setup checklist:
 
 - Apply [`supabase/migrations/202605090001_user_credits.sql`](supabase/migrations/202605090001_user_credits.sql) to the Supabase project.
+- Apply [`supabase/migrations/202605090002_auth_policy_lints.sql`](supabase/migrations/202605090002_auth_policy_lints.sql) to add the shared `set_updated_at` trigger helper and the select-own RLS policies for profiles, credit transactions, and generation reservations.
+- Apply [`supabase/migrations/20260509061039_fix_generation_usage_ambiguous_columns.sql`](supabase/migrations/20260509061039_fix_generation_usage_ambiguous_columns.sql) to replace `reserve_generation_usage` with the version that qualifies its column references.
 - Apply [`supabase/migrations/20260509090000_membership_billing.sql`](supabase/migrations/20260509090000_membership_billing.sql) to add membership plans, credit packs, Stripe order records, and credit adjustment RPCs.
-- Apply [`supabase/migrations/20260721090000_alipay_webpay.sql`](supabase/migrations/20260721090000_alipay_webpay.sql) before enabling Alipay website payments, then configure each credit pack's reviewed CNY price. See [Alipay website payment setup](docs/alipay-web-payment.md).
-- Apply [`supabase/migrations/20260722090000_paid_community.sql`](supabase/migrations/20260722090000_paid_community.sql) before enabling the paid community. Keep `COMMUNITY_PAYMENT_ENABLED=false` until the protected QR, Alipay onboarding, and production payment/refund checks are complete. See the [paid community runbook](docs/paid-community.md).
+- Apply [`supabase/migrations/20260509091500_membership_plan_index.sql`](supabase/migrations/20260509091500_membership_plan_index.sql) to index `user_memberships.plan_id`.
 - Apply [`supabase/migrations/20260512090000_google_account_center.sql`](supabase/migrations/20260512090000_google_account_center.sql) to add account usage summaries and forced credit charging for super admins.
 - Apply [`supabase/migrations/20260512143000_pricing_admin_metrics.sql`](supabase/migrations/20260512143000_pricing_admin_metrics.sql) to update the `$5 / 300 credits` catalog and add admin dashboard metrics.
+- Apply [`supabase/migrations/20260513095141_admin_metrics_charts.sql`](supabase/migrations/20260513095141_admin_metrics_charts.sql) to index the `profiles.created_at` and `user_memberships.created_at` timestamps the admin metrics charts group by.
 - Apply [`supabase/migrations/20260515090000_case_favorites.sql`](supabase/migrations/20260515090000_case_favorites.sql) to add per-user case favorites.
+- Apply [`supabase/migrations/20260528090000_watcha_oauth_accounts.sql`](supabase/migrations/20260528090000_watcha_oauth_accounts.sql) before offering the Watcha sign-in option, to create the `watcha_accounts` table the OAuth callback reads and writes.
+- Apply [`supabase/migrations/20260721090000_alipay_webpay.sql`](supabase/migrations/20260721090000_alipay_webpay.sql) before enabling Alipay website payments, then configure each credit pack's reviewed CNY price. See [Alipay website payment setup](docs/alipay-web-payment.md).
+- Apply [`supabase/migrations/20260722090000_paid_community.sql`](supabase/migrations/20260722090000_paid_community.sql) before enabling the paid community. Keep `COMMUNITY_PAYMENT_ENABLED=false` until the protected QR, Alipay onboarding, and production payment/refund checks are complete. See the [paid community runbook](docs/paid-community.md).
 - Apply [`supabase/migrations/20260828090000_apimart_generation_tasks.sql`](supabase/migrations/20260828090000_apimart_generation_tasks.sql) to add APIMart task IDs, actual USD costs, expiring result URLs, and provider indexes.
 - Add `https://gpt-image2.canghe.ai` and local dev URLs such as `http://127.0.0.1:5173` to Supabase Auth redirect URLs.
 - Enable the Google Provider after adding Google OAuth credentials in the Supabase Dashboard.
