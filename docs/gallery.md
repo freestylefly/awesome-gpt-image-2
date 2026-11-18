@@ -225,12 +225,13 @@
 
 <a name="cat-ui"></a>
 
-### 🧩 UI与界面 · 73 cases
+### 🧩 UI与界面 · 68 cases
 
 - [例 2：社媒界面截图](./gallery-part-1.md#case-2)
 - [例 4：老干妈风味](./gallery-part-1.md#case-4)
 - [例 7：应用界面样机图](./gallery-part-1.md#case-7)
 - [例 21：直播界面设计图](./gallery-part-1.md#case-21)
+- [例 48：直播界面设计图](./gallery-part-1.md#case-48)
 - [例 49：直播界面设计图](./gallery-part-1.md#case-49)
 - [例 57：界面交互设计图](./gallery-part-1.md#case-57)
 - [例 91：游戏界面截图](./gallery-part-1.md#case-91)
@@ -254,6 +255,7 @@
 - [例 152：直播界面设计图](./gallery-part-1.md#case-152)
 - [例 156：应用界面样机图](./gallery-part-1.md#case-156)
 - [例 158：界面交互设计图](./gallery-part-1.md#case-158)
+- [例 159：界面交互设计图](./gallery-part-1.md#case-159)
 - [例 161：应用界面样机图](./gallery-part-1.md#case-161)
 - [例 163：诗仙李白月下直播起舞](./gallery-part-1.md#case-163)
 - [例 164：特朗普太空直播间破千万](./gallery-part-1.md#case-164)
@@ -267,6 +269,7 @@
 - [例 227：哔哩哔哩户晨风直播截图](./gallery-part-2.md#case-227)
 - [例 239：刘亦菲抖音直播畅聊中](./gallery-part-2.md#case-239)
 - [例 242：绝美国风工笔画书签设计](./gallery-part-2.md#case-242)
+- [例 243：定制专属风格界面设计系统](./gallery-part-2.md#case-243)
 - [例 245：马斯克专属篆刻印章设计](./gallery-part-2.md#case-245)
 - [例 249：美女举牌感谢大哥打赏大火箭](./gallery-part-2.md#case-249)
 - [例 255：瑜伽裤女主播展示身材曲线](./gallery-part-2.md#case-255)
@@ -295,8 +298,9 @@
 
 <a name="cat-infographic"></a>
 
-### 📊 图表与信息可视化 · 53 cases
+### 📊 图表与信息可视化 · 58 cases
 
+- [例 1：信息图可视化设计](./gallery-part-1.md#case-1)
 - [例 8：科普百科图](./gallery-part-1.md#case-8)
 - [例 14：信息图可视化设计](./gallery-part-1.md#case-14)
 - [例 19：信息图可视化设计](./gallery-part-1.md#case-19)
@@ -306,8 +310,10 @@
 - [例 55：信息图可视化设计](./gallery-part-1.md#case-55)
 - [例 64：信息图可视化设计](./gallery-part-1.md#case-64)
 - [例 65：信息图可视化设计](./gallery-part-1.md#case-65)
+- [例 66：信息图可视化设计](./gallery-part-1.md#case-66)
 - [例 67：信息图可视化设计](./gallery-part-1.md#case-67)
 - [例 68：信息图可视化设计](./gallery-part-1.md#case-68)
+- [例 69：信息图可视化设计](./gallery-part-1.md#case-69)
 - [例 70：信息图可视化设计](./gallery-part-1.md#case-70)
 - [例 71：关系图谱信息图](./gallery-part-1.md#case-71)
 - [例 72：信息图可视化设计](./gallery-part-1.md#case-72)
@@ -316,11 +322,13 @@
 - [例 75：关系图谱信息图](./gallery-part-1.md#case-75)
 - [例 76：关系图谱信息图](./gallery-part-1.md#case-76)
 - [例 77：关系图谱信息图](./gallery-part-1.md#case-77)
+- [例 82：信息图可视化设计](./gallery-part-1.md#case-82)
 - [例 84：关系图谱信息图](./gallery-part-1.md#case-84)
 - [例 85：关系图谱信息图](./gallery-part-1.md#case-85)
 - [例 86：关系图谱信息图](./gallery-part-1.md#case-86)
 - [例 87：关系图谱信息图](./gallery-part-1.md#case-87)
 - [例 89：信息图可视化设计](./gallery-part-1.md#case-89)
+- [例 90：信息图可视化设计](./gallery-part-1.md#case-90)
 - [例 102：信息图可视化设计](./gallery-part-1.md#case-102)
 - [例 171：信息图可视化设计](./gallery-part-2.md#case-171)
 - [例 179：蒸汽朋克射手座解剖图谱](./gallery-part-2.md#case-179)
@@ -354,7 +362,7 @@
 
 <a name="cat-poster"></a>
 
-### 📰 海报与排版 · 90 cases
+### 📰 海报与排版 · 91 cases
 
 - [例 3：足球主题电影海报](./gallery-part-1.md#case-3)
 - [例 5：主题海报版式设计](./gallery-part-1.md#case-5)
@@ -407,6 +415,7 @@
 - [例 312：鲜艳霓虹光影下的动感苏打水飞溅商业海报](./gallery-part-2.md#case-312)
 - [例 314：红蓝光影下的未来都市双重曝光青年](./gallery-part-2.md#case-314)
 - [例 320：冰火双雄背靠背史诗电影海报](./gallery-part-2.md#case-320)
+- [例 332：茶π产品宣传海报](./gallery-part-2.md#case-332)
 - [例 339：Apple 风格自然科普海报](./gallery-part-2.md#case-339)
 - [例 343：高定时尚杂志封面](./gallery-part-2.md#case-343)
 - [例 345：法新浪潮撕纸电影海报](./gallery-part-2.md#case-345)
@@ -420,6 +429,7 @@
 - [例 388：1980s Claude 复古杂志广告](./gallery-part-2.md#case-388)
 - [例 389：Transparent Labs Hydrate 健身补剂 Campaign](./gallery-part-2.md#case-389)
 - [例 396：龙类物种复古百科海报](./gallery-part-2.md#case-396)
+- [例 400：多风格签名选择海报](./gallery-part-2.md#case-400)
 - [例 401：Lost in 国家旅行海报拼贴](./gallery-part-2.md#case-401)
 - [例 406：巨型游戏手柄街头 Campaign](./gallery-part-2.md#case-406)
 - [例 417：复古印尼猫薄荷广告](./gallery-part-2.md#case-417)
@@ -451,7 +461,7 @@
 
 <a name="cat-product"></a>
 
-### 🛍️ 商品与电商 · 42 cases
+### 🛍️ 商品与电商 · 43 cases
 
 - [例 17：界面交互设计图](./gallery-part-1.md#case-17)
 - [例 33：电商商品展示设计](./gallery-part-1.md#case-33)
@@ -472,8 +482,10 @@
 - [例 237：夏日柑橘苏打高转化广告图](./gallery-part-2.md#case-237)
 - [例 264：美妆产品广告图](./gallery-part-2.md#case-264)
 - [例 265：日式潮流广告四联画](./gallery-part-2.md#case-265)
+- [例 301：终结者机器人淘宝详情页](./gallery-part-2.md#case-301)
 - [例 313：电商商品展示设计](./gallery-part-2.md#case-313)
 - [例 317：震撼视觉的深红影棚广角美妆大片](./gallery-part-2.md#case-317)
+- [例 318：珊瑚色极简影棚时尚商业大片](./gallery-part-2.md#case-318)
 - [例 327：沉香玫瑰悬浮幻景](./gallery-part-2.md#case-327)
 - [例 358：草莓能量饮料商业广告](./gallery-part-2.md#case-358)
 - [例 365：科学家收藏级玩具发布板](./gallery-part-2.md#case-365)
@@ -504,6 +516,7 @@
 
 - [例 130：界面交互设计图](./gallery-part-1.md#case-130)
 - [例 132：界面交互设计图](./gallery-part-1.md#case-132)
+- [例 133：界面交互设计图](./gallery-part-1.md#case-133)
 - [例 134：界面交互设计图](./gallery-part-1.md#case-134)
 - [例 135：应用界面样机图](./gallery-part-1.md#case-135)
 - [例 136：品牌视觉识别图](./gallery-part-1.md#case-136)
@@ -537,6 +550,7 @@
 - [例 11：一张手绘风格的城市美食地图，以台州为主题](./gallery-part-1.md#case-11)
 - [例 18：信息图可视化设计](./gallery-part-1.md#case-18)
 - [例 20：信息图可视化设计](./gallery-part-1.md#case-20)
+- [例 50：建筑空间场景图](./gallery-part-1.md#case-50)
 - [例 211：天坛古建拆解全图](./gallery-part-2.md#case-211)
 - [例 274：成都吃货暴走手绘美食地图](./gallery-part-2.md#case-274)
 - [例 328：俯拍巨女城景自拍](./gallery-part-2.md#case-328)
@@ -634,7 +648,7 @@
 
 <a name="cat-illustration"></a>
 
-### 🎨 插画与艺术 · 59 cases
+### 🎨 插画与艺术 · 63 cases
 
 - [例 6：插画艺术创作图](./gallery-part-1.md#case-6)
 - [例 22：插画艺术风格创作](./gallery-part-1.md#case-22)
@@ -645,6 +659,7 @@
 - [例 38：综合应用场景图](./gallery-part-1.md#case-38)
 - [例 39：综合应用场景图](./gallery-part-1.md#case-39)
 - [例 40：综合应用场景图](./gallery-part-1.md#case-40)
+- [例 42：写实摄影风格图](./gallery-part-1.md#case-42)
 - [例 43：插画艺术创作图](./gallery-part-1.md#case-43)
 - [例 52：写实摄影风格图](./gallery-part-1.md#case-52)
 - [例 60：漫画分镜叙事设计](./gallery-part-1.md#case-60)
@@ -660,11 +675,13 @@
 - [例 125：电商商品展示设计](./gallery-part-1.md#case-125)
 - [例 127：建筑空间场景图](./gallery-part-1.md#case-127)
 - [例 129：绘画艺术风格图](./gallery-part-1.md#case-129)
+- [例 172：赛博科幻桃太郎主视觉图](./gallery-part-2.md#case-172)
 - [例 193：千手观音化身打工人](./gallery-part-2.md#case-193)
 - [例 215：西方艺术演进像素博物馆](./gallery-part-2.md#case-215)
 - [例 231：疾风起狂草艺术字体设计](./gallery-part-2.md#case-231)
 - [例 233：蒙娜丽莎畅饮可乐的趣味油画](./gallery-part-2.md#case-233)
 - [例 246：黑白线稿勾勒的上海风情](./gallery-part-2.md#case-246)
+- [例 280：封面排版设计图](./gallery-part-2.md#case-280)
 - [例 281：赛博朋克科幻曼荼罗](./gallery-part-2.md#case-281)
 - [例 299：极简留白涂鸦手绘草图](./gallery-part-2.md#case-299)
 - [例 316：冲破次元壁的写实漫画跑者](./gallery-part-2.md#case-316)
@@ -701,13 +718,14 @@
 
 <a name="cat-character"></a>
 
-### 🧍 人物与角色 · 31 cases
+### 🧍 人物与角色 · 32 cases
 
 - [例 25：综合应用场景图](./gallery-part-1.md#case-25)
 - [例 27：人物角色设定图](./gallery-part-1.md#case-27)
 - [例 41：插画艺术风格创作](./gallery-part-1.md#case-41)
 - [例 123：插画艺术创作图](./gallery-part-1.md#case-123)
 - [例 162：人物角色设定图](./gallery-part-1.md#case-162)
+- [例 166：十二黄金圣斗士卡牌合集](./gallery-part-2.md#case-166)
 - [例 212：专业设计师打造角色写真集](./gallery-part-2.md#case-212)
 - [例 263：唯美二次元角色介绍网页](./gallery-part-2.md#case-263)
 - [例 270：信息图可视化设计](./gallery-part-2.md#case-270)
@@ -805,7 +823,7 @@
 
 <a name="cat-other"></a>
 
-### 🧪 其他应用场景 · 28 cases
+### 🧪 其他应用场景 · 24 cases
 
 - [例 78：图像生成案例图](./gallery-part-1.md#case-78)
 - [例 79：图像生成案例图](./gallery-part-1.md#case-79)
@@ -831,8 +849,3 @@
 - [例 363：磁场铁粉 Logo 物理成像](./gallery-part-2.md#case-363)
 - [例 385：青岛啤酒灵感女装系列](./gallery-part-2.md#case-385)
 - [例 391：四国文化锚点服装设计宫格](./gallery-part-2.md#case-391)
-- [例 196：试卷上的涂鸦巨龙](./gallery-part-2.md#case-196)
-- [例 203：杠精视角的独特文案创意](./gallery-part-2.md#case-203)
-- [例 215：西方艺术演进像素博物馆](./gallery-part-2.md#case-215)
-- [例 241：关键人物关系图谱](./gallery-part-2.md#case-241)
-- [例 368：印度餐厅菜单改造宣传图](./gallery-part-2.md#case-368)
