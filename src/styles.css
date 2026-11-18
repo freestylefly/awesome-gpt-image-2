@@ -53,6 +53,14 @@ button {
   animation: cardDrift 2.2s ease-in-out infinite;
 }
 
+.loadingScreenFailed {
+  color: #ffc9c9;
+}
+
+.loadingScreenFailed svg {
+  animation: none;
+}
+
 .topbar {
   position: sticky;
   top: 0;
