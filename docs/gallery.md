@@ -1,10 +1,10 @@
 ## 🖼️ 魔法画廊总览
 
-完整画廊已按 GitHub 渲染体积拆成两册，避免页面被截断；当前总案例数为 541。
+完整画廊已按 GitHub 渲染体积拆成两册，避免页面被截断；当前总案例数为 546。
 
 - [返回 README 首页](../README.md)
 - [Part 1：例 1-165](./gallery-part-1.md)
-- [Part 2：例 166-544](./gallery-part-2.md)
+- [Part 2：例 166-550](./gallery-part-2.md)
 - [工业级提示词模板与防坑指南](./templates.md)
 - [声明、Star 趋势图与公众号](./disclaimer.md)
 
@@ -211,14 +211,14 @@
 - 图表与信息可视化：58
 - 海报与排版：91
 - 商品与电商：43
-- 品牌与标志：27
-- 建筑与空间：12
+- 品牌与标志：26
+- 建筑与空间：13
 - 摄影与写实：78
-- 插画与艺术：63
-- 人物与角色：32
-- 场景与叙事：21
+- 插画与艺术：65
+- 人物与角色：33
+- 场景与叙事：22
 - 历史与古风题材：16
-- 文档与出版物：11
+- 文档与出版物：12
 - 其他应用场景：24
 
 ## 分类案例入口
@@ -512,7 +512,7 @@
 
 <a name="cat-brand"></a>
 
-### 🏷️ 品牌与标志 · 27 cases
+### 🏷️ 品牌与标志 · 26 cases
 
 - [例 130：界面交互设计图](./gallery-part-1.md#case-130)
 - [例 132：界面交互设计图](./gallery-part-1.md#case-132)
@@ -523,7 +523,6 @@
 - [例 137：界面交互设计图](./gallery-part-1.md#case-137)
 - [例 138：封面排版设计图](./gallery-part-1.md#case-138)
 - [例 160：品牌吉祥物设定图](./gallery-part-1.md#case-160)
-- [例 186：品牌视觉识别图](./gallery-part-2.md#case-186)
 - [例 216：雅致图案四款时尚单品设计](./gallery-part-2.md#case-216)
 - [例 244：杜蕾斯茶颜悦色联名海报设计](./gallery-part-2.md#case-244)
 - [例 247：运动健身图标字体设计](./gallery-part-2.md#case-247)
@@ -545,8 +544,9 @@
 
 <a name="cat-architecture"></a>
 
-### 🏛️ 建筑与空间 · 12 cases
+### 🏛️ 建筑与空间 · 13 cases
 
+- [例 545：厚涂建筑地标艺术海报](./gallery-part-2.md#case-545)
 - [例 11：一张手绘风格的城市美食地图，以台州为主题](./gallery-part-1.md#case-11)
 - [例 18：信息图可视化设计](./gallery-part-1.md#case-18)
 - [例 20：信息图可视化设计](./gallery-part-1.md#case-20)
@@ -648,8 +648,10 @@
 
 <a name="cat-illustration"></a>
 
-### 🎨 插画与艺术 · 63 cases
+### 🎨 插画与艺术 · 65 cases
 
+- [例 186：奇幻RPG百件像素风道具图鉴](./gallery-part-2.md#case-186)
+- [例 549：国家旅行涂鸦地图插画](./gallery-part-2.md#case-549)
 - [例 6：插画艺术创作图](./gallery-part-1.md#case-6)
 - [例 22：插画艺术风格创作](./gallery-part-1.md#case-22)
 - [例 30：写实摄影风格图](./gallery-part-1.md#case-30)
@@ -718,8 +720,9 @@
 
 <a name="cat-character"></a>
 
-### 🧍 人物与角色 · 32 cases
+### 🧍 人物与角色 · 33 cases
 
+- [例 547：日系 Chibi 互动小插画](./gallery-part-2.md#case-547)
 - [例 25：综合应用场景图](./gallery-part-1.md#case-25)
 - [例 27：人物角色设定图](./gallery-part-1.md#case-27)
 - [例 41：插画艺术风格创作](./gallery-part-1.md#case-41)
@@ -758,8 +761,9 @@
 
 <a name="cat-scene"></a>
 
-### 🎬 场景与叙事 · 21 cases
+### 🎬 场景与叙事 · 22 cases
 
+- [例 550：动漫动作短片设定分镜板](./gallery-part-2.md#case-550)
 - [例 182：千禧年日系校园喜剧场景](./gallery-part-2.md#case-182)
 - [例 208：樱花树下害羞双马尾少女](./gallery-part-2.md#case-208)
 - [例 224：机甲少女立于废弃海城](./gallery-part-2.md#case-224)
@@ -806,8 +810,9 @@
 
 <a name="cat-document"></a>
 
-### 📚 文档与出版物 · 11 cases
+### 📚 文档与出版物 · 12 cases
 
+- [例 546：咖啡馆旅行手账分栏页](./gallery-part-2.md#case-546)
 - [例 13：信息图可视化设计](./gallery-part-1.md#case-13)
 - [例 119：主题海报版式设计](./gallery-part-1.md#case-119)
 - [例 168：手写中西药方图片](./gallery-part-2.md#case-168)
